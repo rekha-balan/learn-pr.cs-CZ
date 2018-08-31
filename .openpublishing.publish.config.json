@@ -1,8 +1,8 @@
 {
   "docsets_to_publish": [{
-    "docset_name": "learn-pr",
-    "build_source_folder": "learn-pr",
-    "build_output_subfolder": "learn-pr",
+    "docset_name": "learn-pr-test1",
+    "build_source_folder": "learn-pr-test1",
+    "build_output_subfolder": "learn-pr-test1",
     "locale": "cs-CZ",
     "monikers": [],
     "moniker_ranges": [],
@@ -45,7 +45,7 @@
     },
     {
       "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/learn-pr",
+      "url": "https://github.com/OpenLocalizationTestOrg/learn-pr",
       "branch": "live",
       "branch_mapping": {
         "live": "live",
