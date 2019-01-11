@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 40f34d88d240cd3d0f33df772668f9a2b90d37df
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53733152"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

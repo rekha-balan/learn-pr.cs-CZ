@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.3-use-tagging-to-organize-resources
+title: Používání značek k uspořádání prostředků
+metadata:
+  title: Používání značek k uspořádání prostředků
+  description: V této lekci probereme, jak uspořádat prostředky pomocí značek.
+  ms.openlocfilehash: f43ee4889fdd37cb34603b47acc711f51205f997
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+durationInMinutes: 8
+content: '[!include[](includes/3-use-tagging-to-organize-resources.md)]'

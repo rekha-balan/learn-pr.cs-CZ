@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.8-cleanup-next-steps-knowledge-check
+title: Vyčištění a prověrka znalostí
+metadata:
+  title: Vyčištění a prověrka znalostí
+  description: Vyčištění a prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 49e8835d0429ce7162bf08091e22724cb2dc4487
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006151"
+durationInMinutes: 2
+content: >
+  [!include[](includes/8-cleanup-next-steps-knowledge-check.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Která z následujících možností popisuje dobrou strategii pro vytváření účtů úložiště a kontejnerů objektů blob pro aplikaci?
+    choices:
+    - content: Vytvoření účtů Azure Storage a kontejnerů ještě před nasazením aplikace
+      isCorrect: false
+      incorrectExplanation: Vytvoření účtu Azure Storage je aktivita správy, kterou je možné provést před nasazením aplikace. Vytvoření kontejneru je jednoduché a často založené na datech za běhu, což z něj dělá vhodnou aktivitu pro provádění v aplikaci.
+    - content: Vytvoření účtů Azure Storage v aplikaci podle potřeby Vytvoření kontejnerů před nasazením aplikace
+      isCorrect: false
+      incorrectExplanation: Vytvoření účtu Azure Storage je aktivita správy, kterou je možné provést před nasazením aplikace. Vytvoření kontejneru je jednoduché a často založené na datech za běhu, což z něj dělá vhodnou aktivitu pro provádění v aplikaci.
+    - content: Vytvoření účtů Azure Storage před nasazením aplikace Vytvoření kontejnerů v aplikaci podle potřeby
+      isCorrect: true
+      correctExplanation: Vytvoření účtu Azure Storage je aktivita správy, kterou je možné provést před nasazením aplikace. Vytvoření kontejneru je jednoduché a často založené na datech za běhu, což z něj dělá vhodnou aktivitu pro provádění v aplikaci.
+  - content: Kterou z následujících možností můžete využít k inicializaci klientské knihovny pro úložiště objektů blob v rámci aplikace?
+    choices:
+    - content: Uživatelské jméno a heslo Azure
+      isCorrect: false
+      incorrectExplanation: Připojovací řetězec účtu úložiště obsahuje všechny informace, které jsou potřeba pro připojení k úložišti objektů blob, hlavně název účtu a klíč účtu.
+    - content: Připojovací řetězec účtu Azure Storage
+      isCorrect: true
+      correctExplanation: Připojovací řetězec účtu úložiště obsahuje všechny informace, které jsou potřeba pro připojení k úložišti objektů blob, hlavně název účtu a klíč účtu.
+    - content: Globálně jedinečný identifikátor (GUID), který představuje danou aplikaci
+      isCorrect: false
+      incorrectExplanation: Připojovací řetězec účtu úložiště obsahuje všechny informace, které jsou potřeba pro připojení k úložišti objektů blob, hlavně název účtu a klíč účtu.
+    - content: Identifikátory datacentra a umístění účtu Azure Storage
+      isCorrect: false
+      incorrectExplanation: Připojovací řetězec účtu úložiště obsahuje všechny informace, které jsou potřeba pro připojení k úložišti objektů blob, hlavně název účtu a klíč účtu.
+  - content: Co se stane po volání `GetBlockBlobReference` s názvem objektu blob?
+    choices:
+    - content: V úložišti se vytvoří nový objekt blob bloku.
+      isCorrect: false
+      incorrectExplanation: Po načtení odkazu na objekt blob se žádná volání služby Azure Storage neuskuteční, jenom se místně vytvoří objekt, který může pracovat s uloženým objektem blob.
+    - content: Místně se vytvoří objekt `CloudBlockBlob`. Žádná volání přes síť se neuskuteční.
+      isCorrect: true
+      correctExplanation: Po načtení odkazu na objekt blob se žádná volání služby Azure Storage neuskuteční, jenom se místně vytvoří objekt, který může pracovat s uloženým objektem blob.
+    - content: Pokud daný objekt blob v úložišti neexistuje, vyvolá se výjimka.
+      isCorrect: false
+      incorrectExplanation: Po načtení odkazu na objekt blob se žádná volání služby Azure Storage neuskuteční, jenom se místně vytvoří objekt, který může pracovat s uloženým objektem blob.
+    - content: Stáhne se obsah uvedeného objektu blob.
+      isCorrect: false
+      incorrectExplanation: Po načtení odkazu na objekt blob se žádná volání služby Azure Storage neuskuteční, jenom se místně vytvoří objekt, který může pracovat s uloženým objektem blob.

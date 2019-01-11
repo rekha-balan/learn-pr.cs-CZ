@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.intro-to-site-reliability-engineering
+metadata:
+  title: Úvod do SRE (Site Reliability Engineering) – výuka
+  description: Velké i malé organizace začaly poznávat, jak zásadní je pro jejich podnikání spolehlivost systémů a aplikací. Zároveň zjistily, jak obtížné je udržovat tuto spolehlivost při hektickém tempu, které vyžaduje trh. K prověřeným postupům v této oblasti patří SRE (Site Reliability Engineering).
+  ms.date: 09/26/2018
+  author: dnblankedelman
+  ms.author: dnb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 691bc428872a0941fddc75a5c839a944edf69867
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52938862"
+title: Úvod do SRE (Site Reliability Engineering)
+summary: Velké i malé organizace začaly poznávat, jak zásadní je pro jejich podnikání spolehlivost systémů a aplikací. Zároveň zjistily, jak obtížné je udržovat tuto spolehlivost při hektickém tempu, které vyžaduje trh. K prověřeným postupům v této oblasti patří SRE (Site Reliability Engineering).
+abstract: >
+  V tomto modulu:
+
+  - Získáte základní povědomí o SRE
+
+  - Naučíte se, jak začít s tímto hodnotným provozním postupem pracovat
+iconUrl: /learn/achievements/intro-to-site-reliability-engineering-sre.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+prerequisites: Žádné
+units:
+- learn.intro-to-site-reliability-engineering.1-introduction
+- learn.intro-to-site-reliability-engineering.2-what-is-sre-and-why-does-it-matter
+- learn.intro-to-site-reliability-engineering.3-sre-in-context
+- learn.intro-to-site-reliability-engineering.4-key-principles-1-virtuous-cycles
+- learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre
+- learn.intro-to-site-reliability-engineering.6-getting-started
+- learn.intro-to-site-reliability-engineering.7-summary
+achievement: learn.intro-to-site-reliability-engineering.badge

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.openlocfilehash: f364c251690f1e56d6bfdfaf6215c3402bbdd640
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+durationInMinutes: 2
+content: '[!include[](includes/1-introduction.md)]'

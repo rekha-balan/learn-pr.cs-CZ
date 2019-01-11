@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+title: Odhad nákladů pomocí cenové kalkulačky Azure
+metadata:
+  title: Odhad nákladů pomocí cenové kalkulačky Azure
+  description: V této lekci probereme, jak odhadnout náklady pomocí cenové kalkulačky Azure.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9594ed0f84786d01d69e314d2a2a5e1dcc8d461b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52942431"
+durationInMinutes: 20
+content: >
+  [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Na které kartě cenové kalkulačky Azure budete formulovat odhad?
+    choices:
+    - content: Odhad
+      isCorrect: false
+      incorrectExplanation: Tato karta obsahuje všechny dříve uložené odhady.
+    - content: Produkty
+      isCorrect: true
+      correctExplanation: Tato karta obsahuje seznam všech služeb Azure a vy na ni budete přidávat nebo z ní budete odebírat služby, pro které chcete vytvořit odhad.
+  - content: 'Pravda nebo nepravda: Odhad můžete sdílet prostřednictvím excelové tabulky nebo adresy URL.'
+    choices:
+    - content: Pravda
+      isCorrect: true
+      correctExplanation: Kliknutím na *Exportovat* v dolní části odhadu se vyexportuje excelová tabulka, kterou můžete sdílet, nebo můžete kliknout na *Sdílet* a získat odkaz URL, který pak můžete sdílet se svým týmem.
+    - content: Nepravda
+      isCorrect: false
+      incorrectExplanation: Kliknutím na *Exportovat* v dolní části odhadu se vyexportuje excelová tabulka, kterou můžete sdílet, nebo můžete kliknout na *Sdílet* a získat odkaz URL, který pak můžete sdílet se svým týmem.

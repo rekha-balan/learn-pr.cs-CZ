@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.6-design-for-efficiency-and-operations
+title: Navrhování s ohledem na efektivitu a operace
+metadata:
+  title: Navrhování s ohledem na efektivitu a operace
+  description: Navrhování s ohledem na efektivitu a operace
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1653d41e8a2a959bc5dceae0ceb67457c1efce7f
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52935869"
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-design-for-efficiency-and-operations.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Předpokládejme, že jste nedávno přesunuli svoji aplikaci do cloudu a váš měsíční účet se zdá vyšší, než jste očekávali. Úroveň využití vašeho virtuálního počítače je dostatečně vysoká, že váháte se zmenšením. Co může představovat rozumný další krok, který vám pomůže najít nedostatky?
+    choices:
+    - content: Počkáte měsíc na další vyúčtování
+      isCorrect: false
+      incorrectExplanation: Tím se dozvíte, kde peníze utrácíte, ale nepomůže vám to určit úroveň efektivity součástí vašeho systému.
+    - content: Zvýšíte intenzitu testování aplikace před nasazením každé verze
+      isCorrect: false
+      incorrectExplanation: To může zlepšit kvalitu vaší aplikace, ale obecně vám to nepomůže v určení nedostatků infrastruktury.
+    - content: Přidáte sledování a nástroje
+      isCorrect: true
+      correctExplanation: Nepřetržité sledování vám zajistí data, která potřebujete k nalezení úspor nákladů. Můžete například zjistit, že je velmi poptávka je velmi proměnlivá a několik menších virtuálních počítačů s funkcí automatického škálování může být méně nákladných než jeden velký aktuálně využívaný virtuální počítač.
+  - content: Která z následujících možností je příkladem zlepšení provozní efektivity?
+    choices:
+    - content: Automatické nasazení infrastruktury
+      isCorrect: true
+      correctExplanation: Automatizace nasazení infrastruktury je skvělým příkladem zlepšení provozní efektivity.
+    - content: Přechod služeb z PaaS do IaaS
+      isCorrect: false
+      incorrectExplanation: Přechod služeb z PaaS do IaaS je z hlediska provozní efektivity krok zpět, protože služby PaaS mají obvykle nižší provozní náklady.
+    - content: Dokumentování ručních kroků pro nasazení infrastruktury
+      isCorrect: false
+      incorrectExplanation: Dokumentace je důležitá u jakékoli architektury, ale zvýšení provozní efektivity přináší automatizace ručních činností. Pouhé zdokumentování architektury nestačí.
+    - content: Udržování více systémů přihlašování
+      isCorrect: false
+      incorrectExplanation: Udržování více systémů přihlašování s sebou nese zvýšenou provozní režii a omezenou schopnost korelovat události a metriku napříč systémy přihlašování. Provozní efektivitu je možné zlepšit centralizací a používáním pouze jednoho systému přihlašování.

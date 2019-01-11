@@ -1,0 +1,10 @@
+- Západní USA 2
+- USA (střed) – jih
+- USA – střed
+- USA – východ
+- Západní Evropa
+- Jihovýchodní Asie
+- Japonsko – východ
+- Brazílie – jih
+- Austrálie – jihovýchod
+- Indie – střed

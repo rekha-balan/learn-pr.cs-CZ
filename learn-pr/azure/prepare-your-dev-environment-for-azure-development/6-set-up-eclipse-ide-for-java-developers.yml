@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.6-set-up-eclipse-ide-for-java-developers
+title: Používání prostředí Eclipse pomocí nástrojů Azure
+metadata:
+  title: Používání prostředí Eclipse pomocí nástrojů Azure
+  description: Používání prostředí Eclipse pomocí nástrojů Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e1e0f0f2d413badf480b541cc46deae9ad47bb45
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733965"
+durationInMinutes: 5
+content: '[!include[](includes/6-set-up-eclipse-ide-for-java-developers.md)]'

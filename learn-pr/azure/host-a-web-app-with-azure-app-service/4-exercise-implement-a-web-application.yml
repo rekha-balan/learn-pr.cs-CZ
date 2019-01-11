@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.4-exercise-implement-a-web-application
+title: Cvičení – napsání kódu, který implementuje webovou aplikaci
+metadata:
+  title: Cvičení – napsání kódu, který implementuje webovou aplikaci
+  description: Cvičení – napsání kódu, který implementuje webovou aplikaci
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: dev-lang-csharp-java-node
+  ms.openlocfilehash: d24d420120758728f552e1d41fb39f4aabc7f472
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53733164"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/4-exercise-implement-a-web-application.md)]'

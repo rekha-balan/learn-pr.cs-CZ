@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.4-create-storage-resources
+title: Vytvoření prostředků Azure Storage
+metadata:
+  title: Vytvoření prostředků Azure Storage
+  description: Vytvoření prostředků Azure Storage
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e44ebaf4b689e4079a5897fa16236f4b9b5bc600
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006151"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: >
+  [!include[](includes/4-create-storage-resources.md)]
+tasks:
+- action: exists
+  environment: azure
+  hint: Spuštěním výše uvedeného příkazu `az storage account create` vytvořte účet úložiště pro obecné účely verze 2.
+  azure:
+    resource:
+      type: Microsoft.Storage/storageAccounts
+      kind: StorageV2

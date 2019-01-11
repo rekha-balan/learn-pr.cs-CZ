@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources
+title: Ověřování ve službě Vault se spravovanými identitami pro prostředky Azure
+metadata:
+  title: Ověřování ve službě Vault se spravovanými identitami pro prostředky Azure
+  description: Ověřování ve službě Vault se spravovanými identitami pro prostředky Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8c4b4d923a1f96c99e04ba4df9f586a6f86e2c30
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 4
+content: >
+  [!include[](includes/4-authentication-with-managed-identities-for-azure-resources.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Jak použití spravovaných identit pro prostředky Azure mění způsob, jakým se aplikace ověřuje ve službě Azure Key Vault?
+    choices:
+    - content: Aplikace místo tajného kódu používá k ověření certifikát.
+      isCorrect: false
+      incorrectExplanation: Když povolíte spravovanou identitu ve webové aplikaci, Azure jenom pro vaši aplikaci aktivuje samostatnou službu REST pro udělování tokenů. Vaše aplikace bude vyžadovat tokeny z této služby, místo aby je vyžadovala z Azure Active Directory.
+    - content: Každý uživatel aplikace musí zadat heslo.
+      isCorrect: false
+      incorrectExplanation: Když povolíte spravovanou identitu ve webové aplikaci, Azure jenom pro vaši aplikaci aktivuje samostatnou službu REST pro udělování tokenů. Vaše aplikace bude vyžadovat tokeny z této služby, místo aby je vyžadovala z Azure Active Directory.
+    - content: Aplikace získá tokeny ze služby tokenů, místo aby je dostala z Azure Active Directory.
+      isCorrect: true
+      correctExplanation: Když povolíte spravovanou identitu ve webové aplikaci, Azure jenom pro vaši aplikaci aktivuje samostatnou službu REST pro udělování tokenů. Vaše aplikace bude vyžadovat tokeny z této služby, místo aby je vyžadovala z Azure Active Directory.
+    - content: Spravované identity se automaticky rozpoznávají ve službě Azure Key Vault a ověřují se také automaticky.
+      isCorrect: false
+      incorrectExplanation: Když povolíte spravovanou identitu ve webové aplikaci, Azure jenom pro vaši aplikaci aktivuje samostatnou službu REST pro udělování tokenů. Vaše aplikace bude vyžadovat tokeny z této služby, místo aby je vyžadovala z Azure Active Directory.
+  - content: Které z těchto tvrzení popisuje hlavní výhodu použití spravovaných identit pro prostředky Azure k ověřování aplikace ve službě Key Vault?
+    choices:
+    - content: Použití spravovaných identit vylepšuje výkon aplikace.
+      isCorrect: false
+      incorrectExplanation: Aplikace se ověřuje ve službě tokenů spravovaných identit pomocí tajného kódu, který se za běhu vloží do jejích proměnných prostředí. Tím odpadá nutnost ukládat tajné kódy během konfigurace.
+    - content: Použití spravovaných identit eliminuje nutnost zpracovávat během konfigurace tajné kódy.
+      isCorrect: true
+      correctExplanation: Aplikace se ověřuje ve službě tokenů spravovaných identit pomocí tajného kódu, který se za běhu vloží do jejích proměnných prostředí. Tím odpadá nutnost ukládat tajné kódy během konfigurace.
+    - content: Spravované identity můžou automaticky udělovat oprávnění služby Azure Key Vault.
+      isCorrect: false
+      incorrectExplanation: Aplikace se ověřuje ve službě tokenů spravovaných identit pomocí tajného kódu, který se za běhu vloží do jejích proměnných prostředí. Tím odpadá nutnost ukládat tajné kódy během konfigurace.

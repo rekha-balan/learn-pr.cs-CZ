@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.5-exercise-set-up-visual-studio
+title: Nastavení sady Visual Studio ve Windows nebo v macOS
+metadata:
+  title: Nastavení sady Visual Studio ve Windows nebo v macOS
+  description: Nastavení sady Visual Studio ve Windows nebo v macOS
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-windows-mac
+  ms.openlocfilehash: a7aa62e66c2793d179ab3e3cec65c38953a51a94
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733965"
+durationInMinutes: 15
+content: '[!include[](includes/5-exercise-set-up-visual-studio.md)]'

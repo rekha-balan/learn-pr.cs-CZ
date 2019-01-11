@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.3-install-azure-powershell
+title: Instalace PowerShellu
+metadata:
+  title: Instalace PowerShellu
+  description: Instalace PowerShellu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 06894971ba21680a0c37de15e6268411f84a687f
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732903"
+durationInMinutes: 5
+content: '[!include[](includes/3-install-azure-powershell.md)]'

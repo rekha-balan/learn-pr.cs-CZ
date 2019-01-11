@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.predict-costs-and-optimize-spending
+metadata:
+  title: Odhad nákladů a optimalizace výdajů v Azure – výuka
+  description: Náklady jsou jedním z nejdůležitějších aspektů cloudu a mohou mít závažný dopad na vaši firmu. V Azure je k dispozici několik nástrojů, které vám pomůžou pochopit cloudové výdaje, a osvědčené postupy, pomocí kterých můžete ušetřit peníze.
+  ms.date: 09/24/2018
+  author: jamcneil
+  ms.author: jumcn
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e36899fc9fcb0e6e5359e9d0a58467808b11814b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52942431"
+title: Odhad nákladů a optimalizace výdajů v Azure
+summary: Náklady jsou jedním z nejdůležitějších aspektů cloudu a mohou mít závažný dopad na vaši firmu. V Azure je k dispozici několik nástrojů, které vám pomůžou pochopit útraty v cloudu, a osvědčené postupy, pomocí kterých můžete ušetřit peníze.
+abstract: >
+  V tomto modulu:
+
+  - Odhad nákladů pomocí cenové kalkulačky Azure
+
+  - Předpověď a optimalizace nákladů pomocí služby Azure Cost Management a Azure Advisoru
+
+  - Využití osvědčených postupů pro snížení nákladů na infrastrukturu
+
+  - Využití osvědčených postupů pro snížení nákladů na licence
+prerequisites: >
+  - Porozumět možnostem v rámci komponent infrastruktury Azure
+iconUrl: /learn/achievements/predict-costs-and-optimize-spending.svg
+levels:
+- beginner
+roles:
+- solution-architect
+- administrator
+products:
+- azure
+- azure-portal
+- azure-cost-management
+units:
+- learn.predict-costs-and-optimize-spending.1-introduction
+- learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+- learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor
+- learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+- learn.predict-costs-and-optimize-spending.5-save-on-licensing-costs
+- learn.predict-costs-and-optimize-spending.6-summary
+achievement: learn.predict-costs-and-optimize-spending.badge

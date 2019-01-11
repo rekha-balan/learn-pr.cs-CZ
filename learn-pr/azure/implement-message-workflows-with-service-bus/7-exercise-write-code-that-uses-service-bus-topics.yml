@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.7-exercise-write-code-that-uses-service-bus-topics
+title: Cvičení – psaní kódu využívajícího témat služby Service Bus
+metadata:
+  title: Cvičení – psaní kódu využívajícího témat služby Service Bus
+  description: Cvičení – psaní kódu využívajícího témat služby Service Bus
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1fa72f940cf1249a10f459075266e1e1368f905e
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006299"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/7-exercise-write-code-that-uses-service-bus-topics.md)]'

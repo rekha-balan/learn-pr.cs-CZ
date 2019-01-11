@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.5-monitor-your-database
+metadata:
+  title: Monitorování databáze
+  description: Zjistěte, jak auditovat operace ve vaší databázi a jak tyto informace použít s pokročilým monitorováním hrozeb k ohlášení bezpečnostních rizik a hrozeb.
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4823e99e10e62a23ff0ae8801cc29509fbf765de
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+interactive: bash
+azureSandbox: true
+title: Monitorování databáze
+durationInMinutes: 8
+content: '[!include[](includes/5-monitor-your-database.md)]'

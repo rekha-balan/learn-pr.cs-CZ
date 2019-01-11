@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5545d65a9aed7bf540f10d4b4ddfe026f08d4a06
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733846"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Ve kterém z následujících typů objektů blob ve službě Azure Storage jsou uloženy soubory virtuálního pevného disku (VHD)?
+    choices:
+    - content: Objekty blob bloku
+      isCorrect: false
+      incorrectExplanation: Ve službě Azure Storage jsou soubory VHD zálohovány objekty blob stránky. Objekty blob stránky jsou vhodné, protože jsou kolekcí 512bajtových stránek optimalizovaných pro náhodné čtení a zápis. Objekty blob bloku ani doplňovací objekty blob nejsou optimalizované pro náhodné operace čtení a zápisu, které jsou běžné u souborů VHD.
+    - content: Doplňovací objekty blob
+      isCorrect: false
+      incorrectExplanation: Ve službě Azure Storage jsou soubory VHD zálohovány objekty blob stránky. Objekty blob stránky jsou vhodné, protože jsou kolekcí 512bajtových stránek optimalizovaných pro náhodné čtení a zápis. Objekty blob bloku ani doplňovací objekty blob nejsou optimalizované pro náhodné operace čtení a zápisu, které jsou běžné u souborů VHD.
+    - content: Objekty blob stránky
+      isCorrect: true
+      correctExplanation: Ve službě Azure Storage jsou soubory VHD zálohovány objekty blob stránky. Objekty blob stránky jsou vhodné, protože jsou kolekcí 512bajtových stránek optimalizovaných pro náhodné čtení a zápis. Objekty blob bloku ani doplňovací objekty blob jsou optimalizované pro náhodné operace čtení a zápisu běžné u souborů VHD.
+  - content: Která z následujících strategií replikace dat je jedinou možností podporovanou účtem úložiště úrovně Premium?
+    choices:
+    - content: Geograficky redundantní úložiště s přístupem pro čtení (RA-GRS)
+      isCorrect: false
+      incorrectExplanation: Účet úložiště úrovně Premium podporuje jako možnost replikace pouze místně redundantní úložiště. Místně redundantní úložiště uchovává tři kopie dat v jedné oblasti. Pro regionální zotavení po havárii musíte zálohovat disky virtuálního počítače v jiném regionu s použitím služby Azure Backup. Také musíte jako úložiště záloh použít účet geograficky redundantního úložiště (GRS).
+    - content: Místně redundantní úložiště (LRS)
+      isCorrect: true
+      correctExplanation: Účet úložiště úrovně Premium podporuje jako možnost replikace pouze místně redundantní úložiště. Místně redundantní úložiště uchovává tři kopie dat v jedné oblasti. Pro regionální zotavení po havárii musíte zálohovat disky virtuálního počítače v jiném regionu s použitím služby Azure Backup. Také musíte jako úložiště záloh použít účet geograficky redundantního úložiště (GRS).
+    - content: Geograficky redundantní úložiště (GRS)
+      isCorrect: false
+      incorrectExplanation: Účet úložiště úrovně Premium podporuje jako možnost replikace pouze místně redundantní úložiště. Místně redundantní úložiště uchovává tři kopie dat v jedné oblasti. Pro regionální zotavení po havárii musíte zálohovat disky virtuálního počítače v jiném regionu s použitím služby Azure Backup. Také musíte jako úložiště záloh použít účet geograficky redundantního úložiště (GRS).
+    - content: Zónově redundantní úložiště (ZRS)
+      isCorrect: false
+      incorrectExplanation: Účet úložiště úrovně Premium podporuje jako možnost replikace pouze místně redundantní úložiště. Místně redundantní úložiště uchovává tři kopie dat v jedné oblasti. Pro regionální zotavení po havárii musíte zálohovat disky virtuálního počítače v jiném regionu s použitím služby Azure Backup. Také musíte jako úložiště záloh použít účet geograficky redundantního úložiště (GRS).
+  - content: Který z následujících typů disku je dostupný pouze pro spravované disky?
+    choices:
+    - content: Standardní SSD (solid-state drive)
+      isCorrect: true
+      correctExplanation: Výběr spravovaných disků vám dává možnost použít standardní disky SSD. Tento typ disku se s ohledem na výkon a náklady nachází mezi standardními pevnými disky a prémiovými disky SSD.
+    - content: Standardní pevné disky (HDD)
+      isCorrect: false
+      incorrectExplanation: Výběr spravovaných disků vám dává možnost použít standardní disky SSD. Tento typ disku se s ohledem na výkon a náklady nachází mezi standardními pevnými disky a prémiovými disky SSD.
+    - content: Prémiové disky SSD (solid-state drive)
+      isCorrect: false
+      incorrectExplanation: Výběr spravovaných disků vám dává možnost použít standardní disky SSD. Tento typ disku se s ohledem na výkon a náklady nachází mezi standardními pevnými disky a prémiovými disky SSD.

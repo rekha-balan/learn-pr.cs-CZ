@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.0-introduction
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c9be773344eb893a7a7d3f108b2b502fc3dcf0bd
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+title: Úvod
+durationInMinutes: 2
+content: '[!include[](includes/0-introduction.md)]'

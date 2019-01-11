@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.7-purchase-azure-government
+title: Vyzkoušení nebo nákup služby Azure Government
+metadata:
+  title: Vyzkoušení nebo nákup služby Azure Government
+  description: Jak získat zkušební přístup nebo zakoupit předplatné Azure Government
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 0b1d9f7902fd8f46722987e1481b4413d49823f5
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+durationInMinutes: 10
+content: '[!include[](includes/7-purchase-azure-government.md)]'

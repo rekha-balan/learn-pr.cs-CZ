@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check
+title: Prověrka znalostí
+metadata:
+  title: Souhrn a vyčištění
+  description: Prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5ef9b510d92b7b5758edfd71a4877bebbc9ce757
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52943464"
+durationInMinutes: 2
+quiz:
+  title: Prověrka znalostí
+  questions:
+  - content: Jak svážete vaši funkci s platformou Twilio za účelem odesílání zpráv SMS?
+    choices:
+    - content: Vrácením SMS zprávy jako návratové hodnoty funkce
+      isCorrect: false
+    - content: Parametr funkce
+      isCorrect: true
+      correctExplanation: Zprávy SMS se přidají do kolekce předané funkci jako parametr opatřený atributem `[TwilioSms]`. Modul runtime dané funkce odešle tyto zprávy do platformy Twilio, až funkce provede vrácení.
+    - content: Přímé volání rozhraní API platformy Twilio
+      isCorrect: false
+  - content: Kde můžete definovat SID a ověřovací token účtu Twilio při místním spuštění funkce?
+    choices:
+    - content: V souboru `local.settings.json`.
+      isCorrect: true
+      correctExplanation: Soubor `local.settings.json` se používá k ukládání místních nastavení, která se používají jen tehdy, když běží místně – ne v případě publikace v Azure. Dávejte pozor, abyste to nezařadili do správy zdrojového kódu, pokud obsahuje privátní klíče a vaše úložiště je veřejné.
+    - content: V atributu `[TwilioSms]`
+      isCorrect: false
+    - content: Nastavení aplikace, která jsou publikovaná v Azure
+      isCorrect: false

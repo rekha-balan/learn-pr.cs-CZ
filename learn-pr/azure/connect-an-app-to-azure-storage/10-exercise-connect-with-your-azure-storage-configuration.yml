@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.connect-app-to-azure-storage.10-exercise-connect-with-your-azure-storage-configuration
+title: Konfigurace připojení ke službě Azure Storage
+metadata:
+  title: Konfigurace připojení ke službě Azure Storage
+  description: Konfigurace připojení ke službě Azure Storage
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: dev-lang-csharp-javascript
+  ms.openlocfilehash: ffcf674dff497464773844dab2728a63562276c4
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006188"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 15
+content: '[!include[](includes/10-exercise-connect-with-your-azure-storage-configuration.md)]'

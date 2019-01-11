@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.keep-your-virtual-machines-updated.6-knowledge-check
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 12/21/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 411d715c4d74142c81fa3ce4f19188f065538ac1
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799477"
+durationInMinutes: 2
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Předpokládejme, že chcete zajistit aktualizaci virtuálních počítačů, aniž byste se k nim museli přihlašovat. Jaká operace řešení Update Management vám pomůže tohoto cíle dosáhnout?
+    choices:
+    - content: Zásady replikace
+      isCorrect: false
+      incorrectExplanation: Zásady replikace jsou vlastností účtu úložiště. Každý člen v účtu úložiště musí používat stejné zásady. Pokud chcete, aby některá data používala strategii geografické replikace a jiná data používala strategii místní replikace, budete potřebovat dva účty úložiště.
+    - content: Kontrola kompatibility
+      isCorrect: true
+      correctExplanation: Ve výchozím nastavení se kontrola kompatibility provádí každých 12 hodin na počítači s Windows a každé 3 hodiny na počítači s Linuxem.
+    - content: Plánované aktualizace
+      isCorrect: false
+      incorrectExplanation: Zadejte plán ke schválení a určete časové období, ve kterém se budou instalovat aktualizace.
+  - content: 'Ano nebo ne: Komponentu Microsoft Monitoring Agent používá řešení Update Management k vyhodnocení a nasazení aktualizací.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Microsoft Monitoring Agent předává informace o kontrole kompatibility hromadně službě Azure Log Analytics.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Microsoft Monitoring Agent předává informace o kontrole kompatibility hromadně službě Azure Log Analytics.

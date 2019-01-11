@@ -1,0 +1,32 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.4-deploy-a-vm-quickstart-template
+title: Nasazení virtuálního počítače pomocí šablony Azure pro rychlý start
+metadata:
+  title: Nasazení virtuálního počítače pomocí šablony Azure pro rychlý start
+  description: Nasazením šablony Azure pro rychlý start zřídíte základní konfiguraci virtuálního počítače.
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+  ms.openlocfilehash: c41feac2c4c6a6f7f69001bcd88de4a0894ad31a
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799481"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-deploy-a-vm-quickstart-template.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Network/virtualNetworks
+      name: MyVNET
+  hint: Spuštěním zobrazeného příkazu `az group deployment create` vytvořte nasazení virtuálního počítače.

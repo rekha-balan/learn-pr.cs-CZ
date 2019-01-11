@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.8-publish-to-azure
+title: Publikování funkce do Azure
+metadata:
+  title: Publikování funkce do Azure
+  description: Publikování funkce do Azure, její konfigurace a volání z mobilní aplikace
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0357140ac9ec60e051f339c8dbc347d73d38f770
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52943464"
+labId: 46464
+durationInMinutes: 12
+content: '[!include[](includes/8-publish-to-azure.md)]'

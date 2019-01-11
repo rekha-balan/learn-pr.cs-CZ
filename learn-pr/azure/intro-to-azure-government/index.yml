@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.intro-to-azure-government
+metadata:
+  title: Úvod do Azure Government
+  description: Úvod do Azure Government
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ad5febd23f1f16fbbe21d2c94feb36379a41d129
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+title: Úvod do Azure Government
+summary: Vládní instituce v USA se v dnešní době potýkají se spoustou výzev. Plnění jejich poslání neznamená jen poskytování služeb. Znamená také spolupráci mezi úřady pro zajištění lepších služeb, digitalizaci původně „papírových“ procesů s vysokými nároky na pracovní sílu, správu rostoucích objemů dat, plnění požadavků na zabezpečení, ochranu osobních údajů a dodržování předpisů a spoustu dalších věcí. Tento modul představuje Azure Government pro vládní instituce v USA nebo jejich partnery, kteří se zajímají o cloudové služby poskytující zabezpečení a dodržování předpisů na úrovni vyžadované u vládních úřadů.
+abstract: "V tomto modulu:\n- Porozumíte funkcím zabezpečení a dodržování předpisů a výhodám služby Azure Government.\n- Porozumíte rozsahu služeb nabízených přes marketplace Azure Government.\n- Rozhodnete se, jestli je služba Azure Government pro vás jako vládní agenturu nebo partnera to pravé. \n- Dozvíte se, jak získat k Azure Government přístup.\n"
+prerequisites: >
+  - Naučíte se základní pojmy a koncepty cloud computingu.
+
+  - Seznámíte se s Azure a webem Azure Portal.
+iconUrl: /learn/achievements/intro-to-azure-government.svg
+levels:
+- beginner
+roles:
+- developer
+- administrator
+products:
+- azure
+units:
+- learn.intro-to-azure-government.1-introduction
+- learn.intro-to-azure-government.2-what-is-azure-government
+- learn.intro-to-azure-government.3-security-on-azure-government
+- learn.intro-to-azure-government.4-compliance-on-azure-government
+- learn.intro-to-azure-government.5-connect-to-azure-government
+- learn.intro-to-azure-government.6-marketplace
+- learn.intro-to-azure-government.7-purchase-azure-government
+- learn.intro-to-azure-government.8-knowledge-check
+- learn.intro-to-azure-government.9-summary
+achievement: learn.intro-to-azure-government.badge

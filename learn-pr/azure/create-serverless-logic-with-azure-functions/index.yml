@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.create-serverless-logic-with-functions
+metadata:
+  title: Vytvoření logiky bez serveru pomocí služby Azure Functions – výuka
+  description: Služba Azure Functions umožňuje hostovat obchodní logiku, kterou je možné spouštět bez správy nebo zřizování serverové infrastruktury.
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c553592ecc4085959fee5f87b1af5bdce38b9f75
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006290"
+title: Vytvoření logiky bez serveru pomocí služby Azure Functions
+summary: Služba Azure Functions umožňuje vývojářům hostovat obchodní logiku, kterou je možné spouštět bez správy nebo zřizování infrastruktury.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Rozhodnout, jestli je pro vaši práci vhodná bezserverová architektura
+
+  - Vytvořit aplikaci funkcí Azure na webu Azure Portal
+
+  - Spustit funkci pomocí triggerů
+
+  - Monitorovat a testovat funkci Azure na webu Azure Portal
+prerequisites: Žádné
+iconUrl: /learn/achievements/create-serverless-logic-with-azure-functions.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-functions
+- azure-portal
+units:
+- learn.create-serverless-logic-with-functions.1-introduction
+- learn.create-serverless-logic-with-functions.2-decide-if-serverless-computing-is-right-for-your-business-need
+- learn.create-serverless-logic-with-functions.3-create-an-azure-functions-app-in-the-azure-portal
+- learn.create-serverless-logic-with-functions.4-creating-and-executing-an-azure-function
+- learn.create-serverless-logic-with-functions.5-add-logic-to-the-function-app
+- learn.create-serverless-logic-with-functions.6-summary
+achievement: learn.create-serverless-logic-with-functions.badge

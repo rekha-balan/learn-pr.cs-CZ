@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out
+title: Vertikální a horizontální navýšení kapacity
+metadata:
+  title: Vertikální a horizontální navýšení kapacity
+  description: V této lekci se budeme zabývat vertikálním a horizontálním navýšením kapacity v architektuře
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 36ef9119736795f5df2e76610ca479bfcb8be8e6
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732725"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-scaling-up-and-scaling-out.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Jaký popis horizontálního navýšení kapacity je nejpřesnější?
+    choices:
+    - content: Zvýšení počtu prostředků přidělených instanci
+      isCorrect: false
+      incorrectExplanation: Zvýšení počtu prostředků jedné instance je popis vertikálního navýšení kapacity.
+    - content: Zvýšení počtu instancí obsluhujících požadavky
+      isCorrect: true
+      correctExplanation: Horizontální navýšení kapacity zvýší počet instancí obsluhujících požadavky.
+    - content: Přidání dalšího úložiště virtuálnímu počítači
+      isCorrect: false
+      incorrectExplanation: Přidání dalšího úložiště není příkladem horizontálního navýšení kapacity.
+    - content: Dosažení maximální úrovně škálování aplikace
+      isCorrect: false
+      incorrectExplanation: Maximální úrovně škálování aplikace lze dosáhnout horizontálním navýšením kapacity, ale nejedná se o přesný popis horizontálního navýšení kapacity.
+  - content: Jaký popis vertikálního snížení kapacity je nejpřesnější?
+    choices:
+    - content: Snížení počtu instancí obsluhujících požadavky
+      isCorrect: false
+      incorrectExplanation: Snížení počtu instancí obsluhujících požadavky je horizontální snížení kapacity.
+    - content: Převzetí vlastnictví nad způsobem škálování aplikace
+      isCorrect: false
+      incorrectExplanation: Převzetí vlastnictví nad způsobem škálování aplikace není vertikálním snížením kapacity.
+    - content: Snížení počtu prostředků přidělených instanci
+      isCorrect: true
+      correctExplanation: Vertikální snížení kapacity označuje snížení počtu prostředků, které má jedna instance k dispozici.
+    - content: Setrvání pod maximální úrovní škálování aplikace
+      isCorrect: false
+      incorrectExplanation: Toto není popis vertikálního snížení kapacity.
+  - content: K čemu NENÍ potřeba přihlížet při vytváření strategie škálování u vaší aplikace?
+    choices:
+    - content: Zásady uchovávání záloh vašich instancí
+      isCorrect: true
+      correctExplanation: Přestože definování zásad uchovávání záloh je důležité, nijak nesouvisí se schopností aplikace škálovat.
+    - content: Správa stavu vaší aplikace
+      isCorrect: false
+      incorrectExplanation: Správa stavu je důležitým aspektem při vytváření strategie škálování. Škálování vyžaduje ukládání stavu uživatelů mimo jednotlivé instance, aby se zajistilo, že přidávání a odebírání instancí nijak nenaruší uživatelský komfort.
+    - content: Doba spuštění vašich instancí
+      isCorrect: false
+      incorrectExplanation: Doba spuštění představuje důležitý aspekt strategie škálování. Čím rychlejší bude doba spuštění instance, tím rychleji může vaše aplikace reagovat na zvýšenou poptávku.
+    - content: Automatické škálování vašich instancí na základě metriky nebo plánu
+      isCorrect: false
+      incorrectExplanation: Automatizace škálování je důležitou součástí strategie škálování. Když automatizujete možnosti škálování, získáte větší schopnost vypořádat se s výkyvy uživatelského zatížení bez ručního zásahu nebo zhoršení uživatelského komfortu.

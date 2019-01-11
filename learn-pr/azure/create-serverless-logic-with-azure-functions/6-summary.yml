@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.create-serverless-logic-with-functions.6-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 060cccc928f3d8080b6069e8f4bbaebcd3980288
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006290"
+azureSandbox: true
+durationInMinutes: 3
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Která z následujících možností nejlépe definuje logiku bez serveru?
+    choices:
+    - content: Váš kód, který se nespouští na serverech.
+      isCorrect: false
+      incorrectExplanation: „Bez serveru“ neznamená absenci serverů – jednoduše to znamená, že se vývojář nemusí o servery starat. Servery místo něj spravuje poskytovatel cloudových služeb, jako je například Azure.
+    - content: Váš kód, který se spouští na serverech, které spravujete.
+      isCorrect: false
+      incorrectExplanation: „Bez serveru“ neznamená absenci serverů – jednoduše to znamená, že se vývojář nemusí o servery starat. Servery místo něj spravuje poskytovatel cloudových služeb, jako je například Azure.
+    - content: Váš kód, který se spouští na serverech, které spravuje poskytovatel cloudových služeb.
+      isCorrect: true
+      correctExplanation: „Bez serveru“ neznamená absenci serverů – jednoduše to znamená, že se vývojář nemusí o servery starat. Servery místo něj spravuje poskytovatel cloudových služeb, jako je například Azure.
+  - content: Jak se nazývá kontejner, který seskupuje funkce do logické jednotky a umožňuje tak snadnější správu, nasazení a sdílení prostředků?
+    choices:
+    - content: Skupina prostředků
+      isCorrect: false
+      incorrectExplanation: Aplikace funkcí představuje způsob, jak uspořádat a společně spravovat funkce. Aplikace funkcí se skládá z jedné nebo několika jednotlivých funkcí, které společně spravuje služba Azure App Service. Všechny funkce v aplikaci funkcí sdílí stejný cenový plán, průběžné nasazování a verzi modulu runtime.
+    - content: Aplikace funkcí
+      isCorrect: true
+      correctExplanation: Aplikace funkcí představuje způsob, jak uspořádat a společně spravovat funkce. Aplikace funkcí se skládá z jedné nebo několika jednotlivých funkcí, které společně spravuje služba Azure App Service. Všechny funkce v aplikaci funkcí sdílí stejný cenový plán, průběžné nasazování a verzi modulu runtime.
+    - content: Kolekce funkcí
+      isCorrect: false
+      incorrectExplanation: Aplikace funkcí představuje způsob, jak uspořádat a společně spravovat funkce. Aplikace funkcí se skládá z jedné nebo několika jednotlivých funkcí, které společně spravuje služba Azure App Service. Všechny funkce v aplikaci funkcí sdílí stejný cenový plán, průběžné nasazování a verzi modulu runtime.
+  - content: Naši funkci jsme zabezpečili před neznámými volajícími přes protokol HTTP tím, že u každého volání vyžadujeme předání klíče rozhraní API specifického pro funkci. Který z následujících názvů má hlavička v požadavcích HTTP, která musí tento klíč obsahovat?
+    choices:
+    - content: x-functions-key
+      isCorrect: true
+      correctExplanation: Klíč rozhraní API je možné vložit do proměnné řetězce dotazu code nebo do hlavičky HTTP x-functions-key.
+    - content: x-requested-with
+      isCorrect: false
+      incorrectExplanation: Klíč rozhraní API je možné vložit do proměnné řetězce dotazu code nebo do hlavičky HTTP x-functions-key.
+    - content: x-csrf-token
+      isCorrect: false
+      incorrectExplanation: Klíč rozhraní API je možné vložit do proměnné řetězce dotazu code nebo do hlavičky HTTP x-functions-key.

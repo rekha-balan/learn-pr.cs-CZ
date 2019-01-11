@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.provision-azure-sql-db
+metadata:
+  title: Zřízení Azure SQL Database k ukládání aplikačních dat – výuka
+  description: Ke zřízení, připojení a správě databází Azure SQL použijte Azure Portal a Cloud Shell.
+  ms.date: 09/24/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 56f09650e75e49cf6e84865e5bac67ec693db3ec
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005738"
+title: Zřízení Azure SQL Database k ukládání aplikačních dat
+summary: Ke zřízení, připojení a správě databází Azure SQL použijte Azure Portal a Cloud Shell.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Proč je Azure SQL Database vhodnou volbou pro provoz relační databáze
+
+  - Které možnosti konfigurace a cen jsou u Azure SQL Database k dispozici
+
+  - Jak vytvořit Azure SQL Database na portálu
+
+  - Jak používat Azure Cloud Shell pro připojení k databázi Azure SQL, přidání tabulky a práci s daty
+prerequisites: Žádné
+iconUrl: /learn/achievements/provision-azure-sql-db.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-sql-database
+- azure-cloud-shell
+units:
+- learn.provision-azure-sql-db.1-introduction
+- learn.provision-azure-sql-db.2-plan-your-database
+- learn.provision-azure-sql-db.3-create-your-database
+- learn.provision-azure-sql-db.4-connect-add-data
+- learn.provision-azure-sql-db.5-summary
+achievement: learn.provision-azure-sql-db.badge

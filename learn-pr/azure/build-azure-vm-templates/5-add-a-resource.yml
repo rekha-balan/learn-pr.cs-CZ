@@ -1,0 +1,36 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.5-add-a-resource
+title: Přidání prostředku do šablony
+metadata:
+  title: Přidání prostředku do šablony
+  description: Prověřte požadavky na webový server na virtuálním počítači a naučte se sestavit prostředky, které můžete přidat do šablon.
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+  ms.openlocfilehash: af35e62b63430a984fc1fa609d81de3d50d22c70
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799481"
+durationInMinutes: 5
+content: >
+  [!include[](includes/5-add-a-resource.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Jak můžete Resource Manageru pomoci určit správné pořadí, v jakém se mají prostředky používat?
+    choices:
+    - content: Pomocí elementu `dependsOn` definujete, že jeden prostředek musí existovat dříve, než lze nasadit jiný prostředek.
+      isCorrect: true
+      correctExplanation: I když to zde neprobíráme, můžete také použít integrovanou funkci `reference` a definovat závislosti mezi prostředky, které potřebují sdílet nějakou vlastnost.
+    - content: V šabloně definujete prostředky v pořadí, ve kterém mají být nasazeny.
+      isCorrect: false
+      incorrectExplanation: Některé konfigurace zahrnují komplexní závislosti mezi prostředky. Definování jejich pořadí může být obtížné. Resource Manager poskytuje způsob, jak definovat vztahy mezi prostředky.
+    - content: Nastavíte vlastnost `order` u jednotlivých prostředků.
+      isCorrect: false
+      incorrectExplanation: Resource Manager dokáže ve většině případů určit správné pořadí. V některých situacích ale potřebujete definovat, že jeden prostředek musí existovat dříve, než je možné nasadit jiný prostředek.

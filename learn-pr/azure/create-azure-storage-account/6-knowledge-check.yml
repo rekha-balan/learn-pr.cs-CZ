@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-storage-account.6-knowledge-check
+title: 'Prověrka znalostí: Vytvoření účtu úložiště'
+durationInMinutes: 3
+metadata:
+  title: 'Prověrka znalostí: Vytvoření účtu úložiště'
+  description: Otázky o vlastnostech a vytvoření účtu úložiště.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 81b9eab45783b6f77c8868f35b5172878d4ef69e
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347678"
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Předpokládejme, že máte dva videosoubory uložené jako objekty blob. Jedno video obsahuje důležité obchodní informace a vyžaduje zásadu replikace, která vytvoří několik kopií napříč geograficky odlišnými datovými centry. Druhé video není tak důležité a bude u něj stačit zásada místní replikace. Ano nebo ne: Ke splnění těchto omezení je potřeba tyto dva objekty blob rozdělit do dvou účtů úložiště.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Zásady replikace jsou vlastností účtu úložiště. Každý člen v účtu úložiště musí používat stejné zásady. Pokud potřebujete, aby některá data používala strategii geografické replikace a jiná data používala strategii místní replikace, budete potřebovat dva účty úložiště.
+    - content: Nepravda
+      isCorrect: false
+      incorrectExplanation: Zásady replikace jsou vlastností účtu úložiště. Každý člen v účtu úložiště musí používat stejné zásady. Pokud potřebujete, aby některá data používala strategii geografické replikace a jiná data používala strategii místní replikace, budete potřebovat dva účty úložiště.
+  - content: 'Název účtu úložiště musí být:'
+    choices:
+    - content: Jedinečný v rámci příslušné skupiny prostředků
+      isCorrect: false
+      incorrectExplanation: Název účtu úložiště se používá jako součást identifikátoru URI pro přístup k rozhraní API, takže musí být globálně jedinečný.
+    - content: Jedinečný v rámci předplatného Azure
+      isCorrect: false
+      incorrectExplanation: Název účtu úložiště se používá jako součást identifikátoru URI pro přístup k rozhraní API, takže musí být globálně jedinečný.
+    - content: Globálně jedinečný
+      isCorrect: true
+      correctExplanation: Název účtu úložiště se používá jako součást identifikátoru URI pro přístup k rozhraní API, takže musí být globálně jedinečný.
+  - content: Kdy byste u běžného projektu vytvořili účet/účty úložiště?
+    choices:
+    - content: Na začátku při vytváření projektu.
+      isCorrect: true
+      correctExplanation: Účty úložiště jsou obvykle stabilní po dobu životnosti projektu. Je běžné je vytvářet na začátku projektu.
+    - content: Po nasazení, když projekt běží.
+      isCorrect: false
+      incorrectExplanation: Účty úložiště jsou obvykle stabilní po dobu životnosti projektu. Je běžné je vytvářet na začátku projektu.
+    - content: Na konci během čištění prostředků.
+      isCorrect: false
+      incorrectExplanation: Účty úložiště jsou obvykle stabilní po dobu životnosti projektu. Je běžné je vytvářet na začátku projektu.

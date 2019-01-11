@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.classify-images-with-custom-vision-services
+metadata:
+  title: Klasifikace obrázků pomocí Microsoft Custom Vision Service – výuka
+  description: Vytváření, trénování a testování vlastního modelu klasifikace obrázků pomocí služby Custom Vision Service, aby bylo možné přesně identifikovat obrazy známých umělců.
+  ms.date: 09/24/2018
+  author: lnyswonger
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 18cafef8a05c5d2d885908d45091f9ca8a5f52a8
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932572"
+title: Klasifikace obrázků pomocí Microsoft Custom Vision Service
+summary: Vytváření, trénování a testování vlastního modelu klasifikace obrázků pomocí služby Custom Vision Service, aby bylo možné přesně identifikovat malby známých umělců.
+abstract: "V tomto modulu se naučíte:\n- Vytvořit projekt Custom Vision Service\n- Trénovat model Custom Vision Service s označenými obrázky\n- Otestovat model Custom Vision Service\n- Zavolat koncový bod předpovědi vlastního modelu přes HTTP \n"
+prerequisites: Žádné
+iconUrl: /learn/achievements/classify-images-with-custom-vision-service.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+units:
+- learn.classify-images-with-custom-vision-services.0-introduction
+- learn.classify-images-with-custom-vision-services.1-create-custom-vision-service-project
+- learn.classify-images-with-custom-vision-services.2-upload-tagged-images
+- learn.classify-images-with-custom-vision-services.3-train-model
+- learn.classify-images-with-custom-vision-services.4-test-model
+- learn.classify-images-with-custom-vision-services.5-call-the-prediction-endpoint-curl
+- learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check
+achievement: learn.classify-images-with-custom-vision-services.badge

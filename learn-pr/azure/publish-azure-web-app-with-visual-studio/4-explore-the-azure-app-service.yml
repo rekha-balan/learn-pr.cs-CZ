@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.publish-azure-web-app-with-visual-studio.4-explore-the-azure-app-service
+title: Prozkoumání služby Azure App Service
+metadata:
+  title: Prozkoumání služby Azure App Service
+  description: Prozkoumání služby Azure App Service
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9b60ddcb2ace94fc854bac29cf08b6d702833b1d
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733881"
+azureSandbox: true
+durationInMinutes: 8
+content: '[!include[](includes/4-explore-the-azure-app-service.md)]'

@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-user-feedback-with-the-text-analytics-api.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6f61993fc06cffd3fbc7fd0471a9a9eacfaad5cc
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347695"
+durationInMinutes: 2
+content: '[!include[](includes/1-introduction.md)]'

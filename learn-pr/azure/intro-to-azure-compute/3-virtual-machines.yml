@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compute.3-virtual-machines
+title: Seznámení se službou Azure Virtual Machines
+metadata:
+  title: Seznámení se službou Azure Virtual Machines
+  description: Seznámení se službou Azure Virtual Machines
+  ms.date: 12/21/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1c7c37ac3ec36b51595203f2f5d5761975c39e78
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798531"
+durationInMinutes: 5
+content: '[!include[](includes/3-virtual-machines.md)]'

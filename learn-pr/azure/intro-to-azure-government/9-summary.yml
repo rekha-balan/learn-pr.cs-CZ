@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.9-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Azure Government – souhrn modulu
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ab62cacd1973013066bc68d4e4c472f182f9815a
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+durationInMinutes: 10
+content: '[!include[](includes/9-summary.md)]'

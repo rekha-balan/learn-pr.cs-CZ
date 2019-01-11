@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.6-saas
+title: Software jako služba
+metadata:
+  title: SaaS
+  description: Získejte další informace o softwaru jako službě a o tom, zda je správnou volbou pro vaši aplikaci.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: dafc041ec6372175a8eddbb4c51061135102c728
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52920567"
+durationInMinutes: 4
+content: '[!include[](includes/6-saas.md)]'

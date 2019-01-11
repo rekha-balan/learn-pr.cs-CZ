@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.7-blob-trigger
+title: Provedení funkce Azure při vytvoření objektu blob
+metadata:
+  title: Provedení funkce Azure při vytvoření objektu blob
+  description: Provedení funkce Azure při vytvoření objektu blob
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 87350a85478298bd2bc185f611a918dac29282c3
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006132"
+durationInMinutes: 10
+content: '[!include[](includes/7-blob-trigger.md)]'

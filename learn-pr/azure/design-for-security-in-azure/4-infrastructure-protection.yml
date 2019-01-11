@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.4-infrastructure-protection
+title: Ochrana infrastruktury
+metadata:
+  title: Ochrana infrastruktury
+  description: V této lekci probereme, jak můžete zabezpečit přístup k infrastruktuře.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 21ccd9e04cf44ab5b5c5d6bb20ab84c3a65801fa
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-infrastructure-protection.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Ke kterému z následujících oborů nelze přiřadit řízení přístupu na základě role Azure?
+    choices:
+    - content: Předplatné
+      isCorrect: false
+      incorrectExplanation: Řízení přístupu na základě role je možné použít v oboru předplatného.
+    - content: Skupina prostředků
+      isCorrect: false
+      incorrectExplanation: Řízení přístupu na základě role je možné použít v oboru skupiny prostředků.
+    - content: Soubory a složky v systému souborů Linux
+      isCorrect: true
+      correctExplanation: Řízení přístupu na základě role v Azure můžete použít jen u prostředků Azure. Soubory a složky v rámci souboru systému Linux je možné zabezpečit různými metodami, ale ne prostřednictvím řízení přístupu na základě role v Azure.
+    - content: Prostředek
+      isCorrect: false
+      incorrectExplanation: Řízení přístupu na základě role je možné použít v oboru prostředku.
+  - content: 'Ano, nebo ne: Spravovanou identitu pro prostředky Azure je možné přiřadit virtuálnímu počítači, aby měl právo ke spuštění a zastavení jiných virtuálních počítačů.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Spravované identity pro prostředky Azure je metoda přiřazení identity ke službám. Prostřednictvím tohoto přiřazení se dá udělit řízení přístupu na základě role ke správě služeb Azure, jako je například spouštění a zastavování virtuálních počítačů.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Spravované identity pro prostředky Azure je metoda přiřazení identity ke službám. Prostřednictvím tohoto přiřazení se dá udělit řízení přístupu na základě role ke správě služeb Azure, jako je například spouštění a zastavování virtuálních počítačů.

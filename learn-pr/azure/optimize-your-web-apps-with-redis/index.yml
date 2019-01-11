@@ -1,0 +1,51 @@
+### YamlMime:Module
+uid: learn.optimize-web-app-with-redis
+metadata:
+  title: Optimalizace webových aplikací pomocí ukládání dat jen pro čtení do mezipaměti s využitím Redis – výuka
+  description: Použijte ukládání do mezipaměti Redis v Azure ke snížení zátěže databáze. Použijte různé architektury ukládání do mezipaměti, které podporují větší zatížení v distribuovaných a rozsáhlých prostředích.
+  ms.date: 09/24/2018
+  author: kphillpotts
+  ms.author: kyphi
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 8a2f8a6096735ac535db209bd4186827159be426
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732427"
+title: Optimalizace webových aplikací pomocí ukládání dat jen pro čtení do mezipaměti s využitím Redis
+summary: Použijte ukládání do mezipaměti Redis v Azure ke snížení zátěže databáze. Použijte různé architektury ukládání do mezipaměti, které podporují větší zatížení v distribuovaných a rozsáhlých prostředích.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Popsat, co je mezipaměť Redis a jak ji můžete použít pro vaše obchodní potřeby
+
+  - Vytvořit návrh a naplánovat použití mezipaměti Redis Cache
+
+  - Zřídit mezipaměť Redis Cache v Azure
+
+  - Připojit k mezipaměti webovou aplikaci
+prerequisites: >
+  - Zkušenosti s vývojem aplikací
+
+  - Zkušenosti s používáním dat v aplikacích
+
+  - Základní znalosti .NET
+iconUrl: /learn/achievements/optimize-web-apps-with-redis.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-redis-cache
+units:
+- learn.optimize-web-app-with-redis.1-introduction
+- learn.optimize-web-app-with-redis.2-decide-if-you-want-use-redis-in-azure
+- learn.optimize-web-app-with-redis.3-configure-redis-cache
+- learn.optimize-web-app-with-redis.4-exercise-create-redis-cache
+- learn.optimize-web-app-with-redis.5-execute-redis-commands
+- learn.optimize-web-app-with-redis.6-exercise-connect-an-app-to-the-cache
+- learn.optimize-web-app-with-redis.7-summary
+achievement: learn.optimize-web-app-with-redis.badge

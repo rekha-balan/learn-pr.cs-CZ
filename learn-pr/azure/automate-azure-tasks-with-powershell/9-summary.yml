@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.9-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a0de12b6b3e804deb2725476d9cfe6a8c5bc76c7
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732903"
+durationInMinutes: 3
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: 'Ano nebo ne: Azure Portal, Azure CLI a Azure PowerShell nabízejí výrazně odlišné služby. Je tedy nepravděpodobné, že všechny tři budou podporovat operaci, kterou právě potřebujete.'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: Tyto tři nástroje nabízejí téměř přesně stejnou sadu služeb.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Tyto tři nástroje nabízejí téměř stejnou sadu služeb. Toto obecně není faktor při rozhodování o tom, který nástroj je nejvhodnější pro vaše úlohy.
+  - content: Předpokládejme, že vytváříte aplikaci úpravy videa, která bude nabízet online úložiště pro uživatelem generovaný videoobsah. Videa budete ukládat v objektech blob Azure, takže budete potřebovat vytvořit účet úložiště Azure, který bude tyto objekty blob obsahovat. Jakmile začnete účet úložiště využívat, není pravděpodobné, že byste ho odebrali a znovu vytvořili, protože tím byste odstranili všechna uživatelská videa. Který nástroj nabízí pravděpodobně nejrychlejší a nejjednodušší způsob jak vytvořit účet úložiště?
+    choices:
+    - content: Azure Portal
+      isCorrect: true
+      correctExplanation: Portál je dobrou volbou pro jednorázové operace, jako je vytvoření účtu úložiště s dlouhou životností. Portál poskytuje grafické uživatelské rozhraní obsahující všechny vlastnosti účtu úložiště a poskytuje popisy tlačítek, které vám pomůžou vybrat správné možnosti pro vaše potřeby.
+    - content: Azure CLI
+      isCorrect: false
+      incorrectExplanation: Pokud chcete použít rozhraní příkazového řádku, je potřeba vyhledat příkaz, který se použije k vytvoření účtu úložiště. Budete také potřebovat buď nainstalovat rozhraní příkazového řádku místně, nebo se přihlásit ke službě cloud shell. Pro jednorázové operace, jako je vytváření účtu úložiště, bude toto pravděpodobně trvat déle než prostřednictvím webu Azure Portal.
+    - content: Azure PowerShell
+      isCorrect: false
+      incorrectExplanation: Pokud chcete použít Azure PowerShell, je potřeba vyhledat příkaz, který se použije k vytvoření účtu úložiště. Budete také potřebovat buď nainstalovat Azure PowerShell místně, nebo se přihlásit ke službě cloud shell. Pro jednorázové operace, jako je vytváření účtu úložiště, bude toto pravděpodobně trvat déle než prostřednictvím webu Azure Portal.
+  - content: Co si musíte nainstalovat na svém počítači, abyste mohli spustit rutiny prostředí Azure PowerShell místně?
+    choices:
+    - content: Azure Cloud Shell
+      isCorrect: false
+      incorrectExplanation: Služba Cloud Shell umožňuje spouštět rutiny Azure. Používá se ale v prohlížeči, takže tím nespustíte příkazy na místním počítači.
+    - content: Základní produkt PowerShell a modul Az
+      isCorrect: true
+      correctExplanation: Potřebujete jak základní produkt PowerShell, tak modul Az. Základní produkt poskytuje prostředí jako takové, několik základních příkazů a programovací konstruktory jako smyčky, proměnné atd. Modul Az přidává rutiny, které potřebujete k práci s prostředky Azure.
+    - content: Azure CLI a Azure PowerShell
+      isCorrect: false
+      incorrectExplanation: Azure CLI je alternativní příkazový řádek a skriptovací nástroj. Není potřeba, pokud se chystáte použít Azure PowerShell.

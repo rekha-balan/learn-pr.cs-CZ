@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-virtual-machine-disks.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6cd2b8c3b174ce6869c371ba6adbcce3dc7ac390
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734000"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: 'Ano nebo ne: Pokud na virtuálním počítači s Windows povolíte službu Azure Disk Encryption (ADE), bude na virtuálních pevných discích šifrovat data pomocí DM-Cryptu.'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: DM-Crypt se používá na virtuálních počítačích s Linuxem. Windows namísto toho používá BitLocker.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Virtuální počítače s Windows se šifrují pomocí BitLockeru. Virtuální počítače s Linuxem využívají DM-Crypt.
+  - content: 'Ano nebo ne: Při použití Azure Key Vaultu k zabezpečení klíčů pro Azure Disk Encryption (ADE) je potřeba zajistit, že je v zásadách přístupu Azure Key Vaultu nakonfigurováno povolení aspoň jednoho objektu zabezpečení.'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: Pro službu ADE není nutné nakonfigurovat objekt zabezpečení. Postačí, když povolíte trezor klíčů pro šifrování disku.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Pro službu ADE není nutné nakonfigurovat objekt zabezpečení. Postačí, když povolíte trezor klíčů pro šifrování disku.
+  - content: Předpokládejme, že jste vytvořili nový virtuální počítač s jedním diskem s operačním systémem a jedním datovým diskem. Při vytváření jste použili všechny výchozí možnosti a nikde v rámci předplatného nemáte Azure Key Vault. Která z možností níže nejpřesněji popisuje stav šifrování těchto disků?
+    choices:
+    - content: Oba disky jsou nezašifrované.
+      isCorrect: false
+      incorrectExplanation: U nových virtuálních pevných disků je standardně povoleno Šifrování služby Storage (SSE). Azure využívá SSE ke správě klíčů a automatickému dešifrování dat u všech operací čtení, které nemají dopad na výkon.
+    - content: Disk s operačním systémem je zašifrovaný pomocí Šifrování služby Storage (SSE). Datový disk je nezašifrovaný.
+      isCorrect: false
+      incorrectExplanation: U nových virtuálních pevných disků je standardně povoleno Šifrování služby Storage (SSE). Azure využívá SSE ke správě klíčů a automatickému dešifrování dat u všech operací čtení, které nemají dopad na výkon.
+    - content: Oba disky jsou zašifrované pomocí Šifrování služby Storage.
+      isCorrect: true
+      correctExplanation: Pomocí Šifrování služby Storage jsou standardně zašifrované všechny disky. Azure využívá SSE ke správě klíčů a automatickému dešifrování dat u všech operací čtení, které nemají dopad na výkon.

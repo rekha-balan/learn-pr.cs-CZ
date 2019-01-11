@@ -1,0 +1,45 @@
+### YamlMime:LearningPath
+uid: learn.architect-great-solutions-in-azure
+metadata:
+  title: Navrhování skvělých řešení v Azure – studijní program
+  description: Přečtěte si, jak vám prozkoumání základních principů obsažených v každé dobré architektuře pomůže navrhovat a vytvářet zabezpečená, škálovatelná a výkonná řešení v Azure.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 18b6a95304d92ede2b471b3baa40f253a048898c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52924324"
+title: Navrhování skvělých řešení v Azure
+summary: Přečtěte si, jak vám prozkoumání základních principů obsažených v každé dobré architektuře pomůže navrhovat a vytvářet zabezpečená, škálovatelná a výkonná řešení v Azure.
+prerequisites: Žádné
+iconUrl: /learn/achievements/architect-great-solutions-in-azure.svg
+levels:
+- beginner
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+- azure-storage
+- azure-sql-database
+- azure-cosmos-db
+- azure-cost-management
+- azure-advisor
+- azure-monitor
+- azure-application-insights
+- azure-log-analytics
+- azure-cdn
+- azure-active-directory
+modules:
+- learn.pillars-of-a-great-azure-architecture
+- learn.design-for-security
+- learn.design-for-performance-and-scalability
+- learn.design-for-efficiency-and-operations
+- learn.design-for-availability-and-recoverability
+achievement: learn.architect-great-solutions-in-azure.trophy

@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.manage-secrets-with-azure-key-vault
+metadata:
+  title: Správa tajných kódů pro serverové aplikace pomocí služby Azure Key Vault – výuka
+  description: V tomto modulu se dozvíte, jak vytvořit trezor klíčů a uložit do něj tajný kód. Uvidíte, jak nakonfigurovat webovou aplikaci k použití spravované identity, abyste měli k trezoru zabezpečený přístup, aniž byste museli cokoli konfigurovat, a nakonec implementujete webovou aplikaci ASP.NET Core, která tajné kódy z trezoru načte.
+  ms.date: 09/24/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 5032c0b136290c27c781bdbeef780c1d530fcaa2
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734494"
+title: Správa tajných kódů pro serverové aplikace pomocí služby Azure Key Vault
+summary: Vaše aplikace vyžaduje ke své práci hesla služeb, připojovací řetězce a dalších konfigurační hodnoty tajných kódů. Ukládání a zpracování hodnot tajných kódů je riskantní a každé použití znamená možnost úniku. Azure Key Vault v kombinaci se spravovanými identitami prostředků Azure umožňuje vaší webové aplikaci Azure získat snadno a bezpečně přístup k hodnotám tajných kódů konfigurace, aniž by bylo potřeba tajné klíče ukládat do správy zdrojového kódu nebo konfigurace.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Prozkoumat, jaké typy informací je možné ukládat ve službě Azure Key Vault
+
+  - Vytvořit službu Azure Key Vault a použít ji k uložení hodnot konfigurace tajných kódů
+
+  - Povolit zabezpečený přístup k trezoru z webové aplikace Azure App Service se spravovanými identitami pro prostředky Azure
+
+  - Implementovat webovou aplikaci, která z trezoru načte tajné kódy
+prerequisites: Žádné
+iconUrl: /learn/achievements/manage-secrets-with-azure-key-vault.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-key-vault
+units:
+- learn.manage-secrets-with-azure-key-vault.1-introduction
+- learn.manage-secrets-with-azure-key-vault.2-what-is-key-vault
+- learn.manage-secrets-with-azure-key-vault.3-creating-vaults-storing-secrets
+- learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources
+- learn.manage-secrets-with-azure-key-vault.5-access-secrets-from-web-app
+- learn.manage-secrets-with-azure-key-vault.6-configure-deploy-run-azure
+- learn.manage-secrets-with-azure-key-vault.7-summary
+achievement: learn.manage-secrets-with-azure-key-vault.badge

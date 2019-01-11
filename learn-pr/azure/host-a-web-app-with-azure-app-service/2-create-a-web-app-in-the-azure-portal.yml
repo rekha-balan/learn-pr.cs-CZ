@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.2-create-a-web-app-in-the-azure-portal
+title: Vytvoření webové aplikace na webu Azure Portal
+metadata:
+  title: Vytvoření webové aplikace na webu Azure Portal
+  description: Vytvoření webové aplikace na webu Azure Portal
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d76b846d82ee4be32aa217642a6c076d959c6ae9
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53734499"
+durationInMinutes: 10
+content: '[!include[](includes/2-create-a-web-app-in-the-azure-portal.md)]'

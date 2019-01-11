@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.work-with-relational-data-in-azure
+metadata:
+  title: Práce s relačními daty v Azure – studijní program
+  description: Azure podporuje několik oblíbených řešení databáze, která jsou založená na SQL, například SQL Server, PostgreSQL a MySQL. Přečtěte si, jak lze pomocí těchto řešení podnikových dat v Azure ukládat a načítat data vaší aplikace v cloudu.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4205c7a5fd78fae4f59bb87dfb71839b0a408ea0
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52946679"
+title: Práce s relačními daty v Azure
+summary: Azure podporuje několik oblíbených řešení databáze, která jsou založená na SQL, například SQL Server, PostgreSQL a MySQL. Přečtěte si, jak můžete tato řešení pro podniková data použít v Azure k ukládání dat aplikace do cloudu a k jejich načítání.
+prerequisites: Žádné
+iconUrl: /learn/achievements/work-with-relational-data-in-azure.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-sql-database
+- azure-cloud-shell
+- azure-clis
+modules:
+- learn.provision-azure-sql-db
+- learn.create-azure-db-for-postgresql
+achievement: learn.work-with-relational-data-in-azure.trophy

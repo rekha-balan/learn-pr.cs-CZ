@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.6-network-security
+title: Zabezpečení sítě
+metadata:
+  title: Zabezpečení sítě
+  description: V této lekci probereme, jak můžete zabezpečit síťovou infrastrukturu.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 110b82fa773982331e88dae32abf77cf4db21d51
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-network-security.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Skupiny zabezpečení sítě Azure slouží k zabezpečení komunikace mezi kterými z následujících prvků?
+    choices:
+    - content: Komunikace mezi virtuálními počítači Azure a internetem
+      isCorrect: false
+      incorrectExplanation: Tento tok komunikace se dá skupinami zabezpečení sítě zabezpečit, není to ale jediná správná odpověď.
+    - content: Komunikace mezi virtuálními počítači Azure v rámci virtuální sítě
+      isCorrect: false
+      incorrectExplanation: Tento tok komunikace se dá skupinami zabezpečení sítě zabezpečit, není to ale jediná správná odpověď.
+    - content: Komunikace mezi virtuálními počítači Azure a systémy v místní síti
+      isCorrect: false
+      incorrectExplanation: Tento tok komunikace se dá skupinami zabezpečení sítě zabezpečit, není to ale jediná správná odpověď.
+    - content: Všechny výše uvedené možnosti
+      isCorrect: true
+      correctExplanation: Skupiny zabezpečení sítě jsou plně přizpůsobitelné a umožňují úplně zamezit síťové komunikaci do a z virtuálních počítačů.
+  - content: Která z následujících metod není metoda pro ochranu internetových služeb před síťovými útoky?
+    choices:
+    - content: Azure DDoS
+      isCorrect: false
+      incorrectExplanation: 'Azure DDoS se dá využít k ochraně internetových služeb před útoky DoS. '
+    - content: Firewall webových aplikací služby Azure Application Gateway
+      isCorrect: false
+      incorrectExplanation: Firewallem webových aplikací služby Application Gateway je možné chránit internetové služby před útoky, jako je například skriptování mezi weby XSS nebo injektáž SQL.
+    - content: Azure Disk Encryption
+      isCorrect: true
+      correctExplanation: Služba Azure Disk Encryption chrání virtuální pevné disky virtuálních počítačů před ohrožením dat, neposkytuje ale ochranu před útoky ze sítě.
+    - content: Síťové virtuální zařízení
+      isCorrect: false
+      incorrectExplanation: Síťová virtuální zařízení můžou vašim internetovým prostředkům poskytnout síťovou ochranu přizpůsobenou na míru.

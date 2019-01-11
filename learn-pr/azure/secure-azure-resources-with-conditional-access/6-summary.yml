@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-access-azure-ad-multi-factor-authentication.6-summary
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1d1c9d23271de40ccd72ba37351eda440b3cbe46
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52924363"
+title: Shrnutí
+durationInMinutes: 5
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Microsoft Azure Active Directory je v podstatě řadič domény Active Directory Domain Services (AD DS) běžící v Azure.
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: I když služba Microsoft Azure Active Directory provádí spoustu stejných funkcí jako tradiční služba AD DS, jde o cloudovou adresářovou službu a službu pro správu identit pro více tenantů.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: AD DS je role serveru ve Windows Serveru. Azure AD je cloudová veřejná adresářová služba pro více zákazníků.
+  - content: Jaké tři položky by měly existovat v úspěšných zásadách podmíněného přístupu?
+    choices:
+    - content: Uživatel nebo skupina, aplikace, denní doba
+      isCorrect: false
+      correctExplanation: Denní doba není možnost dostupná v pravidlech podmíněného přístupu.
+    - content: Uživatel nebo skupina, aplikace, vynucený kontrolní mechanismus
+      isCorrect: true
+      incorrectExplanation: Výběrem těchto tří položek vytvoříte soběstačná funkční pravidla podmíněného přístupu.
+    - content: Uživatel nebo skupina, operační systém Linux, vynucený kontrolní mechanismus
+      isCorrect: false
+      correctExplanation: I když můžete cílit na některé platformy zařízení, není Linux momentálně podporovaný.

@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.manage-resources-in-azure
+metadata:
+  title: Správa prostředků v Azure – studijní program
+  description: Naučte se pracovat s příkazovým řádkem a webovým portálem Azure, abyste mohli vytvářet, spravovat a řídit cloudové prostředky.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9c940136227f686bef0b9255a26c789be8a7c361
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52920477"
+title: Správa prostředků v Azure
+summary: Naučte se pracovat s příkazovým řádkem a webovým portálem Azure, abyste mohli vytvářet, spravovat a řídit cloudové prostředky.
+prerequisites: Žádné
+iconUrl: /learn/achievements/manage-resources-in-azure.svg
+levels:
+- beginner
+roles:
+- developer
+- solution-architect
+- administrator
+products:
+- azure
+- azure-clis
+- azure-portal
+- azure-cost-management
+modules:
+- learn.align-requirements-in-azure
+- learn.control-azure-services-with-cli
+- learn.automate-azure-tasks-with-powershell
+- learn.predict-costs-and-optimize-spending
+achievement: learn.manage-resources-in-azure.trophy

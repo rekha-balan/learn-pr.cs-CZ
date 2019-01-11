@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.intro-to-azure-networking
+metadata:
+  title: Úvod do sítí Azure – výuka
+  description: Provozování aplikace nebo služby v cloudu vyžaduje rychlou a zabezpečenou síť. Seznamte se se základy sítí Azure a zjistěte, jak sítě Azure pomáhají vylepšit odolnost a snížit latenci.
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: b138b3f628f7c788eeb4b7e29665219fd6250397
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52921109"
+title: Úvod do sítí Azure
+summary: Provozování aplikace nebo služby v cloudu vyžaduje rychlou a zabezpečenou síť. Seznamte se se základy sítí Azure a zjistěte, jak sítě Azure pomáhají vylepšit odolnost a snížit latenci.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Zjistit, jak virtuální sítě pomáhají izolovat síť a výpočetní prostředky
+
+  - Zjistit, jak Azure Load Balancer pomáhá vylepšit odolnost, neboli schopnost zotavení při výpadku služeb
+
+  - Zjistit, jak Traffic Manager dokáže směrovat provoz do různých koncových bodů, včetně koncových bodů s nejnižší latencí pro uživatele
+prerequisites: Žádné
+iconUrl: /learn/achievements/intro-to-azure-networking.svg
+levels:
+- beginner
+roles:
+- developer
+- administrator
+- solution-architect
+products:
+- azure
+units:
+- learn.intro-to-azure-networking.1-introduction
+- learn.intro-to-azure-networking.2-deploy-to-azure
+- learn.intro-to-azure-networking.3-scale-load-balancer
+- learn.intro-to-azure-networking.4-reduce-latency-traffic-manager
+- learn.intro-to-azure-networking.5-summary
+achievement: learn.intro-to-azure-networking.badge

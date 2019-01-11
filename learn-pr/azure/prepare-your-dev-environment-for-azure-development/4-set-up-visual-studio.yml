@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.4-set-up-visual-studio
+title: Používání sady Visual Studio
+metadata:
+  title: Používání sady Visual Studio
+  description: Používání sady Visual Studio
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1634ca47f21ee60165f30a4aa28b127d12b7b65f
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733965"
+durationInMinutes: 5
+content: '[!include[](includes/4-set-up-visual-studio.md)]'

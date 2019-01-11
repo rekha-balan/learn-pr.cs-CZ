@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.top-5-security-items-to-consider.3-inputs-and-outputs
+title: Vstupy a výstupy
+metadata:
+  title: Vstupy a výstupy
+  description: Vstupy a výstupy
+  author: lnyswonger
+  ms.date: 09/24/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 61081cb6787aa0f84820a5f824f426b8c55c97bd
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-inputs-and-outputs.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z těchto zdrojů dat musí být ověřeny?
+    choices:
+    - content: Data z rozhraní API třetí strany
+      isCorrect: false
+      incorrectExplanation: Toto je pouze jeden z mnoha zdrojů, které je potřeba ověřit.
+    - content: Data z parametru adresy URL
+      isCorrect: false
+      incorrectExplanation: Toto je pouze jeden z mnoha zdrojů, které je potřeba ověřit
+    - content: Data získávaná od uživatele prostřednictvím vstupního pole
+      isCorrect: false
+      incorrectExplanation: Toto je pouze jeden z mnoha zdrojů, které je potřeba ověřit.
+    - content: Všechny výše uvedené možnosti
+      isCorrect: true
+      correctExplanation: Všechny tyto zdroje dat musí být ověřeny. Nikdy nevěřte žádným údajům, které mohly být změněny.
+  - content: 'Parametrizované dotazy (uložené procedury v SQL) jsou vždy bezpečnější možností pro komunikaci s databází, protože:'
+    choices:
+    - content: Jsou více uspořádané než vložené databázové příkazy, a proto jsou méně matoucí pro uživatele.
+      isCorrect: false
+      incorrectExplanation: Organizace kódu není důvodem pro to, že jsou parametrizované dotazy bezpečnější než vložený kód SQL.
+    - content: Skript v uložené proceduře má jasnou osnovu, což zajišťuje lepší přehlednost.
+      isCorrect: false
+      incorrectExplanation: Jasná osnova skriptu není důvodem pro to, že jsou parametrizované dotazy bezpečnější než vložený kód SQL.
+    - content: Parametrizované dotazy před spuštěním dotazů provedou substituci proměnných, což eliminuje nebezpečí toho, že bude místo proměnné odeslán kód.
+      isCorrect: true
+  - content: Která z následujících dat musí být na výstupu kódována?
+    choices:
+    - content: Data ukládaná do databáze
+      isCorrect: false
+      incorrectExplanation: I když je nutné ověřovat data ukládaná do databáze a zajistit tak jejich správnost, nemusíme tato data pro výstup kódovat.
+    - content: Data pro výstup na obrazovku
+      isCorrect: true
+      correctExplanation: Data odesílaná na obrazovku musí být kódována pro výstup, aby nikdy nedošlo k jejich zobrazení ve formě kódu.
+    - content: Data odesílaná rozhraní API třetí strany
+      isCorrect: false
+      incorrectExplanation: I když je nutné ověřovat data odesílaná rozhraní API třetí strany a zajistit tak jejich správnost, nemusíme tato data pro výstup kódovat.
+    - content: Data v parametrech adresy URL
+      isCorrect: false
+      incorrectExplanation: I když je nutné ověřovat data z parametrů adresy URL před jejich použitím v naší aplikaci, nemusíme tato data pro výstup kódovat.
+      correctExplanation: Pole parametrů, používaná pro parametrizované dotazy, jsou zpracovávána jako data, nikoli jako kód, s ochranou proti útokům prostřednictvím injektáže. Další informace o tom, jak implementovat parametrizované dotazy, najdete v tématu [OWASP Tahák pro parametrizace dotazů]( https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet).

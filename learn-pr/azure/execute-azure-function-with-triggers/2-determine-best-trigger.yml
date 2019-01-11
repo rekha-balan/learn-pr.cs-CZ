@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.2-determine-best-trigger
+title: Určení nejvhodnější aktivační události pro funkci Azure
+metadata:
+  title: Určení nejvhodnější aktivační události pro funkci Azure
+  description: Určení nejvhodnější aktivační události pro funkci Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b51f9e4815aceec6787b633c345293429404b938
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006132"
+durationInMinutes: 4
+content: '[!include[](includes/2-determine-best-trigger.md)]'

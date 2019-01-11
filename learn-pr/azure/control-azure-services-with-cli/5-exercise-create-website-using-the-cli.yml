@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.control-azure-services-with-cli.5-exercise-create-website-using-the-cli
+title: Vytvoření webu Azure pomocí rozhraní příkazového řádku
+metadata:
+  title: Vytvoření webu Azure pomocí rozhraní příkazového řádku
+  description: Vytvoření nového webu PHP pomocí Azure CLI
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 06e28e0ecf3443c129e47b14dab03d1f23d66724
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006338"
+durationInMinutes: 10
+interactive: bash
+azureSandbox: true
+content: >
+  [!include[](includes/5-exercise-create-website-using-the-cli.md)]
+tasks:
+- action: exists
+  environment: azure
+  hint: Spuštěním uvedených příkazů vytvořte plán služby App Service a webovou aplikaci.
+  azure:
+    resource:
+      type: Microsoft.Web/sites

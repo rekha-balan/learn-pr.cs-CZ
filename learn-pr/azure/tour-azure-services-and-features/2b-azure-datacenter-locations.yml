@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.azure-services-features.2b-azure-datacenter-locations
+title: Oblasti, zeměpisné oblasti a zóny dostupnosti
+metadata:
+  title: Oblasti, zeměpisné oblasti a zóny dostupnosti
+  description: Oblasti, zeměpisné oblasti a zóny dostupnosti
+  ms.date: 12/21/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8135e24e228b3772bc341bb7e903d1da4d9a81f4
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798887"
+durationInMinutes: 8
+content: '[!include[](includes/2b-azure-datacenter-locations.md)]'

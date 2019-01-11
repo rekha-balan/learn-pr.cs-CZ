@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.implement-message-workflows-with-service-bus
+metadata:
+  title: Implementace komunikačních pracovních postupů založených na zprávách pomocí služby Azure Service Bus – výuka
+  description: Když jsou komponenty aplikace distribuované mezi několik počítačů a zařízení a jsou od sebe vzdálené tisíce kilometrů a propojené přes pomalé připojení, potřebují způsob, jak spolehlivě komunikovat. Jedním ze způsobů, jak vylepšit spolehlivost, je propojit tyto komponenty volně pomocí zprostředkující technologie pro zasílání zpráv a správu událostí. Jedním z takových zprostředkujících nástrojů je služba Azure Service Bus, která poskytuje rozšířené komunikační funkce. V tomto modulu se dozvíte, jak v aplikacích .NET napsat kód využívající službu Service Bus ke komunikaci způsobem, který je odolný proti vysokému zatížení, nízké šířce pásma a selhání hardwaru.
+  ms.date: 09/24/2018
+  author: jasallen
+  ms.author: jasdeb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e4f24e0b0f8b3e0f09dfa581dbd75c921ade4e77
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006299"
+title: Implementace komunikačních pracovních postupů založených na zprávách pomocí služby Azure Service Bus
+summary: Napište ve vlastní aplikaci kód v jazyce C#, který bude odesílat a přijímat zprávy pomocí témat a front služby Azure Service Bus.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Rozhodnout, jestli se mají používat fronty, témata nebo přenosy služby Service Bus ke komunikaci v distribuované aplikaci
+
+  - Nakonfigurovat obor názvů služby Azure Service Bus v rámci předplatného Azure
+
+  - Vytvořit téma služby Service Bus a používat ho k odesílání a příjmu zpráv
+
+  - Vytvořit frontu služby Service Bus a používat ji k odesílání a příjmu zpráv
+prerequisites: Žádné
+iconUrl: /learn/achievements/implement-message-workflows-with-service-bus.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-service-bus
+units:
+- learn.implement-message-workflows-with-service-bus.1-introduction
+- learn.implement-message-workflows-with-service-bus.2-choose-a-messaging-platform
+- learn.implement-message-workflows-with-service-bus.3-exercise-implement-a-service-bus-topic-and-queue
+- learn.implement-message-workflows-with-service-bus.4-write-code-that-uses-service-bus-queues
+- learn.implement-message-workflows-with-service-bus.5-exercise-write-code-that-uses-service-bus-queues
+- learn.implement-message-workflows-with-service-bus.6-write-code-that-uses-service-bus-topics
+- learn.implement-message-workflows-with-service-bus.7-exercise-write-code-that-uses-service-bus-topics
+- learn.implement-message-workflows-with-service-bus.8-summary
+achievement: learn.implement-message-workflows-with-service-bus.badge

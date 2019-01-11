@@ -1,0 +1,3 @@
+V tomto modulu jsme ukázali, jak vytvořit účet Azure Cosmos DB, který můžete používat ve skutečných situacích, jako jsou maloobchodní online aplikace. Když databázi vytvoříte s inteligentním klíčem oddílu, budete moct horizontálně škálovat, jak poroste vaše potřeba datového úložiště. Také jste se dozvěděli o potřebách jednotek žádostí u vaší aplikace a o tom, jak je během vytváření účtu nastavit tak, abyste mohli později navýšit propustnost při zvyšování poptávky uživatelů.
+
+[!include[](../../../includes/azure-sandbox-cleanup.md)]

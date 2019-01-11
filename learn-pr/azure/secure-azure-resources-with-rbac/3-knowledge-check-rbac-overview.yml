@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.3-knowledge-check-rbac-overview
+metadata:
+  title: Prověrka znalostí – co je RBAC?
+  description: Prověrka znalostí – co je RBAC?
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1ad3c45d9fda66eb2d3dc7c84f8f58ee0e0e7315
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733361"
+title: Prověrka znalostí – co je RBAC?
+durationInMinutes: 2
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Ano nebo ne: Role je v Azure definovaná jako kolekce oprávnění.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Definice role v Azure je kolekce oprávnění s názvem, kterou můžete přiřadit uživateli, skupině nebo aplikaci.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Definice role v Azure je kolekce oprávnění s názvem, kterou můžete přiřadit uživateli, skupině nebo aplikaci.
+  - content: Předpokládejme, že chcete přiřadit roli, která uživateli umožní vytvářet a spravovat prostředky Azure, ale nechcete, aby daný uživatel mohl udělit přístup ostatním. Která z následujících integrovaných rolí toto chování podporuje?
+    choices:
+    - content: Vlastník
+      isCorrect: false
+      incorrectExplanation: Vlastník může vytvářet a spravovat všechny typy prostředků Azure a může také udělovat přístup ostatním uživatelům.
+    - content: Přispěvatel
+      isCorrect: true
+      correctExplanation: Přispěvatel může vytvářet a spravovat všechny typy prostředků Azure, ale nemůže udělovat přístup ostatním uživatelům.
+    - content: Čtenář
+      isCorrect: false
+      incorrectExplanation: Čtenář může pouze zobrazit existující prostředky Azure.
+    - content: Správce uživatelských přístupů
+      isCorrect: false
+      incorrectExplanation: Správce uživatelských přístupů může pouze spravovat přístup k prostředkům Azure.
+  - content: Jaké je pořadí dědičnosti pro obor v Azure?
+    choices:
+    - content: Skupina pro správu, skupina prostředků, předplatné, prostředek
+      isCorrect: false
+      incorrectExplanation: Pořadí dědičnosti pro obor je skupina pro správu, předplatné, skupina prostředků, prostředek. Pokud například přiřadíte určité skupině roli Přispěvatel na úrovni oboru předplatného, zdědí tuto roli všechny skupiny prostředků a prostředky.
+    - content: Skupina pro správu, předplatné, skupina prostředků, prostředek
+      isCorrect: true
+      correctExplanation: Pořadí dědičnosti pro obor je skupina pro správu, předplatné, skupina prostředků, prostředek. Pokud například přiřadíte určité skupině roli Přispěvatel na úrovni oboru předplatného, zdědí tuto roli všechny skupiny prostředků a prostředky.
+    - content: Předplatné, skupina pro správu, skupina prostředků, prostředek
+      isCorrect: false
+      incorrectExplanation: Pořadí dědičnosti pro obor je skupina pro správu, předplatné, skupina prostředků, prostředek. Pokud například přiřadíte určité skupině roli Přispěvatel na úrovni oboru předplatného, zdědí tuto roli všechny skupiny prostředků a prostředky.
+    - content: Předplatné, skupina prostředků, skupina pro správu, prostředek
+      isCorrect: false
+      incorrectExplanation: Pořadí dědičnosti pro obor je skupina pro správu, předplatné, skupina prostředků, prostředek. Pokud například přiřadíte určité skupině roli Přispěvatel na úrovni oboru předplatného, zdědí tuto roli všechny skupiny prostředků a prostředky.

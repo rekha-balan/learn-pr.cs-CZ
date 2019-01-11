@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.2-rbac-overview
+metadata:
+  title: Co je RBAC?
+  description: Zjistěte, co je řízení přístupu na základě rolí (RBAC) a jak funguje.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 13ecc79c95a73ee02c956300dbdd51c5b92a1a8f
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733361"
+title: Co je RBAC?
+durationInMinutes: 8
+content: '[!include[](includes/2-rbac-overview.md)]'

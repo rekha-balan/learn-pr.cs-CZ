@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.5-create-resource-interactively
+title: Vytvoření prostředků Azure pomocí skriptů v Azure PowerShellu
+metadata:
+  title: Vytvoření prostředků Azure pomocí skriptů v Azure PowerShellu
+  description: Vytvoření prostředků Azure pomocí skriptů v Azure PowerShellu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform
+  ms.openlocfilehash: aa448b97b3aef75c4a5505ca8ee9ccb1fb9b31b4
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732903"
+durationInMinutes: 5
+content: '[!include[](includes/5-create-resource-interactively.md)]'

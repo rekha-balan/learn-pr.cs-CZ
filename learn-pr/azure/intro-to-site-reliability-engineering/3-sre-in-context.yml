@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.3-sre-in-context
+title: SRE v kontextu
+metadata:
+  title: SRE v kontextu
+  description: SRE v kontextu
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a7a30dd84d3fc58d19b805250aa24c77002cd786
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52938862"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-sre-in-context.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Vzhledem k původu SRE, která disciplína měla na SRE největší vliv?
+    choices:
+    - content: Služby zákazníkům
+      isCorrect: false
+      incorrectExplanation: Pro SRE je důležitý způsob myšlení orientovaný na zákazníka, ale služby zákazníkům u kolébky SRE nestály.
+    - content: Provoz mainframů
+      isCorrect: false
+      incorrectExplanation: I když se můžeme poučit z provozní specialit, SRE touhle nezačala.
+    - content: Softwarové inženýrství
+      isCorrect: true
+      correctExplanation: SRE má svůj původ v softwarově inženýrským myšlením.
+    - content: Architektura
+      isCorrect: false
+      incorrectExplanation: Architektura (hlavně softwarová architektura) je zcela jistě součástí práce SRE, ale na jejím počátku nestála.
+  - content: Co bylo dříve, DevOps nebo SRE?
+    choices:
+    - content: DevOps
+      isCorrect: false
+      incorrectExplanation: Tyto principy se vyvíjely zhruba souběžně.
+    - content: SRE
+      isCorrect: false
+      incorrectExplanation: Tyto principy se vyvíjely zhruba souběžně.
+    - content: Ani jedno, vyvíjely se zhruba souběžně.
+      isCorrect: true
+  - content: Je SRE další krok evoluce DevOps?
+    choices:
+    - content: Ano, SRE je budoucností DevOps. Pracovníci DevOps by měli usilovat o to, aby se stali SRE
+      isCorrect: false
+      incorrectExplanation: DevOps a SRE jsou oddělené provozní postupy, které se pokoušejí řešit podobné problémy.
+    - content: Ne, SRE a DevOps jsou oddělené provozní postupy
+      isCorrect: true
+      correctExplanation: DevOps a SRE jsou skutečně oddělené, i když se pokoušejí řešit podobné problémy.
+  - content: Jaké jsou dva osvědčené postupy, které jsou zásadní pro DevOps i SRE?
+    choices:
+    - content: Automatizace a monitorování/pozorovatelnost
+      isCorrect: true
+    - content: Kódování a systémy lístků
+      isCorrect: false
+      incorrectExplanation: Zatímco kódování je pro SRE důležité, systémy lístků nikoliv.
+    - content: Automatizace helpdesku a sledování chyb
+      isCorrect: false
+      correctExplanation: Automatizace helpdesku, jakkoli užitečná, není pro provozní praxi zásadní.

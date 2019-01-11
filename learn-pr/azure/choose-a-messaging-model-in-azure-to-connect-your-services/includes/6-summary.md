@@ -1,0 +1,3 @@
+V tomto modulu jste se seznámili se čtyřmi různými službami Azure, které vám umožnují vytvářet spolehlivé a odolné distribuované aplikace. Rozhodnutí, kterou z nich si vybrat, závisí na tom, jaký typ dat potřebujete předat mezi komponentami (zprávy nebo události) a jaké funkce potřebujete k doručení a zpracování těchto dat.
+
+Učte se dál a pokračujte dalšími moduly Microsoft Learn, které vám ukáží, jak používat jednotlivé komponenty pro zasílání zpráv v Azure.

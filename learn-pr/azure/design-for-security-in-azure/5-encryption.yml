@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.5-encryption
+title: Šifrování
+metadata:
+  title: Šifrování
+  description: V této lekci probereme, jak zabezpečit architekturu pomocí šifrování.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c66a49a8dc06280cb59b78b59f0c1fc3900e9cdc
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-encryption.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Pravda či nepravda: Azure Disk Encryption můžou používat jenom virtuální počítače s Windows'
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Služba Azure Disk Encryption je dostupná pro virtuální počítače s Windows i Linuxem.
+    - content: Nepravda
+      isCorrect: true
+      correctExplanation: Služba Azure Disk Encryption je dostupná pro virtuální počítače s Windows i Linuxem.
+  - content: Která z následujících možností patří mezi faktory?
+    choices:
+    - content: Úroveň rizika pro zákazníky v případě zpřístupnění
+      isCorrect: true
+      correctExplanation: Klasifikace dat, která by měla být zašifrována, je běžně založené na jejich dopadu, který to může mít na zákazníky, pokud je nechráněný.
+    - content: Způsob přenosu dat
+      isCorrect: false
+      incorrectExplanation: Klasifikace dat, která by měla být zašifrována, je běžně založené na jejich dopadu, který to může mít na zákazníky, pokud je nechráněný.
+    - content: To, jestli jsou data uložená na virtuálních počítačích nebo v databázi
+      isCorrect: false
+      incorrectExplanation: Klasifikace dat, která by měla být zašifrována, je běžně založené na jejich dopadu, který to může mít na zákazníky, pokud je nechráněný.
+    - content: Množství uložených dat
+      isCorrect: false
+      incorrectExplanation: Klasifikace dat, která by měla být zašifrována, je běžně založené na jejich dopadu, který to může mít na zákazníky, pokud je nechráněný.

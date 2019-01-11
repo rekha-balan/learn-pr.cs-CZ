@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-azure-resources-with-rbac.7-knowledge-check-rbac
+metadata:
+  title: Prověrka znalostí – použití RBAC
+  description: Prověrka znalostí – použití RBAC
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e8174aa06149613ba99faada071de7a9db27cdbe
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733361"
+title: Prověrka znalostí – použití RBAC
+durationInMinutes: 3
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Ano nebo ne: Pro udělení uživatelského přístupu k prostředkům Azure vytvoříte přiřazení role.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Přiřazení role je proces svázání role s objektem zabezpečení v určitém oboru za účelem udělení přístupu.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Přiřazení role je proces svázání role s objektem zabezpečení v určitém oboru za účelem udělení přístupu.
+  - content: Předpokládejme, že některý vývojář potřebuje úplný přístup ke skupině prostředků. Pokud se držíte osvědčených postupů spočívajících v minimálních oprávněních, jaký obor byste měli zadat?
+    choices:
+    - content: Prostředek
+      isCorrect: false
+      incorrectExplanation: Při dodržování osvědčených postupů spočívajících v minimálních oprávněních udělíte jen takový přístup, který uživatel potřebuje pro výkon své práce. V takovém případě byste měli obor nastavit na skupinu prostředků.
+    - content: Skupina prostředků
+      isCorrect: true
+      correctExplanation: Při dodržování osvědčených postupů spočívajících v minimálních oprávněních udělíte jen takový přístup, který uživatel potřebuje pro výkon své práce. V takovém případě byste měli obor nastavit na skupinu prostředků.
+    - content: Předplatné
+      isCorrect: false
+      incorrectExplanation: Při dodržování osvědčených postupů spočívajících v minimálních oprávněních udělíte jen takový přístup, který uživatel potřebuje pro výkon své práce. V takovém případě byste měli obor nastavit na skupinu prostředků.

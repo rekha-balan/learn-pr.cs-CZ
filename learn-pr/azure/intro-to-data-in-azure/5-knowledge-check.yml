@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.5-knowledge-check
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2f63ec6bf4e11703aa9e003926ce47b80f092e7f
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52929444"
+title: Prověrka znalostí
+durationInMinutes: 5
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Předpokládejme, že pracujete u začínající společnosti s omezeným financováním. Proč byste měli upřednostnit úložiště dat Azure před místním řešením?
+    choices:
+    - content: Abyste měli jistotu, že používáte konkrétní značku hardwaru, který vám umožní navázat marketingové partnerství s dodavatelem daného hardwaru.
+      isCorrect: false
+      incorrectExplanation: S Azure vám odpadnou velké počáteční investiční výdaje. Měsíčně platíte pouze za služby, které využíváte.
+    - content: Model průběžných plateb Azure vám umožňuje vyhnout se nákupu drahého hardwaru.
+      isCorrect: true
+      correctExplanation: S Azure vám odpadnou velké počáteční investiční výdaje. Měsíčně platíte pouze za služby, které využíváte.
+    - content: Abyste měli přesnou kontrolu nad umístěním, ve kterém jsou data uložena.
+      isCorrect: false
+      incorrectExplanation: S Azure vám odpadnou velké počáteční investiční výdaje. Měsíčně platíte pouze za služby, které využíváte (OpEx, operační náklady).
+  - content: Která z následujících situací by vám přinesla největší výhody při přesunu místního úložiště dat do Azure?
+    choices:
+    - content: Poptávka po úložišti se během roku nepředvídatelně několikrát zvyšuje a snižuje.
+      isCorrect: true
+      correctExplanation: Azure Data Storage je flexibilní. Kapacitu můžete přidávat a odebírat rychle a snadno. Můžete zvýšit výkon, abyste pokryli špičku v zatížení, nebo ho snížit a ušetřit náklady. Ve všech případech platíte jenom za to, co využíváte.
+    - content: Poptávka po úložišti dlouhodobě stabilně roste.
+      isCorrect: false
+      incorrectExplanation: Azure Data Storage je flexibilní. Kapacitu můžete přidávat a odebírat rychle a snadno. Můžete zvýšit výkon, abyste pokryli špičku v zatížení, nebo ho snížit a ušetřit náklady. Ve všech případech platíte jenom za to, co využíváte.
+    - content: Konzistentní neměnná poptávka po úložišti.
+      isCorrect: false
+      incorrectExplanation: Azure Data Storage je flexibilní. Kapacitu můžete přidávat a odebírat rychle a snadno. Můžete zvýšit výkon, abyste pokryli špičku v zatížení, nebo ho snížit a ušetřit náklady. Ve všech případech platíte jenom za to, co využíváte.

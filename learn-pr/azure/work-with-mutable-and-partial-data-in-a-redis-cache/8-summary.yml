@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.8-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b0ab0ea3859ec9995ce565a635e74e33d9c8ec56
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732578"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co se stane, pokud se příkaz v transakci Redis nezdaří?
+    choices:
+    - content: Pokud je příkaz ve frontě s nesprávnou syntaxí, transakce se automaticky zahodí, pokud se pokusíte o její provedení. Pokud příkaz selže v průběhu provádění, transakce se dokončí jako obvykle.
+      isCorrect: true
+      correctExplanation: Příkazy v Redis, které se nezdaří v době provádění, transakci nezastaví. Příkazy ve frontě s nesprávnou syntaxi způsobí, že nebude možné transakci provést.
+    - content: Příkazy, předcházející selhávajícímu příkazu, se spustí, avšak ty, které následují po selhávajícím příkazu, se již nespustí.
+      isCorrect: false
+      incorrectExplanation: Selhávající příkaz v rámci transakce nezabrání spuštění pozdějších příkazů.
+    - content: Celá transakce bude vrácena zpět.
+      isCorrect: false
+      incorrectExplanation: Redis nepodporuje odvolání transakce.
+    - content: Připojení bude přerušeno.
+      isCorrect: false
+      incorrectExplanation: Příkazy, které selžou, nezpůsobí přerušení připojení Redis.
+  - content: Které z následujících možností je příkaz Redis pro správu vypršení platnosti dat?
+    choices:
+    - content: DEL
+      isCorrect: false
+      incorrectExplanation: DEL slouží k odstranění klíčů.
+    - content: ZAHODIT
+      isCorrect: false
+      incorrectExplanation: Možnost ZAHODIT slouží ke zrušení transakce před jejím provedením.
+    - content: ČASOVÝ LIMIT
+      isCorrect: false
+      incorrectExplanation: ČASOVÝ LIMIT není platný příkaz Redis.
+    - content: VYPRŠENÍ
+      isCorrect: true
+      correctExplanation: VYPRŠENÍ se používá k nastavení časového limitu vypršení platnosti klíče v řádu sekund.
+  - content: Vaše mezipaměť Redis je nakonfigurována se zásadami pro vyřazení **volatile ttl**. Který z existujících klíčů je odebrán, když se v případě nedostatku paměti pokusíte vložit nový klíč?
+    choices:
+    - content: Naposledy použitý klíč.
+      isCorrect: false
+      incorrectExplanation: Toto je chování zásady vyřazení **allkeys lru**.
+    - content: Náhodný klíč.
+      isCorrect: false
+      incorrectExplanation: Toto je chování zásady vyřazení **allkeys-random**.
+    - content: Klíč, který vyprší jako další.
+      isCorrect: true
+      correctExplanation: Zásada **volatile-ttl** odebere klíč s nejkratší životností.
+    - content: Náhodný klíč vybraný z klíčů, které jsou nakonfigurované s vypršením platnosti.
+      isCorrect: false
+      incorrectExplanation: Toto je chování zásady **volatile-random**.

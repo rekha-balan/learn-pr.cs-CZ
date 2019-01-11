@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-access-azure-ad-multi-factor-authentication.1-introduction
+metadata:
+  title: Úvod
+  description: Zabezpečený přístup k prostředkům pomocí Azure AD, podmíněného přístupu a vícefaktorového ověřování Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d3f8812c2a554d5191c6932a65d07a08cbeb4c51
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52924363"
+title: Úvod
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

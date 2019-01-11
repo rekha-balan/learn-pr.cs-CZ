@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.work-with-mutable-and-partial-data-in-a-redis-cache.5-implement-data-expiration
+title: Implementace vypršení platnosti dat
+metadata:
+  title: Implementace vypršení platnosti dat
+  description: Implementace vypršení platnosti dat
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6f3fb40ed38bac6f68abf2181221945d4fc726a5
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732578"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/5-implement-data-expiration.md)]'

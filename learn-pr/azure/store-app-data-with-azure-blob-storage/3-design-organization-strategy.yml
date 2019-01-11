@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy
+title: Návrh strategie organizace pro úložiště
+metadata:
+  title: Návrh strategie organizace pro úložiště
+  description: Návrh strategie organizace pro úložiště
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3c961be63da81c45114c1c0853c26dc7cde577bd
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006151"
+durationInMinutes: 7
+content: >
+  [!include[](includes/3-design-organization-strategy.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Předpokládejme, že potřebujete uložit informace o profilech a objednávkách vašich zákazníků. Abyste získali odpovědi na otázky typu „kteří zákazníci patří mezi 100 mých nejdůležitějších zákazníků“ a „kolik zákazníků žije v dané geografické oblasti“, musíte se na tato data dotázat. Pravda nebo nepravda: Je pro tato data vhodné úložiště objektů blob?'
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Objekty blob nejsou vhodné pro strukturovaná data, na která je potřeba se často dotazovat. Mají vyšší latenci než paměť a místní disk a nemají funkce indexování, díky kterým se v databázích efektivně zpracovávají dotazy.
+    - content: Nepravda
+      isCorrect: true
+      correctExplanation: Objekty blob nejsou vhodné pro strukturovaná data, na která je potřeba se často dotazovat. Mají vyšší latenci než paměť a místní disk a nemají funkce indexování, díky kterým se v databázích efektivně zpracovávají dotazy.
+  - content: Objekty blob poskytují úložiště *nestrukturovaných* dat. Co znamená pojem *nestrukturovaná*?
+    choices:
+    - content: Objekty blob není možné uspořádat ani pojmenovat.
+      isCorrect: false
+      incorrectExplanation: Objekty blob nevynucují žádnou strukturu dat, což znamená, že aplikace může v objektech blob ukládat jakýkoli typ dat.
+    - content: Pro typy dat, které lze v objektech blob ukládat, neexistují žádná omezení.
+      isCorrect: true
+      correctExplanation: Objekty blob nevynucují žádnou strukturu dat, což znamená, že aplikace může v objektech blob ukládat jakýkoli typ dat.
+    - content: Objekty blob nemůžou obsahovat strukturovaná data, například ve formátu JSON nebo XML.
+      isCorrect: false
+      incorrectExplanation: Objekty blob nevynucují žádnou strukturu dat, což znamená, že aplikace může v objektech blob ukládat jakýkoli typ dat.

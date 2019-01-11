@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.caching-and-performance-azure-storage-and-disks.3-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal
+title: Povolení a konfigurace mezipaměti disku virtuálního počítače Azure přes Azure Portal
+metadata:
+  title: Povolení a konfigurace mezipaměti disku virtuálního počítače Azure přes Azure Portal
+  description: Povolení a konfigurace mezipaměti disku virtuálního počítače Azure přes Azure Portal
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7861f918a669dc106f128c10a68231e7da8018e6
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732783"
+durationInMinutes: 5
+content: '[!include[](includes/3-enable-and-configure-azure-vm-disk-cache-by-using-the-azure-portal.md)'

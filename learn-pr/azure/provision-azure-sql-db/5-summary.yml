@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.provision-azure-sql-db.5-summary
+title: Souhrn a vyčištění
+metadata:
+  title: Souhrn a vyčištění
+  description: Souhrn a vyčištění
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 4561b827c823b48fcbe96c8c2add3b256c8f5f3d
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005738"
+durationInMinutes: 5
+content: >
+  [!include[](includes/5-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Kdo je odpovědný za aktualizace softwaru databází Azure SQL Database a základního operačního systému?
+    choices:
+    - content: Vy. Je na vás, abyste se pravidelně přihlašovali a nainstalovali nejnovější aktualizace a opravy zabezpečení.
+      isCorrect: false
+      incorrectExplanation: Azure SQL Database je služba typu platforma jako služba (PaaS), což znamená, že budete mít na starost mnohem méně údržby.
+    - content: Microsoft Azure. Azure se za vás postará o aktualizace hardwaru a softwaru a opravy operačního systému.
+      isCorrect: true
+      correctExplanation: Databáze Azure SQL Database nabídka typu platforma jako služba (PaaS). Azure se za vás postará o aktualizace hardwaru a softwaru a opravy operačního systému.
+    - content: Nikdo. Vaše databáze zůstane s původní konfigurací operačního systému a softwaru.
+      isCorrect: false
+      incorrectExplanation: Databáze Azure SQL Database nabídka typu platforma jako služba (PaaS). Poskytovatel cloudu obvykle spravuje a aktualizuje služby PaaS za vás.
+  - content: Co je _Azure SQL logical server_ (Logický server Azure SQL)?
+    choices:
+    - content: Správní kontejner pro vaše databáze.
+      isCorrect: true
+      correctExplanation: Přes logický server můžete řídit přihlašování, pravidla brány firewall a zásady zabezpečení.
+    - content: Další název pro instanci databáze Azure SQL Database.
+      isCorrect: false
+      incorrectExplanation: Nezapomeňte, že můžete mít několik instancí databáze. Existuje způsob, jak je spravovat společně?
+    - content: Server definující logická pravidla, která řadí a porovnávají data.
+      isCorrect: false
+      incorrectExplanation: _Kolace_ znamená pravidla, která řadí a porovnávají data.
+  - content: Azure SQL Database nabízí adekvátní úložiště a výpočetní výkon. Vy však zjistíte, že potřebujete větší vstupně-výstupní propustnost. Jaký výkonnostní model můžete použít?
+    choices:
+    - content: DTU
+      isCorrect: false
+      incorrectExplanation: DTU nebo jednotka databázové transakce nabízí jednoduchou možnost předem nakonfigurovaného nákupu. Pokud chcete zvýšit vstupně-výstupní propustnost, budete muset přejít na vyšší úroveň, která současně zvětší dostupné úložiště a výpočetní výkon – věci, které nepotřebujete.
+    - content: Virtuální jádro
+      isCorrect: true
+      correctExplanation: Virtuální jádra vám dávají větší kontrolu nad tím, jaké výpočetní prostředky a prostředky úložiště vytvoříte a platíte za ně. Můžete zvýšit vstupně-výstupní propustnost, ale můžete si ponechat existující objem výpočetních prostředků a úložiště.
+    - content: Elastický fond SQL
+      isCorrect: false
+      incorrectExplanation: Elastické fondy SQL umožňují zakoupit sadu výpočetních a úložných prostředků, které se sdílejí mezi všemi databázemi ve fondu. Tato možnost vstupně-výstupní výkon nezlepší, protože pracujete s pouze jednou databázi.

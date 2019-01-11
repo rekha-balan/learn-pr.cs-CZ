@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.keep-your-virtual-machines-updated.2-update-management-solution-on-a-vm
+title: Řešení Update Management na virtuálním počítači
+metadata:
+  title: Řešení Update Management na virtuálním počítači
+  description: Řešení Update Management na virtuálním počítači
+  ms.date: 12/21/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 6a0cc56a050df29b08f8d90619921f74fad4bf86
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799477"
+durationInMinutes: 5
+content: '[!include[](includes/2-update-management-solution-on-a-vm.md)]'

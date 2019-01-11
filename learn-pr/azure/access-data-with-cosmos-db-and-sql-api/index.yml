@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.access-data-with-cosmos-db-and-sql-api
+metadata:
+  title: Vkládání dat do databáze Azure Cosmos DB a dotazování na ně – výuka
+  description: Přečtěte si, jak můžete do databáze Azure Cosmos DB přidávat data NoSQL a dotazovat se na ně.
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 6e469b86f4da7af695be0fbd74fc50fa9c939059
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005838"
+title: Vkládání dat do databáze Azure Cosmos DB a dotazování na ně
+summary: Přečtěte si, jak v Azure Cosmos DB můžete přidávat data NoSQL do databáze a dotazovat se na ně.
+abstract: >
+  V tomto modulu:
+
+  - Vytvořit dokumenty produktového katalogu v Průzkumníku dat
+
+  - Provádět dotazy Azure Cosmos DB
+
+  - Vytvářet a spouštět operace pomocí uložených procedur
+prerequisites: "- Znalost databází a dotazů \n"
+iconUrl: /learn/achievements/access-data-with-cosmos-db-and-sql-api.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-cosmos-db
+- azure-clis
+- azure-portal
+units:
+- learn.access-data-with-cosmos-db-and-sql-api.1-introduction
+- learn.access-data-with-cosmos-db-and-sql-api.2-setup-cosmosdb
+- learn.access-data-with-cosmos-db-and-sql-api.3-add-data
+- learn.access-data-with-cosmos-db-and-sql-api.4-query-types
+- learn.access-data-with-cosmos-db-and-sql-api.5-run-queries
+- learn.access-data-with-cosmos-db-and-sql-api.6-javascript-programming
+- learn.access-data-with-cosmos-db-and-sql-api.7-summary
+achievement: learn.access-data-with-cosmos-db-and-sql-api.badge

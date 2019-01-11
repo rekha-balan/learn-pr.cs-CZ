@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.6-knowledge-check
+metadata:
+  title: Prověrka znalostí
+  description: Otestujte svoje znalosti
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ca4bfa43bd6a5d18a098dc538733970e0718523c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+title: Kontrola znalostí
+durationInMinutes: 5
+content: >
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Který z následujících způsobů je nejúčinnější postup, jak zabezpečit databázi, aby byl povolený přístup jenom z virtuální sítě a zároveň omezený z internetu?
+    choices:
+    - content: Pravidlo povolení přístupu ke službám Azure
+      isCorrect: false
+    - content: Pravidlo IP adresy úrovni serveru
+      isCorrect: false
+    - content: Pravidlo virtuální sítě na úrovni serveru
+      isCorrect: true
+      correctExplanation: Pravidlo virtuální sítě na úrovni serveru vám umožní povolit připojení z konkrétních podsítí virtuální sítě Azure a zablokuje přístup z internetu. Toto je nejúčinnější způsob zabezpečení této konfigurace.
+    - content: Pravidlo IP adresy na úrovni databáze
+      isCorrect: false
+  - content: Na sloupec v databázi, který obsahuje e-mailovou adresu uživatele laura@contoso.com, byla použita maska. Co z následujícího seznamu možností zobrazí maska pro účet správce databáze?
+    choices:
+    - content: lxxx@xxxx.com
+      isCorrect: false
+    - content: laura@xxxxxxx.com
+      isCorrect: false
+    - content: laura@contoso.com
+      isCorrect: true
+      correctExplanation: Při získání přístupu k datům, u kterých je použita maska, pomocí účtu správce databáze, dojde k odebrání masky a budou viditelná původní data.
+    - content: Data nejsou dostupná
+      isCorrect: false
+  - content: Které soubory databáze zašifruje Transparentní šifrování dat?
+    choices:
+    - content: Jen databázové soubory
+      isCorrect: false
+    - content: Jen soubory protokolu a záložní soubory
+      isCorrect: false
+    - content: Jen záložní soubory
+      isCorrect: false
+    - content: Soubory databáze, protokolů a záložní soubory
+      isCorrect: true
+      correctExplanation: Transparentní šifrování dat šifruje všechny databázové, protokolové a záložní soubory. Při vytváření nových databází Azure SQL je transparentní šifrování dat ve výchozím nastavení povolené.
+  - content: Zapne se šifrovaná komunikace při připojení k serveru SQL Azure automaticky?
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Azure SQL Database vynucuje šifrování (SSL/TLS) vždy pro všechna připojení.
+    - content: Ne
+      isCorrect: false

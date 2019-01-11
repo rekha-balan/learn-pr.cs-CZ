@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn.get-started-with-devops
+metadata:
+  title: Začínáme s Azure DevOps
+  description: V tomto modulu prozkoumáte DevOps a dozvíte se, jak začít používat službu Azure DevOps.
+  ms.date: 11/16/2018
+  ms.openlocfilehash: 868c6a18f4a428f2145684066d6a000b3e7ed815
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798472"
+abstract: >
+  V tomto modulu:
+    - Zjistíte, jak Azure DevOps poskytuje zjednodušený kanál DevOps
+    - Přihlásíte se k bezplatnému účtu Azure DevOps
+    - Vytvoříte nový projekt v Azure DevOps
+title: Začínáme s Azure DevOps
+summary: V tomto modulu prozkoumáte DevOps a dozvíte se, jak začít používat službu Azure DevOps.
+cardDescription: V tomto modulu prozkoumáte DevOps a dozvíte se, jak začít používat službu Azure DevOps.
+iconUrl: /learn/achievements/get-started-with-devops.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+units:
+- learn.get-started-with-devops.1-introduction
+- learn.get-started-with-devops.2-what-is-devops
+- learn.get-started-with-devops.3-what-is-azure-devops
+- learn.get-started-with-devops.4-create-an-azure-devops-account
+- learn.get-started-with-devops.5-summary
+achievement: learn.get-started-with-devops.badge

@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check
+title: Shrnutí a prověrka znalostí
+metadata:
+  title: Shrnutí a prověrka znalostí
+  description: Potvrďte, že rozumíte postupu používanému ke klasifikaci obrázků ve službě Microsoft Custom Vision Service.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6e3c1e6b4e826449194ac0c6a20ce58717ea6705
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932572"
+content: >
+  [!include[](includes/6-summary.md)]
+durationInMinutes: 10
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: K čemu při vytváření nového vlastního projektu Custom Vision Service slouží doména?
+    choices:
+    - content: Pomáhá rozhodnout, jak pojmenovat projekt.
+      isCorrect: false
+      incorrectExplanation: Projekt můžete pojmenovat, jak potřebujete. Doména nemá na název vliv.
+    - content: Pomáhá rozhodnout, jak strukturovat projekt.
+      isCorrect: false
+      incorrectExplanation: Z pohledu trénovacích obrázků a predikce mají projekty stejnou strukturu. Struktura se nemění podle zvolené domény.
+    - content: Optimalizuje klasifikátor pro konkrétní typ obrázku.
+      isCorrect: true
+      correctExplanation: Doména dává klasifikátoru bližší informace o očekávaném obsahu obrázků.
+  - content: Proč byste po nahrání obrázků měli přidat značku?
+    choices:
+    - content: Abyste mohli snadněji uspořádat obrázky v projektu pro pozdější využití.
+      isCorrect: false
+      incorrectExplanation: I když značky pomáhají uspořádat obrázky, není to jejich jediný účel.
+    - content: Aby se obrázky vložily do kategorie pro trénování.
+      isCorrect: true
+      correctExplanation: Značky říkají klasifikátoru, jaké vlastnosti se na obrázek vztahují. Aby klasifikace obrázků fungovala, musíte přidat alespoň jednu značku.
+    - content: Aby se po trénování vygeneroval shluk slov.
+      isCorrect: false
+      incorrectExplanation: Custom Vision Service nevytváří shluky slov.
+  - content: Jaké dvě hodnoty musíte znát, abyste mohli volat prediktivní rozhraní API z klientského kódu?
+    choices:
+    - content: Prediktivní adresu URL a klíč predikce
+      isCorrect: true
+      correctExplanation: Adresa URL určuje koncový bod pro připojení a klíč predikce autorizuje přístup aplikace ke službě.
+    - content: Název služby a ověřovací token
+      isCorrect: false
+      incorrectExplanation: Ani jedna z těchto hodnot se nevztahuje k prediktivnímu rozhraní API.
+    - content: Tajný kód klienta a identifikátor URI pro přesměrování
+      isCorrect: false
+      incorrectExplanation: Ani jedna z těchto hodnot se nevztahuje k prediktivnímu rozhraní API.

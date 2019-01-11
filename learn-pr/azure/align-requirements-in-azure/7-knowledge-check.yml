@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.7-knowledge-check
+title: Prověrka znalostí – IaaS, PaaS a SaaS
+metadata:
+  title: Prověrka znalostí – IaaS, PaaS a SaaS
+  description: Prověrka znalostí – IaaS, PaaS a SaaS
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 31386158572a5d84853480647afb61432568656c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52920567"
+durationInMinutes: 2
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Který model cloudové služby by nejlépe odpovídal následující situaci? Pro krátkodobý projekt je potřeba databáze SQL Serveru. Oddělení IT nemá k dispozici hardware, který by splňoval požadavky na výkon, nebo prostředky k jeho nasazení. Projekt začíná příští týden. Po dokončení projektu už nebude databáze potřebná.
+    choices:
+    - content: IaaS
+      isCorrect: false
+      incorrectExplanation: Vzhledem k okamžité potřebě a krátkému životnímu cyklu je nejvhodnější model PaaS. Jako řešení můžete použít například službu Azure SQL Database. IaaS není tak dobrou volbou, protože vytvoření virtuálního počítače a instalace SQL Serveru by vyžadovalo více času a úsilí než použití předdefinované nabídky PaaS.
+    - content: PaaS
+      isCorrect: true
+      correctExplanation: Vzhledem k okamžité potřebě a krátkému životnímu cyklu je nejvhodnější model PaaS. Jako řešení můžete použít například službu Azure SQL Database. IaaS není tak dobrou volbou, protože vytvoření virtuálního počítače a instalace SQL Serveru by vyžadovalo více času a úsilí než použití předdefinované nabídky PaaS.
+    - content: SaaS
+      isCorrect: false
+      incorrectExplanation: Vzhledem k okamžité potřebě a krátkému životnímu cyklu je nejvhodnější model PaaS. Jako řešení můžete použít například službu Azure SQL Database. IaaS není tak dobrou volbou, protože vytvoření virtuálního počítače a instalace SQL Serveru by vyžadovalo více času a úsilí než použití předdefinované nabídky PaaS.
+  - content: Který model cloudové služby je popsán v následujícím scénáři? V cloudu vytvoříte několik virtuálních počítačů. Virtuální počítače jsou prostřednictvím virtuální sítě připojené a mají přístup k rentgenovým obrázkům v cloudovém úložišti. Jeden z virtuálních počítačů je webový server hostující web, který je přístupný z internetu, aby zákazníci měli přístup k záznamům. Existuje síť VPN, která propojuje řešení s místním datovým centrem, aby se zákazníkům zobrazily obrázky.
+    choices:
+    - content: IaaS
+      isCorrect: true
+      correctExplanation: Všechny prostředky použité v tomto scénáři je možné implementovat pomocí IaaS. Pomocí PaaS je možné implementovat jenom část řešení, a proto by tento model nebyl vhodnou volbou. Vzhledem k tomu, že se jedná o vlastní řešení, můžeme předpokládat, že neexistuje nabídka SaaS, která by tyto funkce poskytovala.
+    - content: PaaS
+      isCorrect: false
+      incorrectExplanation: Všechny prostředky použité v tomto scénáři je možné implementovat pomocí IaaS. Pomocí PaaS je možné implementovat jenom část řešení, a proto by tento model nebyl vhodnou volbou. Vzhledem k tomu, že se jedná o vlastní řešení, můžeme předpokládat, že neexistuje nabídka SaaS, která by tyto funkce poskytovala.
+    - content: SaaS
+      isCorrect: false
+      incorrectExplanation: Všechny prostředky použité v tomto scénáři je možné implementovat pomocí IaaS. Pomocí PaaS je možné implementovat jenom část řešení, a proto by tento model nebyl vhodnou volbou. Vzhledem k tomu, že se jedná o vlastní řešení, můžeme předpokládat, že neexistuje nabídka SaaS, která by tyto funkce poskytovala.
+  - content: Který model cloudové služby by nejlépe odpovídal následující situaci? Pracujete ve startupové společnosti s malým počtem zaměstnanců, kteří potřebují spolupracovat. Potřebují e-mail, kalendář a nějaké úložiště pro dokumenty. Jedná se o technický tým, který však nemá čas ani hardware potřebný k implementaci a správě řešení.
+    choices:
+    - content: IaaS
+      isCorrect: false
+      incorrectExplanation: Pro požadavky na spolupráci by bylo vhodné řešení SaaS, například Office 365.
+    - content: PaaS
+      isCorrect: false
+      incorrectExplanation: Pro požadavky na spolupráci by bylo vhodné řešení SaaS, například Office 365.
+    - content: SaaS
+      isCorrect: true
+      correctExplanation: Pro požadavky na spolupráci by bylo vhodné řešení SaaS, například Office 365.
+  - content: Který model cloudové služby je popsán v následujícím scénáři? V organizaci máte dvě datová centra. Jedno datové centrum má databázi, která se může kvůli zákonným požadavkům nacházet jenom v jednom z datových center. K této databázi chcete získat přístup z druhého datového centra. S pomocí poskytovatele cloudových služeb vytvoříte síť VPN, která tato dvě datová centra propojí.
+    choices:
+    - content: IaaS
+      isCorrect: true
+      correctExplanation: Síť VPN je prostředek IaaS, a proto je možné ji zvažovat jako řešení IaaS.
+    - content: PaaS
+      isCorrect: false
+      incorrectExplanation: Síť VPN je prostředek IaaS, a proto je možné ji zvažovat jako řešení IaaS.
+    - content: SaaS
+      isCorrect: false
+      incorrectExplanation: Síť VPN je prostředek IaaS, a proto je možné ji zvažovat jako řešení IaaS.

@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.4-use-environment-variables
+metadata:
+  title: Nastavení proměnných prostředí
+  description: Nastavení proměnných prostředí ve službě Azure Container Instances
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 852eaa00760e0f6933b4449f7f1378d997bb03b0
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52937334"
+title: Nastavení proměnných prostředí
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-use-environment-variables.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: aci-demo
+  hint: ''
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: aci-demo-secure
+  hint: ''
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.DocumentDB/databaseAccounts
+      kind: GlobalDocumentDB
+  hint: ''

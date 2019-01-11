@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.welcome-to-azure.6-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Zopakujte si, co jste se naučili, a zjistěte, jak pokračovat dál na cestě ke cloudu.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c1671ac74f98e1f4b4f88da803ade188b2f3f14b
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798829"
+durationInMinutes: 1
+content: >
+  [!include[](includes/6-summary.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Co je Azure?
+    choices:
+    - content: Platforma cloud computingu od Microsoftu, která poskytuje výpočetní výkon, úložiště a služby přes internet s využitím cenového modelu průběžných plateb.
+      isCorrect: true
+      correctExplanation: Azure poskytuje přístup k „surovému“ výpočetnímu výkonu a úložišti a také ke službám, které vám pomůžou prozkoumat nová softwarová paradigmata, jako jsou inteligentní roboti nebo smíšená realita.
+    - content: Jedno datové centrum umístěné v Redmondu ve státě Washington.
+      isCorrect: false
+      incorrectExplanation: Azure se skládá z datových center rozmístěných po celém světě.
+    - content: Hostitelské prostředí speciálně pro virtuální počítače
+      isCorrect: false
+      incorrectExplanation: Azure poskytuje „surový“ výpočetní výkon, jako jsou virtuální počítače, ale také řadu služeb, které vám pomůžou prozkoumat nová softwarová paradigmata, jako jsou inteligentní roboti nebo smíšená realita.
+  - content: Kdy je potřeba _horizontálně navýšit kapacitu_ vašeho nasazení?
+    choices:
+    - content: Když vaše aplikace nebo služba vyžaduje výkonnější procesor nebo víc paměti, aby mohla běžet rychleji.
+      isCorrect: false
+      incorrectExplanation: V takovém případě můžete _vertikálně navýšit kapacitu_ přesunutím vaší aplikace nebo služby na výkonnější hardware.
+    - content: Když potřebujete další virtuální počítače pro zrychlení vaší aplikace.
+      isCorrect: true
+      correctExplanation: Horizontální navýšení kapacity znamená přidání dalších systémů, jako jsou třeba virtuální počítače. Můžete například vytvořit velký počet stejně nakonfigurovaných virtuálních počítačů a rozdělovat mezi nimi práci pomocí nástroje pro vyrovnávání zatížení.
+    - content: Když máte nadbytečnou kapacitu, kterou nepotřebujete.
+      isCorrect: false
+      incorrectExplanation: V takovém případě můžete _horizontálně snížit kapacitu_ odstavením systémů, které právě nepotřebujete.

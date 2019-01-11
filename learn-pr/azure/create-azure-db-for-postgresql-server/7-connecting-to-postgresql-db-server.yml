@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-db-for-postgresql.connecting-to-postgresql-db-server
+title: Cvičení – připojení k serveru Azure Database for PostgreSQL
+metadata:
+  title: Cvičení – připojení k serveru Azure Database for PostgreSQL
+  description: V tomto cvičení se připojíte k serveru Azure Database for PostgreSQL pomocí příkazu `psql`.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 51457e75cd82ff9e5dd1ff854bdfd7275e666aab
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006358"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/7-connecting-to-postgresql-db-server.md)]'

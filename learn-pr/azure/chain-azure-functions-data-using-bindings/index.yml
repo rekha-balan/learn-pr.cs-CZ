@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.chain-azure-functions-data-using-input-output-bindings
+metadata:
+  title: Zřetězení funkcí Azure pomocí vstupních a výstupních vazeb – výuka
+  description: V tomto modulu se dozvíte, jak pomocí vazeb integrovat funkci Azure s různými zdroji dat.
+  ms.date: 09/24/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: ac31ead9a511e4d8e585f9a1d622739950b441bc
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733642"
+title: Zřetězení funkcí Azure pomocí vstupních a výstupních vazeb
+summary: Integraci kódu funkce s daty a službami usnadňuje služba Azure Functions. Stačí prostřednictvím vazeb deklarovat zdroje dat pro čtení a zápis a nechat službu Azure Functions, aby se o všechno ostatní postarala.
+abstract: >
+  V tomto modulu:
+
+  - Prozkoumejte, k jakým typům zdrojů dat lze přistupovat prostřednictvím vazeb
+
+  - Čtení dat z Azure Cosmos DB pomocí služby Azure Functions
+
+  - Ukládání dat v Azure Cosmos DB pomocí služby Azure Functions
+
+  - Odesílání zpráv do Azure Queue Storage pomocí služby Azure Functions
+prerequisites: Žádné
+cardDescription: Integrujte zdroje dat s bezserverovou logikou Azure Functions bez serveru pomocí vazeb.
+iconUrl: /learn/achievements/chain-azure-functions-data-using-bindings.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-cosmos-db
+- azure-functions
+- azure-storage
+units:
+- learn.chain-azure-functions-data-using-input-output-bindings.1-introduction
+- learn.chain-azure-functions-data-using-input-output-bindings.2-explore-input-and-output-binding-types-portal-lesson
+- learn.chain-azure-functions-data-using-input-output-bindings.3-explore-input-and-output-binding-types-portal-lab
+- learn.chain-azure-functions-data-using-input-output-bindings.4-read-data-with-input-bindings-portal-lesson
+- learn.chain-azure-functions-data-using-input-output-bindings.5-read-data-with-input-bindings-portal-lab
+- learn.chain-azure-functions-data-using-input-output-bindings.6-write-data-with-output-bindings-portal-lesson
+- learn.chain-azure-functions-data-using-input-output-bindings.7-write-data-with-output-bindings-portal-lab
+- learn.chain-azure-functions-data-using-input-output-bindings.8-summary
+achievement: learn.chain-azure-functions-data-using-input-output-bindings.badge

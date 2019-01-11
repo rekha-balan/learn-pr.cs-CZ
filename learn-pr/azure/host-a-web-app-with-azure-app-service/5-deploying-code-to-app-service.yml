@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.5-deploying-code-to-app-service
+title: Nasazení kódu do služby App Service
+metadata:
+  title: Nasazení kódu do služby App Service
+  description: Nasazení kódu do služby App Service
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 68166f22d984274fe2c310c58c9c89f9b7f1b6dc
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53733142"
+durationInMinutes: 10
+content: '[!include[](includes/5-deploying-code-to-app-service.md)]'

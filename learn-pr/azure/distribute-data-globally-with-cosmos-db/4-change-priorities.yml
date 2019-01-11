@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.distribute-data-globally-with-cosmos-db.4-change-priorities
+metadata:
+  title: Změna globálních priorit čtení a zápisu
+  description: Zjistěte, jak změnit priority čtení a zápisu pro vaše globální oblasti.
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 559d38f01e4857e2401b8c5ec773dd33d5825312
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005812"
+title: Změna globálních priorit čtení a zápisu
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/4-change-priorities.md)]'

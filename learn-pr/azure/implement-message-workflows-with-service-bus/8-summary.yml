@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.8-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6545aa8454f5bd0f0e322a68aae97468a53d375b
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006299"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Kterou z následujících front použijete, pokud chcete pořadí „První dovnitř, první ven“ a podporu transakcí?
+    choices:
+    - content: Fronty Azure Service Bus
+      isCorrect: true
+      correctExplanation: Fronty Azure Service Bus zpracovávají zprávy ve stejném pořadí, v jakém byly přidány, a také podporují transakce. To znamená, že když přidání jedné ze zpráv v transakci selže, nebude přidána žádná ze zpráv v transakci.
+    - content: Fronty Azure Storage
+      isCorrect: false
+      incorrectExplanation: I když má fronta datovou strukturu „První dovnitř, první ven“, fronty Azure Storage ji nezaručují.
+  - content: Předpokládejme, že posíláte zprávu pomocí Azure Service Bus a chcete, aby jí obdrželo více komponent. Kterou funkci výměny Azure Service Bus byste měli použít?
+    choices:
+    - content: Fronta
+      isCorrect: false
+      incorrectExplanation: Fronta může mít v jednu chvíli jenom jednu cílovou komponentu, což znamená, že každá zpráva ve frontě se doručí jenom jednomu příjemci.
+    - content: Téma
+      isCorrect: true
+      correctExplanation: Téma umožňuje odběr více cílovým komponentám. To znamená, že každá zpráva se dá doručit několika příjemcům.
+    - content: Propojení
+      isCorrect: false
+      incorrectExplanation: Propojení se používá k obousměrné komunikaci a poskytuje dvousměrné připojení napříč síťovými hranicemi.
+  - content: 'Pravda nebo nepravda: Do fronty služby Azure Service Bus můžete přidat zprávu, která má velikost 2 MB.'
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Zpráva fronty Azure Service Bus musí být větší než 64 kB, ale menší než 256 kB.
+    - content: Nepravda
+      isCorrect: true
+      correctExplanation: Zpráva fronty Azure Service Bus musí být větší než 64 kB, ale menší než 256 kB.

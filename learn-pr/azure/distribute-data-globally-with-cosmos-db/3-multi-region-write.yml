@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.distribute-data-globally-with-cosmos-db.3-multi-region-write
+metadata:
+  title: Zápis do několika oblastí
+  description: Naučíte se, jak pomocí Azure Cosmos DB zapisovat data do několika oblastí najednou.
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 642b5691c8778784d82d0afac241328bdbc5bab1
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005812"
+title: Zápis do několika oblastí
+durationInMinutes: 5
+content: >
+  [!include[](includes/3-multi-region-write.md)]
+quiz:
+  title: Prověrka znalostí
+  questions:
+  - content: 'Ano nebo ne: výhody zápisu do několika oblastí jsou nižší latence, neomezený potenciál škálování a lepší dostupnost.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Zápis do několika oblastí přináší mnoho výhod z pohledu výkonu. Například latence pro operace zápisu je nižší než na účtech, které nejsou multi-master.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Zápis do několika oblastí přináší mnoho výhod z pohledu výkonu. Například latence pro operace zápisu je nižší než na účtech, které nejsou multi-master.
+  - content: Jaká je výchozí zásada pro řešení konfliktů na účtu multi-master?
+    choices:
+    - content: Poslední zápis
+      isCorrect: true
+      correctExplanation: Řešení konfliktů je integrované do služby Cosmos DB a provádí se na serveru, uvnitř databázového stroje. Poslední zápis je výchozí zásada.
+    - content: Vlastní procedura definovaná uživatelem
+      isCorrect: false
+      incorrectExplanation: Procedury definované uživatelem se podporují, ale nejedná se o výchozí mechanismy pro řešení konfliktů.

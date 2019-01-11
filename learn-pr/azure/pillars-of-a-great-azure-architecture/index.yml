@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.pillars-of-a-great-azure-architecture
+metadata:
+  title: Pilíře vhodné architektury v Azure – výuka
+  description: Chcete v Azure vytvořit něco skvělého, ale nevíte přesně, co to znamená. Pokud v architektuře uplatníte klíčové principy bez ohledu na zvolenou technologii, pomůže vám to při jejím návrhu, vytvoření a neustálém zlepšování.
+  ms.date: 09/24/2018
+  author: JoshLuedeman
+  ms.author: joluedem
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: d001065ddd7730a1f210cd623959206283968e9b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52935869"
+title: Pilíře vhodné architektury Azure
+summary: Chcete v Azure vytvořit něco skvělého, ale nevíte přesně, co to znamená. Svoji architekturu dokážete navrhnout, vytvořit a neustále vylepšovat tak, že v ní budete používat základní principy bez ohledu na zvolenou technologii.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Identifikovat hlavní pilíře návrhu řešení v cloudu
+
+  - Použít hlavní principy k vytvoření pevných základů architektury
+prerequisites: Žádné
+iconUrl: /learn/achievements/pillars-of-a-great-azure-architecture.svg
+levels:
+- beginner
+roles:
+- solution-architect
+products:
+- azure
+units:
+- learn.pillars-of-a-great-azure-architecture.1-introduction
+- learn.pillars-of-a-great-azure-architecture.2-pillars-of-a-great-azure-architecture
+- learn.pillars-of-a-great-azure-architecture.3-design-for-security
+- learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability
+- learn.pillars-of-a-great-azure-architecture.5-design-for-availability-and-recoverability
+- learn.pillars-of-a-great-azure-architecture.6-design-for-efficiency-and-operations
+- learn.pillars-of-a-great-azure-architecture.7-summary
+achievement: learn.pillars-of-a-great-azure-architecture.badge

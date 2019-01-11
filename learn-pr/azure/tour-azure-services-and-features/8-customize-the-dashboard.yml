@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.azure-services-features.8-customize-the-dashboard
+title: Řídicí panely webu Azure Portal
+durationInMinutes: 15
+metadata:
+  title: Řídicí panely webu Azure Portal
+  description: Řídicí panely webu Azure Portal
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e97ea4d113847b8e8e98ea38336342bc2ac847c2
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798887"
+content: '[!include[](includes/8-customize-the-dashboard.md)]'

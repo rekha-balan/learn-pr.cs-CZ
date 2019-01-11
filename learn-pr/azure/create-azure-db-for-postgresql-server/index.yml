@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.create-azure-db-for-postgresql
+metadata:
+  title: Vytvoření serveru Azure Database for PostgreSQL
+  description: Azure Database for PostgreSQL poskytuje plně spravovanou, komunitní verzi databáze PostgreSQL připravenou pro podniky jako službu. Zjistěte, jak tuto službu vytvořit a nasadit a jak ji připojit k vašim aplikacím.
+  ms.date: 09/24/2018
+  author: cryophobia
+  ms.author: chrvaw
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 776165f27a8f628d6c990d53ede1495555a61edf
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006358"
+title: Vytvoření serveru Azure Database for PostgreSQL
+summary: Azure Database for PostgreSQL poskytuje plně spravovanou, komunitní verzi databáze PostgreSQL připravenou pro podniky jako službu. Zjistěte, jak tuto službu vytvořit a nasadit a jak ji připojit k vašim aplikacím.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Vytvořit Azure Database for PostgreSQL na webu Azure Portal
+
+  - Vytvořit Azure Database for PostgreSQL pomocí rozhraní CLI Azure
+
+  - Konfigurovat pravidla brány firewall na úrovni serveru PostgreSQL
+
+  - Připojit se k serveru PostgreSQL pomocí příkazu `psql` ve službě Azure Cloud Shell
+prerequisites: Žádné
+iconUrl: /learn/achievements/create-azure-db-for-postgresql-server.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-clis
+- azure-cloud-shell
+units:
+- learn.create-azure-db-for-postgresql.introduction
+- learn.create-azure-db-for-postgresql.postgresql-decision
+- learn.create-azure-db-for-postgresql.creating-postgresql-db-server-via-azure-portal
+- learn.create-azure-db-for-postgresql.creating-postgresql-db-server-via-azure-cli
+- learn.create-azure-db-for-postgresql.create-postgresql-db-server-via-azure-cli
+- learn.create-azure-db-for-postgresql.server-security-considerations
+- learn.create-azure-db-for-postgresql.connecting-to-postgresql-db-server
+- learn.create-azure-db-for-postgresql.summary
+achievement: learn.create-azure-db-for-postgresql.badge

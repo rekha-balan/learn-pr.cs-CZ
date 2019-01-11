@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.communicate-between-applications-with-azure-queue-storage.9-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: f259fcc0c5caa0bcc7a4ced4a243dfd8490b5c36
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732837"
+durationInMinutes: 3
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Předpokládejme, že pracujete pro orgán státní správy, který plánuje dlouhodobé rozšíření silniční sítě. Získáváte data o provozu z tisíců senzorů a analyzujete je tak, abyste mohli vydat doporučení. Množství příchozích dat se v průběhu dne liší, například kvůli špičkám při dojíždění v ranních a večerních hodinách. Ano nebo ne: je serverová architektura skládající se ze služby Azure Queue připojené k jednomu virtuálnímu počítači vhodná volba pro danou úlohu?'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Fronta si poradí se špičkami v provozu a zajistí, aby že nedojde ke ztrátě žádných dat. Pokud virtuální počítač nedokáže tok příchozích zpráv zvládat, zpracuje backlog zpráv v obdobích s nízkým provozem.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Tato data se používají pro dlouhodobé plánování, takže není nutné je zpracovávat v reálném čase. Fronta připojená k jednomu virtuálnímu počítači s největší pravděpodobností úlohu zvládne a bude nákladově efektivním řešením.
+  - content: Jaké informace frontu jednoznačně identifikují?
+    choices:
+    - content: Název fronty
+      isCorrect: false
+      incorrectExplanation: Názvy front musejí být jedinečné v rámci účtu úložiště, který je obsahuje, ale nemusejí být jedinečné globálně.
+    - content: Klíč účtu
+      isCorrect: false
+      incorrectExplanation: Klíče účtu jsou přidružené k účtu úložiště, ne ke frontě.
+    - content: Název účtu úložiště a název fronty
+      isCorrect: true
+      correctExplanation: Názvy účtů úložiště musejí být globálně jedinečné. Názvy front musejí být jedinečné v rámci účtu úložiště, který je obsahuje. To znamená, že kombinace názvu účtu úložiště a názvu fronty frontu jednoznačně identifikuje.
+  - content: 'Ano nebo ne: když klient prostřednictvím kódu programu načte zprávu z fronty, zpráva se z fronty automaticky odstraní.'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: Operace „get message“ a „delete message“ jsou samostatné.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Po načtení ke zpracování se zprávy z fronty automaticky neodstraňují. Tím se zajistí, že všechny zprávy budou zpracovány do konce. Pokud dojde v aplikaci příjemce při zpracování k chybě, bude zpráva stále k dispozici pro zpracování jinou instancí aplikace příjemce.

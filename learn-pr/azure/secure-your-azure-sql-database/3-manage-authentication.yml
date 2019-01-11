@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.3-manage-authentication
+metadata:
+  title: Řízení, kdo má přístup k databázi
+  description: Tady se dozvíte, jak řídit přístup k databázi tak, že vytvoříte uživatele se záměrně omezeným přístupem.
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: a421a5798cb42848406ca4e7997a20e4aef9ac5b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+interactive: bash
+azureSandbox: true
+title: Řízení, kdo má přístup k databázi
+durationInMinutes: 6
+content: '[!include[](includes/3-manage-authentication.md)]'

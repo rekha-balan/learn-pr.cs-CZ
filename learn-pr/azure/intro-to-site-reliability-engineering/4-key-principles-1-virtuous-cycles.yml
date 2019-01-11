@@ -1,0 +1,83 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.4-key-principles-1-virtuous-cycles
+title: 'Hlavní principy a postupy SRE: cykly zlepšování'
+metadata:
+  title: 'Hlavní principy a postupy SRE: cykly zlepšování'
+  description: 'Hlavní principy a postupy SRE: cykly zlepšování'
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 949b3184ceba9b155ee193d89563fd5fd4b0496a
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52938862"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-key-principles-1-virtuous-cycles.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co znamená zkratka SLI (v kontextu SRE)?
+    choices:
+    - content: 'Standard Level Indicator (ukazatel standardní úrovně) '
+      isCorrect: false
+      incorrectExplanation: SLI je ukazatel úrovně služby (Service Level Indicator).
+    - content: Service Level Indicator (ukazatel úrovně služby)
+      isCorrect: true
+    - content: Safe Load Indicator (ukazatel bezpečného zatížení)
+      isCorrect: false
+      incorrectExplanation: SLI je ukazatel úrovně služby (Service Level Indicator).
+    - content: System Level Interface (rozhraní systémové úrovně)
+      isCorrect: false
+      incorrectExplanation: SLI je ukazatel úrovně služby (Service Level Indicator).
+  - content: Co znamená zkratka SLO (v kontextu SRE)?
+    choices:
+    - content: Service Level Outcome (cíl úrovně služby)
+      isCorrect: false
+      incorrectExplanation: SLO je cíl úrovně služby (Service Level Objective).
+    - content: Standard Line Operations (standardní linkový provoz)
+      isCorrect: false
+      incorrectExplanation: SLO je cíl úrovně služby (Service Level Objective).
+    - content: Service Load Objective (cíl vytížení služby)
+      isCorrect: false
+      incorrectExplanation: SLO je cíl úrovně služby (Service Level Objective).
+    - content: Service Level Objective (cíl úrovně služby)
+      isCorrect: true
+  - content: Co byste měli dělat, když vyčerpáte rozpočet chyb pro službu?
+    choices:
+    - content: Okamžitě restartovat danou službu, abychom ji dostali zpět do stanovených mezí
+      isCorrect: false
+      incorrectExplanation: Rozpočet chyb je metoda sledování agregované spolehlivost služby za delší čas, nakolik tato spolehlivost splňuje vaše cíle. Aby to mohlo fungovat, je důležité, aby všichni rozuměli tomu, jak bude organizace reagovat, pokud dojde k překročení přijatelné hranice nespolehlivosti. Existuje mnoho možných reakcí. Je nutné zvolit a držet se těch, které fungují nejlépe ve vašem konkrétním kontextu. Není žádná jedna správná reakce pro všechny uživatele a všechny situace.
+    - content: Pozastavit vydávání dalších verzí tohoto softwaru, dokud se nepodaří službu vrátit na dohodnutou úroveň spolehlivosti
+      isCorrect: false
+      incorrectExplanation: Rozpočet chyb je metoda sledování agregované spolehlivost služby za delší čas, nakolik tato spolehlivost splňuje vaše cíle. Aby to mohlo fungovat, je důležité, aby všichni rozuměli tomu, jak bude organizace reagovat, pokud dojde k překročení přijatelné hranice nespolehlivosti. Existuje mnoho možných reakcí. Je nutné zvolit a držet se těch, které fungují nejlépe ve vašem konkrétním kontextu. Není žádná jedna správná reakce pro všechny uživatele a všechny situace.
+    - content: Okamžitě přeřadit všechny technické zdroje spojené s touto službou z práce na vývoji funkcí na práci na opravě problémů nespolehlivosti
+      isCorrect: false
+      incorrectExplanation: Rozpočet chyb je metoda sledování agregované spolehlivost služby za delší čas, nakolik tato spolehlivost splňuje vaše cíle. Aby to mohlo fungovat, je důležité, aby všichni rozuměli tomu, jak bude organizace reagovat, pokud dojde k překročení přijatelné hranice nespolehlivosti. Existuje mnoho možných reakcí. Je nutné zvolit a držet se těch, které fungují nejlépe ve vašem konkrétním kontextu. Není žádná jedna správná reakce pro všechny uživatele a všechny situace.
+    - content: Reakce specifická pro danou službu nebo organizaci, která byla předem dohodnuta a odsouhlasena při stanovování rozpočtu chyb
+      isCorrect: true
+      correctExplanation: Při nastavování rozpočtu chyb pro službu je důležité rozhodnout (a zdokumentovat), jak bude organizace reagovat, když bude tento rozpočet vyčerpán. Existuje mnoho možných reakcí. Je nutné zvolit a držet se těch, které fungují nejlépe ve vašem konkrétním kontextu. Rozpočet chyb je metoda sledování agregované spolehlivost služby za delší čas. Aby to mohlo fungovat, je důležité, aby všichni rozuměli tomu, jak bude organizace reagovat, pokud dojde k překročení přijatelné hranice nespolehlivosti. Existuje mnoho možných reakcí. Je nutné zvolit a držet se těch, které fungují nejlépe ve vašem konkrétním kontextu. Není žádná jedna správná reakce pro všechny uživatele a všechny situace.
+  - content: Co byste měli dělat, když nevyčerpáte rozpočet chyb pro službu?
+    choices:
+    - content: Zvýšit frekvenci vydávání nových verzí této služby
+      isCorrect: false
+      incorrectExplanation: Toto je docela blízko možné správné odpovědi, ale vynechává to jeden klíčový faktor. Pokud by spolehlivost služby stále zůstala na požadované úrovni, i když byste udělali něco, co může spolehlivost potenciálně snížit, je rozumné využít tuto rezervu na zvýšení frekvence vydávání verzí. Ale to je jen jedna z možných reakcí. Co je správná reakce ve vašem případě, to závisí na konkrétních okolnostech.
+    - content: Více se soustředit na vývoj funkcí pro tuto službu a nasazovat tyto funkce rychleji
+      isCorrect: false
+      incorrectExplanation: Toto je docela blízko možné správné odpovědi, ale vynechává to jeden klíčový faktor. Pokud by spolehlivost služby stále zůstala na požadované úrovni, i když byste udělali něco, co může spolehlivost potenciálně snížit, je rozumné využít tuto rezervu na zrychlení uvádění nových funkcí. Ale to je jen jedna z možných reakcí. Co je správná reakce ve vašem případě, to závisí na konkrétních okolnostech.
+    - content: To záleží...
+      isCorrect: true
+      correctExplanation: Existuje mnoho způsobů, jak „utratit“ nevyčerpaný rozpočet chyb. Zvýšení frekvence vydávání verzí nebo zrychlení vývoje funkcí, nasazování více beta verzí funkcí, provádění více disruptivních testů a další. Je také v pořádku (ačkoli to pak přináší vlastní sadu problémů) nedělat prostě nic a pokračovat s provozem na vyšší úrovni spolehlivosti. Všechny tyto reakce jsou pro specifické situace a je třeba o nich rozhodovat s ohledem na konkrétní kontext.
+  - content: Když dojde k výpadku nebo jinému incidentu, měli byste se hned rozloučit s těmi, kdo se na něm podíleli?
+    choices:
+    - content: Ano. Lidé, kteří udělali chybu, by vždy měli nést odpovědnost za své činy a platit důsledky
+      isCorrect: false
+      incorrectExplanation: Ke spolehlivosti se nemůžete „provyhazovat“. Pokud se kultura zaměřuje v těchto situacích na svalování viny, organizace ztrácí schopnost se z incidentu poučit a zlepšit procesy a technologie, které tento incident připustily. Bez této zpětné vazby bude organizace vždy jen reagovat na incidenty, místo aby jim předcházela.
+    - content: Ne, s výjimkou určitých vzácných a mimořádných okolností
+      isCorrect: true
+      correctExplanation: Zpětná vazba z analýzy po incidentu bez obviňování je nezbytná pro kontinuální vylepšování. Pokud se organizace z incidentu poučí, místo aby vyhodila všechny zúčastněné (to jsou lidé, kteří možná nejlépe rozumí tomu, co se stalo), můžete pracovat přímo na spolehlivost svých služeb, systémů a produktů.

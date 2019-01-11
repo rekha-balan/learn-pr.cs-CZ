@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.3-design-for-security
+title: Navrhování s důrazem na zabezpečení
+metadata:
+  title: Navrhování s důrazem na zabezpečení
+  description: Navrhování s důrazem na zabezpečení
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 463d8fcd5e52198f364edef44b24be672300cb82
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52935869"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-design-for-security.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z následujících typů dat mohou potřebovat ochranu zabezpečení?
+    choices:
+    - content: Zákaznická data, která obsahují osobní údaje
+      isCorrect: false
+      incorrectExplanation: Zajištění ochrany těchto dat sice je důležité, ale není to jediná správná volba.
+    - content: Finanční data týkající se obchodních operací
+      isCorrect: false
+      incorrectExplanation: Zajistit pro tato data ochranu je sice důležité, ale nevybrali jste správnou odpověď.
+    - content: Duševní vlastnictví
+      isCorrect: false
+      incorrectExplanation: Zajistit pro tato data ochranu je sice důležité, ale nevybrali jste správnou odpověď.
+    - content: Všechny výše uvedené typy dat vyžadují bezpečnostní ochranu
+      isCorrect: true
+      correctExplanation: Všechny výše uvedené typy dat by si zasloužily vyšší úroveň ochrany zabezpečení.
+  - content: Která z následujících možností představuje příklad útoku na úrovni vrstvy zásad a přístupu?
+    choices:
+    - content: Prozrazené přihlašovací údaje zveřejněné online
+      isCorrect: true
+      correctExplanation: Prozrazené přihlašovací údaje jsou pro organizaci velkým rizikem a týkají se vrstvy zásad a přístupu.
+    - content: Útok v podobě záplavy pakety SYN (SYN-flood)
+      isCorrect: false
+      incorrectExplanation: Útoky záplavou pakety SYN jsou útoky typu DoS, které jsou v hraniční síti běžné.
+    - content: Sledování zaměstnance do datacentra bez předložení identifikačních údajů
+      isCorrect: false
+      incorrectExplanation: Sledování zaměstnance do datacentra je útok na úrovni fyzické vrstvy.
+    - content: Ransomware, který zašifruje disky virtuálního počítače
+      isCorrect: false
+      incorrectExplanation: Útoky ransomwaru jsou útoky na úrovni vrstvy virtuálních počítačů / výpočetní vrstvy.

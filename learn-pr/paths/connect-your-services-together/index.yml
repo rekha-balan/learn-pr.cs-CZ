@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.connect-your-services-together
+metadata:
+  title: Propojení služeb – studijní program
+  description: 'V Azure můžete vytvářet aplikace, které jsou složené z různých komponent: webových front-endů, back-endových služeb a aktivovaných funkcí, které provádějí výpočetní služby na vyžádání. Součástí Azure jsou i různé komunikační strategie, které mezi těmito různými komponentami zajišťují vzájemnou výměnu dat. Zjistěte, jak tyto komunikační služby využívat, abyste z testovatelných komponent vytvořili efektivní řešení.'
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: fe0057231ae70d78744e4be6bdfc28a2deacecaa
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52938672"
+title: Propojení služeb
+summary: 'V Azure můžete vytvářet aplikace, které jsou složené z různých komponent: webových front-endů, back-endových služeb a aktivovaných funkcí, které provádějí výpočetní služby na vyžádání. Součástí Azure jsou i různé komunikační strategie, které mezi těmito různými komponentami zajišťují vzájemnou výměnu dat. Zjistěte, jak tyto komunikační služby využívat, abyste z testovatelných komponent vytvořili efektivní řešení.'
+prerequisites: Žádné
+iconUrl: /learn/achievements/connect-your-services-together.svg
+levels:
+- beginner
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-service-bus
+- azure-event-grid
+- azure-event-hubs
+- azure-storage
+modules:
+- learn.choose-messaging-model
+- learn.implement-message-workflows-with-service-bus
+- learn.communicate-between-applications-with-azure-queue-storage
+- learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs
+achievement: learn.connect-your-services-together.trophy

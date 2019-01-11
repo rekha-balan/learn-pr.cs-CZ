@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-iot-devices.2-raspberry-pi-emulator
+metadata:
+  title: Použití simulátoru Raspberry Pi
+  description: Použití simulátoru Raspberry Pi
+  author: lnyswonger
+  ms.date: 09/24/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a28010e886feae7da0bd3808e99ad4a2f1c56b71
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005829"
+title: Použití simulátoru Raspberry Pi
+durationInMinutes: 10
+content: '[!include[](includes/2-raspberry-pi-emulator.md)]'

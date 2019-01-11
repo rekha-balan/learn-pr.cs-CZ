@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.4-optimize-storage-performance
+title: Optimalizace výkonu úložiště
+metadata:
+  title: Optimalizace výkonu úložiště
+  description: V této lekci se budeme věnovat optimalizaci výkonu úložiště pro vaši architekturu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 6465718437d37451cf91a0812525908cb0542c7a
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732725"
+durationInMinutes: 9
+content: >
+  [!include[](includes/4-optimize-storage-performance.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Co je polyglotní použití?
+    choices:
+    - content: Použití Azure SQL Database k uložení všech vašich dat
+      isCorrect: false
+      incorrectExplanation: Uložení dat v jedné technologii není definicí polyglotního použití.
+    - content: Způsob zachování aktivních připojení pro přenosy dat
+      isCorrect: false
+      incorrectExplanation: Zachování aktivních připojení u přenosů dat zajišťují metody Keepalive, které nijak nesouvisí s polyglotním použitím.
+    - content: Použití různých technologií úložišť dat k různým účelům v aplikaci
+      isCorrect: true
+      correctExplanation: Polyglotní použití je použití různých technologií úložiště dat ve stejné aplikaci, abyste u každého typu dat mohli použít ten nejlepší přístup.
+    - content: Přístup k řešení chyb v přechodných datech
+      isCorrect: false
+      incorrectExplanation: I když zpracování chyb v přechodných datech je v architektuře aplikace přínosné, nesouvisí nijak s polyglotním použitím.
+  - content: 'Ano nebo ne: Redis Cache zlepšuje výkon aplikace tím, že do paměti uložíte snímek dat.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Redis Cache ukládá data aplikace do paměti, což vede k rychlejšímu načítání a vylepšení výkonu aplikace u často používaných dat.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Redis Cache ukládá data aplikace do paměti, což vede k rychlejšímu načítání a vylepšení výkonu aplikace u často používaných dat.

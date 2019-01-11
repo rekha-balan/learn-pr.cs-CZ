@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.design-for-efficiency-and-operations
+metadata:
+  title: Navrhování s ohledem na efektivitu a operace v Azure – výuka
+  description: Získáte informace o navrhování architektury Azure, která je efektivní v oblasti nákladů a operací, minimalizuje plýtvání a poskytuje vám úplný přehled o tom, co se děje ve vašem prostředí.
+  ms.date: 09/24/2018
+  author: tvuylsteke
+  ms.author: thovuy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: eb1ad0f38c522ea8bd6040e00b3d5f275c5e6c53
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52940731"
+title: Navrhování s ohledem na efektivitu a operace v Azure
+summary: Získáte informace o navrhování architektury Azure, která je efektivní v oblasti nákladů a operací, minimalizuje plýtvání a poskytuje vám úplný přehled o tom, co se děje ve vašem prostředí.
+abstract: >
+  V tomto modulu se naučíte:
+    - Jak maximalizovat efektivitu vašeho cloudového prostředí
+    - Jak získat informace o provozu pomocí sledování a analýz
+    - Jak používat automatizaci ke snížení úsilí a chybovosti
+prerequisites: Žádné
+iconUrl: /learn/achievements/design-for-efficiency-and-operations-in-azure.svg
+levels:
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+- azure-cost-management
+- azure-advisor
+- azure-monitor
+- azure-application-insights
+- azure-log-analytics
+units:
+- learn.design-for-efficiency-and-operations.1-introduction
+- learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend
+- learn.design-for-efficiency-and-operations.3-use-monitoring-and-analytics-to-gain-operational-insights
+- learn.design-for-efficiency-and-operations.4-use-automation-to-reduce-effort-and-error
+- learn.design-for-efficiency-and-operations.5-summary
+achievement: learn.design-for-efficiency-and-operations.badge

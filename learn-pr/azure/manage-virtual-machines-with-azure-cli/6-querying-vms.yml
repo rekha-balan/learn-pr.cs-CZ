@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.6-querying-vms
+title: Systém dotazů a informace runtime o virtuálním počítači
+metadata:
+  title: Systém dotazů a informace runtime o virtuálním počítači
+  description: Získejte další informace o použití Azure CLI k dotazování informací o virtuálním počítači
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2881fa85cc11417fb27a9f0adc083d2f51e51fa8
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006119"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/6-querying-vms.md)]'

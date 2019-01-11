@@ -1,0 +1,153 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: os
+  title: Operační systém
+  prompt: Zvolte operační systém
+  pivots:
+  - id: linux
+    title: Linux
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
+- id: os-windows-mac
+  title: Operační systém
+  prompt: Zvolte operační systém
+  pivots:
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
+- id: platform
+  title: Platforma
+  prompt: Zvolte platformu
+  pivots:
+  - id: linux
+    title: Linux
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
+- id: platform-windows-mac
+  title: Platforma
+  prompt: Zvolte platformu
+  pivots:
+  - id: macos
+    title: Mac
+  - id: windows
+    title: Windows
+- id: azure-interface
+  title: Prostředí
+  prompt: Zvolte prostředí
+  pivots:
+  - id: bash
+    title: Bash
+  - id: powershell
+    title: PowerShell
+  - id: portal
+    title: Azure Portal
+- id: dev-lang-csharp-javascript
+  title: Vývojový jazyk
+  prompt: Zvolte vývojový jazyk
+  pivots:
+  - id: csharp
+    title: C#
+  - id: javascript
+    title: JavaScript
+- id: dev-lang-csharp-java
+  title: Vývojový jazyk
+  prompt: Zvolte vývojový jazyk
+  pivots:
+  - id: csharp
+    title: C#
+  - id: java
+    title: Java
+- id: dev-lang-csharp-java-node
+  title: Vývojový jazyk
+  prompt: Zvolte vývojový jazyk
+  pivots:
+  - id: csharp
+    title: C#
+  - id: java
+    title: Java
+  - id: node
+    title: Node.js
+- id: platform-cloud
+  title: Platforma
+  prompt: Zvolte platformu, kterou chcete provozovat v cloudu
+  pivots:
+  - id: windows-cloud
+    title: Windows
+  - id: linux-cloud
+    title: Linux
+- id: platform-apps
+  title: Platforma
+  prompt: Zvolte platformu pro vývoj aplikací
+  pivots:
+  - id: uwp
+    title: UPW
+  - id: wpf
+    title: WPF
+  - id: windowsforms
+    title: Windows Forms
+- id: platform-apps-uwp-wpf
+  title: Platforma
+  prompt: Zvolte platformu pro vývoj aplikací
+  pivots:
+  - id: uwp
+    title: UPW
+  - id: wpf
+    title: WPF
+- id: cognitive-services
+  title: Azure Cognitive Services
+  prompt: Zvolte kategorii služeb Azure Cognitive Services, kterou chcete zobrazit
+  pivots:
+  - id: vision
+    title: Obraz
+  - id: speech
+    title: Řeč
+  - id: language
+    title: Jazyk
+  - id: knowledge
+    title: Znalosti
+  - id: search
+    title: Vyhledávání
+- id: bot-services
+  title: Azure Bot Services
+  prompt: Níže prozkoumejte scénáře služby Azure Bot Service
+  pivots:
+  - id: commerce
+    title: Obchod
+  - id: information
+    title: Informace
+  - id: enterprise
+    title: Podniková produktivita
+- id: com-strategy
+  title: Strategie COM
+  prompt: Výběrem tlačítek níže se můžete blíže seznámit s jednotlivými strategiemi.
+  pivots:
+  - id: business-strategy
+    title: Obchodní strategie
+  - id: people-strategy
+    title: Strategie týkající se lidí
+  - id: technology-strategy
+    title: Strategie týkající se technologií
+- id: migration-strategy
+  title: Strategie migrace
+  prompt: Kliknutím na příslušná tlačítka se můžete blíže seznámit s jednotlivými strategiemi migrace.
+  pivots:
+  - id: rehost
+    title: Opětovné hostování (Rehost)
+  - id: refractor
+    title: Refaktorování (Refactor)
+  - id: rearchitect
+    title: Změna architektury (Rearchitect)
+  - id: rebuild
+    title: Opětovné sestavení (Rebuild)
+metadata:
+  ms.openlocfilehash: 81b4b1b61a55d2969007cafa4abb86ed2d9b5035
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732398"

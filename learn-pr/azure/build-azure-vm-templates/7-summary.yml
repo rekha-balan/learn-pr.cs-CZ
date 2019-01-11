@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Zopakujte si, co jste se naučili, a zjistěte, co můžete udělat jako další.
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b78bf5d2cac6e6e9c8d455450481d02fd559a5d7
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799481"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Řekněme, že chcete vytvořit opakovaně použitelnou šablonu, která využívá rozšíření vlastních skriptů ke konfiguraci webového obsahu na virtuálním počítači. Jaký je nejlepší způsob, jak v nasazeních umožnit zadání skriptu, který nakonfiguruje webový obsah?
+    choices:
+    - content: Zadáte parametr, který určuje umístění skriptu.
+      isCorrect: true
+      correctExplanation: Parametry podněcují opakované použití. Jejich hodnoty se vyplňují při spuštění šablony.
+    - content: Zadáte proměnnou, která určuje umístění skriptu.
+      isCorrect: false
+      incorrectExplanation: Přestože proměnné usnadňují údržbu šablon, nepředstavují nejlepší volbu, pokud chcete zajistit jejich konfigurovatelnost nebo opakované použití.
+    - content: Zadáte do šablony výchozí umístění skriptu a potom pomocí vnořené šablony toto umístění přepíšete.
+      isCorrect: false
+      incorrectExplanation: Ačkoli k přepsání výchozích hodnot lze použít vnořenou šablonu, můžete tím nasazení dost zkomplikovat.

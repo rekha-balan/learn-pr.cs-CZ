@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.intro-to-compute
+metadata:
+  title: Úvod do Azure Compute – výuka
+  description: Projděte si služby Azure Compute a zjistěte, jak je lze použít k řešení běžných obchodních potřeb.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1422e787587c24079788a740628f7c2cbc6a3c8a
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798531"
+title: Úvod do Azure Compute
+summary: Projděte si služby Azure Compute a zjistěte, jak je lze použít k řešení běžných obchodních potřeb.
+abstract: >
+  V tomto modulu:
+
+  - Přehled možností Azure Compute
+
+  - Výběr možností služby Compute, které vyřeší vaše konkrétní obchodní potřeby
+prerequisites: Žádné
+iconUrl: /learn/achievements/intro-to-azure-compute.svg
+levels:
+- beginner
+roles:
+- developer
+- solution-architect
+- administrator
+products:
+- azure
+- azure-virtual-machines
+units:
+- learn.intro-to-compute.1-introduction
+- learn.intro-to-compute.2-essential-azure-compute-concepts
+- learn.intro-to-compute.3-virtual-machines
+- learn.intro-to-compute.4-containers
+- learn.intro-to-compute.5-appservice
+- learn.intro-to-compute.6-serverless-computing
+- learn.intro-to-compute.7-summary
+achievement: learn.intro-to-compute.badge

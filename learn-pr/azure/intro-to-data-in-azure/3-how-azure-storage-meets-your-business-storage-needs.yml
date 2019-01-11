@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.3-how-azure-storage-meets-your-business-storage-needs
+title: Jak může datové úložiště Azure splnit vaše potřeby na úložiště pro firmy
+metadata:
+  title: Jak může datové úložiště Azure splnit vaše potřeby na úložiště pro firmy
+  description: Jak může datové úložiště Azure splnit vaše potřeby na úložiště pro firmy
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b3ca6313dd8ea882bc304fa2c635d0e0aa0d4f6d
+  ms.sourcegitcommit: 8ae806967edd2f5d3df9279d1ab628435ba05b23
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 11/14/2018
+  ms.locfileid: "51338947"
+durationInMinutes: 8
+content: '[!include[](includes/3-how-azure-storage-meets-your-business-storage-needs.md)]'

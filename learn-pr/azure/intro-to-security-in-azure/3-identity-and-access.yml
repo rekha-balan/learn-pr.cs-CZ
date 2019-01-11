@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.introduction-to-security.3-identity-and-access
+title: Identita a přístup
+metadata:
+  title: Identita a přístup
+  description: V této lekci se dozvíte o identitách a autorizaci na základě rolí.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3ce44f85f07ecfac23dd9b3a8b697a21b7387b9c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52928827"
+durationInMinutes: 8
+content: '[!include[](includes/3-identity-and-access.md)]'

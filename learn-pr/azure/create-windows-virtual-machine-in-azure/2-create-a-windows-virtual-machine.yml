@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.2-create-a-windows-virtual-machine
+title: Virtuální počítače s Windows v Azure
+metadata:
+  title: Virtuální počítače s Windows v Azure
+  description: Virtuální počítače s Windows v Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0d4bc5986b191721a4143d182f0f8debe81ee871
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005902"
+durationInMinutes: 5
+content: '[!include[](includes/2-create-a-windows-virtual-machine.md)]'

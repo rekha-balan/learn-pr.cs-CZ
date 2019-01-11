@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.4-use-policies-to-enforce-standards
+title: Použití zásad k vynucování standardů
+metadata:
+  title: Použití zásad k vynucování standardů
+  description: V této lekci probereme, jak používat zásady k vynucování standardů.
+  ms.openlocfilehash: f2d3177fbaa157fbb77e7d92e2a5f4dd0cd1e0c8
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+durationInMinutes: 7
+content: '[!include[](includes/4-use-policies-to-enforce-standards.md)]'

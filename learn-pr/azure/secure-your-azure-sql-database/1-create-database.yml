@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.1-create-database
+metadata:
+  title: Nastavení prostředí sandboxu
+  description: Vytvoříte databázi Azure SQL Database a virtuální počítač s Linuxem pro použití v rámci tohoto modulu.
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: c2a8f69e522c42af025e83ad8f4cf7784c4b7386
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+interactive: bash
+azureSandbox: true
+title: Nastavení prostředí sandboxu
+durationInMinutes: 10
+content: '[!include[](includes/1-create-database.md)]'

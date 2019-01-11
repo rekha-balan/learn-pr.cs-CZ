@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.create-serverless-applications
+metadata:
+  title: Studijní program Vytváření aplikací bez serverů
+  description: Služba Azure Functions umožňuje vytvářet systémy řízené událostmi, které provádějí výpočty na vyžádání a mohou být aktivovány různými externími událostmi. Zjistěte, jak využívat funkce k provedení logiky na straně serveru a k vytváření architektur bez serveru.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 225a1758d8d183fb24d1af079feceb288477787d
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52946696"
+title: Vytváření aplikací bez serverů
+summary: Služba Azure Functions umožňuje vytvářet systémy řízené událostmi, které provádějí výpočty na vyžádání a mohou být aktivovány různými externími událostmi. Zjistěte, jak využívat funkce k provedení logiky na straně serveru a k vytváření architektur bez serveru.
+prerequisites: Žádné
+iconUrl: /learn/achievements/create-serverless-applications.svg
+levels:
+- beginner
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-functions
+- azure-portal
+- azure-cosmos-db
+- azure-storage
+- azure-cloud-shell
+modules:
+- learn.create-serverless-logic-with-functions
+- learn.execute-azure-function-with-triggers
+- learn.chain-azure-functions-data-using-input-output-bindings
+achievement: learn.create-serverless-applications.trophy

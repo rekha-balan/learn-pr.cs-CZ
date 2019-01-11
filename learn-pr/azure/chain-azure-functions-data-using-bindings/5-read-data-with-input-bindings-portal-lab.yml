@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.chain-azure-functions-data-using-input-output-bindings.5-read-data-with-input-bindings-portal-lab
+metadata:
+  title: Cvičení – čtení dat se vstupními vazbami
+  description: V této praktické jednotce přečteme data z Azure Cosmos DB v naší funkci Azure s využitím vstupní vazby Azure Cosmos DB.
+  ms.date: 09/24/2018
+  author: andrewjbyrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e7797c9dfcc443a9e38efb426d22e9068b21ccf7
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733642"
+title: Cvičení – čtení dat se vstupními vazbami
+durationInMinutes: 20
+azureSandbox: true
+content: >
+  [!include[](includes/5-read-data-with-input-bindings-portal-lab.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.DocumentDB/databaseAccounts
+  hint: Pomocí výše uvedených pokynů vytvořte kolekci Cosmos DB a vytvořte k ní vazbu funkce.

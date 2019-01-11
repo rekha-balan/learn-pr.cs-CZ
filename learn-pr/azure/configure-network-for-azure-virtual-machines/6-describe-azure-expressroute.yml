@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.configure-the-network-for-your-virtual-machines.6-describe-azure-expressroute
+title: Prozkoumání Azure ExpressRoute
+metadata:
+  title: Prozkoumání Azure ExpressRoute
+  description: Prozkoumání Azure ExpressRoute
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9294d6c6501ad5c0004692ad5c7296bd1c1bbc73
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799478"
+durationInMinutes: 5
+content: '[!include[](includes/6-describe-azure-expressroute.md)]'

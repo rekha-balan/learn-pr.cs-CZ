@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.enable-reliable-messaging-for-big-data-applications-using-azure-event-hubs.8-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5a99beb977031b9842638b8c28454026b30506ed
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005862"
+durationInMinutes: 3
+content: >
+  [!include[](includes/8-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Aplikace, které velmi často publikují zprávy do centra událostí Azure, dosáhnou nejlepšího výkonu pomocí rozšířeného protokolu řízení front zpráv (AMQP), protože vytváří trvalý soket.
+    choices:
+    - content: Pravda
+      isCorrect: true
+      correctExplanation: Vydavatelé mohou použít buď HTTPS, nebo AMQP. AMQP otevře soket a může přes něj odesílat více zpráv.
+    - content: Nepravda
+      isCorrect: false
+      incorrectExplanation: Vydavatelé mohou použít buď HTTPS, nebo AMQP. Protokol HTTP není ideální pro časté publikování, protože pro každou publikaci vytváří nové připojení.
+  - content: Kolik oddílů bude mít nové centrum událostí ve výchozím nastavení?
+    choices:
+    - content: "1"
+      isCorrect: false
+      incorrectExplanation: Ve výchozím nastavení se centra událostí dělí na 4 oddíly. Oddíly jsou kontejnery v rámci centra událostí. Každá publikace je zařazena jen do jednoho oddílu. Každá skupina příjemců může číst z jednoho nebo více oddílů.
+    - content: "2"
+      isCorrect: false
+      incorrectExplanation: Ve výchozím nastavení se centra událostí dělí na 4 oddíly. Oddíly jsou kontejnery v rámci centra událostí. Každá publikace je zařazena jen do jednoho oddílu. Každá skupina příjemců může číst z jednoho nebo více oddílů.
+    - content: "4"
+      isCorrect: true
+      incorrectExplanation: Ve výchozím nastavení se centra událostí dělí na 4 oddíly. Oddíly jsou kontejnery v rámci centra událostí. Každá publikace je zařazena jen do jednoho oddílu. Každá skupina příjemců může číst z jednoho nebo více oddílů.
+  - content: Pokud se v centru událostí přejde do režimu offline dříve, než skupina příjemců může zpracovat obsažené události, tyto události se ztratí.
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Události jsou trvalé. Každá skupina příjemců má svůj vlastní kurzor, který udržuje svoji pozici v rámci oddílu. Když je centrum událostí znovu k dispozici, mohou skupiny uživatelů obnovit zpracování na pozici svého kurzoru.
+    - content: Nepravda
+      isCorrect: true
+      correctExplanation: Události jsou trvalé. Každá skupina příjemců má svůj vlastní kurzor, který udržuje svoji pozici v rámci oddílu. Když je centrum událostí znovu k dispozici, mohou skupiny uživatelů obnovit zpracování na pozici svého kurzoru.

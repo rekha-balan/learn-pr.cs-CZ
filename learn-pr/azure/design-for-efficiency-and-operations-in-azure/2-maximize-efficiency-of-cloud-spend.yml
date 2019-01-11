@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend
+title: Jak maximalizovat efektivitu útraty v cloudu
+metadata:
+  title: Jak maximalizovat efektivitu útraty v cloudu
+  description: V této lekci se podíváme na to, jak maximalizovat efektivitu výdajů na cloud.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2494b5bcc96e09431ac5a219ef11aa8b7a0c6662
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52940731"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-maximize-efficiency-of-cloud-spend.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co z následujícího je nejlepším kandidátem na rezervovanou instanci?
+    choices:
+    - content: Webová aplikace nasazená ve službě Azure App Service.
+      isCorrect: false
+      incorrectExplanation: Azure App Service je služba PaaS, rezervované instance jsou funkcí vybraných výpočetních služeb.
+    - content: Virtuální počítač pro jiné než produkční účely, který se mimo pracovní dobu, kdy se nepoužívá, automaticky vypíná.
+      isCorrect: false
+      incorrectExplanation: Vzhledem k tomu, že tento virtuální počítač bude většinu času vypnutý, nebude naplno využívat rezervaci instance, a není tedy vhodným kandidátem na rezervovanou instanci.
+    - content: Okruh ExpressRoute.
+      isCorrect: false
+      incorrectExplanation: ExpressRoute je síťová služba, rezervované instance jsou funkcí vybraných výpočetních služeb.
+    - content: Databázový server pro systém personálního oddělení v mezinárodní firmě.
+      isCorrect: true
+      correctExplanation: Vzhledem k důležitosti a globální povaze tohoto systému je pravděpodobné, že bude většinu času spuštěný, a je tedy vhodným kandidátem na rezervovanou instanci.
+  - content: Kdy přestanou narůstat náklady na výpočetní prostředky spojené s virtuálním počítačem?
+    choices:
+    - content: Když vypnete virtuální počítač v operačním systému.
+      isCorrect: false
+      incorrectExplanation: Pokud vypnete operační systém virtuálního počítače, virtuální počítač zůstane přidělený na platformě Azure a budou za něj dál narůstat náklady na výpočetní prostředky.
+    - content: Když kliknete na tlačítko Zastavit na portálu Azure Portal.
+      isCorrect: true
+      correctExplanation: Kliknutím na tlačítko Zastavit dojde k uvolnění virtuálního počítače na platformě Azure a už za něj nebudou dál narůstat náklady na výpočetní prostředky.

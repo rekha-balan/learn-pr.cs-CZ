@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.the-mojifier.2-conceptual-overview
+metadata:
+  title: Koncepční přehled
+  description: Pojďme si nejdříve zodpovědět několik obecnějších otázek o detekci emocí.
+  author: lnyswonger
+  ms.date: 10/18/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8f2beaff22f3985fe6505cbe76e6f5cca20a3626
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52933876"
+title: Koncepční přehled
+durationInMinutes: 10
+content: '[!include[](includes/2-conceptual-overview.md)]'

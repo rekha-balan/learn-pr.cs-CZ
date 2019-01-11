@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-virtual-machine-disks.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 78ec5769ee9ddc13da38a27a8349ca0a959e5a69
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734000"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

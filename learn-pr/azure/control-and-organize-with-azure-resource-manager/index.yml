@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.control-and-organize-with-resource-manager
+metadata:
+  title: Ovládání a uspořádání prostředků Azure pomocí Azure Resource Manageru
+  description: V tomto modulu probereme, jak ovládat a uspořádat prostředky Azure pomocí Azure Resource Manageru.
+  ms.date: 10/12/2018
+  author: jboeshart
+  ms. author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 23faef17edd09d15bba07180f2e1a649d49d7386
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+title: Ovládání a uspořádání prostředků Azure pomocí Azure Resource Manageru
+summary: V tomto modulu probereme, jak ovládat a uspořádat prostředky Azure pomocí Azure Resource Manageru.
+abstract: >
+  V tomto modulu se dozvíte, jak ovládat a uspořádat prostředky Azure pomocí Azure Resource Manageru.
+iconUrl: /learn/achievements/control-and-organize-with-resource-manager.svg
+levels:
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+units:
+- learn.control-and-organize-with-resource-manager.1-introduction
+- learn.control-and-organize-with-resource-manager.2-principles-of-resource-groups
+- learn.control-and-organize-with-resource-manager.3-use-tagging-to-organize-resources
+- learn.control-and-organize-with-resource-manager.4-use-policies-to-enforce-standards
+- learn.control-and-organize-with-resource-manager.5-use-resource-locks-to-protect-resources
+- learn.control-and-organize-with-resource-manager.6-quiz
+- learn.control-and-organize-with-resource-manager.7-summary
+achievement: learn.control-and-organize-with-resource-manager.badge

@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre
+title: 'Klíčové principy a postupy SRE: Lidská stránka SRE'
+metadata:
+  title: 'Klíčové principy a postupy SRE: Lidská stránka SRE'
+  description: 'Klíčové principy a postupy SRE: Lidská stránka SRE'
+  ms.date: 09/26/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0f3694790e21f114fd7e6ecb3b29f84ac529aa88
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52938862"
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-key-principles-2-human-side-of-sre.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Která z těchto věcí *není* charakteristická pro lopotnou práci (v kontextu SRE)? '
+    choices:
+    - content: Práce je monotónní
+      isCorrect: false
+      incorrectExplanation: Lopota je monotónní ze své podstaty.
+    - content: Práce se sleduje v systému lístků
+      isCorrect: true
+      correctExplanation: Způsob sledování práce není nesouvisí s tím, jestli je nebo není lopotná. Přestože je lopotná práce tímto způsobem často sledována, lze systémy lístků používat i ke sledování kreativních činností.
+    - content: Práce neposkytuje žádnou trvalou hodnotu
+      isCorrect: false
+      incorrectExplanation: Lopotná práce nemá žádnou trvalou hodnotu.
+    - content: Práce je převážně manuální a není automatizovaná
+      isCorrect: false
+      incorrectExplanation: Lopotná práce je téměř vždy manuální práce, která by se dala automatizovat.
+  - content: Jaký je vztah SRE k lopotě?
+    choices:
+    - content: Významnou prioritou SRE je snaha o to, abychom lopotnou práci eliminovali.
+      isCorrect: false
+      incorrectExplanation: Kdykoli je to možné, SRE usiluje o eliminování lopotné práce. Někdy má však vyšší prioritu jiná činnost.
+    - content: SRE usiluje o nejlepší možný systém řízení lopotné práce.
+      isCorrect: false
+      incorrectExplanation: Pokud je to možné, SRE upřednostňuje lopotnou práci zcela eliminovat. I dobře řízená lopotná práce je ale stále ... lopota.
+    - content: SRE usiluje o eliminování lopotné práce kdekoli a kdykoli je to možné
+      isCorrect: true
+  - content: Jak vypadá navrhovaný rozpis práce pro SRE?
+    choices:
+    - content: 80 % práce na obsluze provozu / 20 % práce na projektu
+      isCorrect: false
+      incorrectExplanation: SRE potřebuje na zlepšení spolehlivosti systému pracovat bez přerušování, není možné stále odskakovat a řešit aktuální potřeby systému.
+    - content: 10 % práce na obsluze provozu / 90 % práce na projektu
+      isCorrect: false
+      incorrectExplanation: Občas si nemůžeme vybrat, nakolik nás bude samotný provoz pracovně vytěžovat. Přestože se může stát, že některé systémy budou mít při provozu takto nízké nároky, není asi zdravé s tím předem počítat.
+    - content: 50 % práce na obsluze provozu / 50 % práce na projektu
+      isCorrect: true
+      correctExplanation: Toto je obvykle rovnováha, o kterou SRE usiluje (50 % je vnímáno jako horní mez pracovního vytížení provozem – méně je lépe).

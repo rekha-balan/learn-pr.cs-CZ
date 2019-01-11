@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-bot-services-bot.8-knowledge-check
+title: Zkontrolujte své znalosti
+metadata:
+  title: Zkontrolujte své znalosti
+  description: Prověrka znalostí o vytvoření chatovacího robota s Azure Bot Service
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5e6cc7c16a0ab3c0236d2105ae819b9fcee30488
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52948455"
+durationInMinutes: 5
+quiz:
+  title: Prověrka znalostí o vytvoření chatovacího robota s Azure Bot Service
+  questions:
+  - content: Je pravda, že šablona *Web App Bot* vytvoří *webovou aplikaci* a *robota*?
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Šablona vytvoří robota a webovou aplikaci Azure k jeho hostování. Robota také nakonfiguruje, aby používal znalostní bázi QnA Maker. Znalostní bázi budete muset vytvořit sami a připojit ji k robotovi.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Název šablony je popisný, protože nevytváří webovou aplikaci ani robota.
+  - content: K čemu se používá QnA Maker?
+    choices:
+    - content: K vytvoření znalostní báze, kterou může používat robot.
+      isCorrect: true
+      correctExplanation: Služba QnA Maker vezme otázky a odpovědi a zpracuje je do formátu, který může použít robot k odpovědím na otázky.
+    - content: K vytvoření průzkumů, které můžete vložit do robota, abyste získali zpětnou vazbu od uživatelů.
+      isCorrect: false
+      incorrectExplanation: Služba QnA Maker není určená k průzkumům. Pomáhá poskytovat informace uživatelům, ale nepokouší se z nich extrahovat data.
+    - content: K vytvoření robota.
+      isCorrect: false
+      incorrectExplanation: Robota můžete ke službě QnA Maker připojit, ale služba ho sama nevytváří.
+  - content: Jak zajistit vstup dat do služby QnA Maker?
+    choices:
+    - content: Ručně.
+      isCorrect: false
+      incorrectExplanation: Znalostní bázi můžete naplnit ručně, ale existují i další způsoby.
+    - content: Nahráním textového souboru.
+      isCorrect: false
+      incorrectExplanation: QnA Maker podporuje textové soubory v různých formátech, jako jsou hodnoty oddělené tabulátory nebo tabulky Excelu. Nejde ale o jediný způsob, jak znalostní bázi naplnit.
+    - content: Zadáním adresy URL stránky s nejčastějšími dotazy.
+      isCorrect: false
+      incorrectExplanation: QnA Maker extrahuje otázky a odpovědi z mnoha různých formátů stránek s nejčastějšími dotazy. Ale ani adresa URL stránky s nejčastějšími dotazy není jediným způsobem, jak znalostní bázi naplnit.
+    - content: Všechny výše uvedené možnosti.
+      isCorrect: true
+      correctExplanation: Služba QnA Maker je flexibilní a dokáže zpracovat vstupní data v různých nejčastěji používaných formátech, jako jsou textové soubory, stránky s častými otázkami nebo třeba manuály k produktům. Cílem je umožnit vám data pohodlně importovat, aniž byste je museli znovu formátovat.

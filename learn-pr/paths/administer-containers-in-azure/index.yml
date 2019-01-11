@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.administer-containers-in-azure
+metadata:
+  title: Studijní program Správa kontejnerů v Azure
+  description: Služba Azure Container Instances (ACI) je nejrychlejším a nejjednodušším způsobem spouštění kontejnerů v Azure. Tento studijní program vás naučí, jak vytvořit a spravovat kontejnery a jak můžete službu ACI použít k zajištění elastického škálování pro Kubernetes.
+  brand: azure
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9b93f36f7b7c26ff6e2e914b6e5e173bf321887d
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52927214"
+title: Správa kontejnerů v Azure
+summary: Služba Azure Container Instances (ACI) je nejrychlejším a nejjednodušším způsobem spouštění kontejnerů v Azure. Tento studijní program vás naučí, jak vytvořit a spravovat kontejnery a jak můžete službu ACI použít k zajištění elastického škálování pro Kubernetes.
+prerequisites: Žádné
+iconUrl: /learn/achievements/administer-containers-in-azure.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+- azure-container-instances
+- azure-container-registry
+modules:
+- learn.azure-container-registry
+- learn.run-docker-containers-aci
+achievement: learn.administer-containers-in-azure.trophy

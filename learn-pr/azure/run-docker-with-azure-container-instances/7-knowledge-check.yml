@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.7-knowledge-check
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3c025efb17c05da585c6e0492469e538dfdedb11
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52937334"
+durationInMinutes: 5
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Která zásada restartování je obvykle nejlepší volbou pro dlouho běžící úlohy, které obsluhují žádosti?
+    choices:
+    - content: Always (Vždy)
+      isCorrect: true
+      correctExplanation: Zásada restartování **Always (Vždy)** zajistí, že potřebné procesy budou nadále dostupné, i v případě, že je vyžadováno restartování.
+    - content: Never (Nikdy)
+      isCorrect: false
+      incorrectExplanation: Zásada restartování **Always (Vždy)** zajistí, že potřebné procesy budou nadále dostupné, i v případě, že je vyžadováno restartování.
+    - content: OnFailure (Při selhání)
+      isCorrect: false
+      incorrectExplanation: Zásada restartování **Always (Vždy)** zajistí, že potřebné procesy budou nadále dostupné, i v případě, že je vyžadováno restartování.
+  - content: 'Pravda nebo nepravda: Ve výchozím nastavení můžete hodnoty proměnné prostředí zobrazit na webu Azure Portal a jako výstup Azure CLI.'
+    choices:
+    - content: Pravda
+      isCorrect: true
+      correctExplanation: Proměnné prostředí ve výchozím nastavení nejsou zabezpečené a jejich hodnoty si můžete prohlédnout ve na webu Azure Portal a na výstupu rozhraní příkazového řádku Azure.
+    - content: Nepravda
+      isCorrect: false
+      incorrectExplanation: Proměnné prostředí ve výchozím nastavení nejsou zabezpečené a jejich hodnoty si můžete prohlédnout ve na webu Azure Portal a na výstupu rozhraní příkazového řádku Azure.
+  - content: Jaký příkaz k řešení potíží můžete použít k zobrazení událostí kontejneru při spuštění?
+    choices:
+    - content: az container logs
+      isCorrect: false
+      incorrectExplanation: Příkaz `az container logs` prozkoumá protokoly pro kontejner ve skupině kontejnerů.
+    - content: az container attach
+      isCorrect: true
+      correctExplanation: Příkaz `az container attach` zobrazí události a protokoly kontejneru. Oproti tomu příkaz `az container logs` zobrazí jenom protokoly, spouštěcí události ne.
+    - content: az container exec
+      isCorrect: false
+      incorrectExplanation: Příkaz `az container exec` spustí příkaz v rámci spuštěného kontejneru skupiny kontejnerů.

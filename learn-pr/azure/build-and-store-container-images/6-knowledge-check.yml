@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn.azure-container-registry.knowledge-check
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí služby Azure Container Registry
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: ad4fb2481a3a24ba58b00b13230c68f26c1e0363
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733812"
+durationInMinutes: 5
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Který z následujících aspektů není výhodou, která plyne z Azure Container Registry?
+    choices:
+    - content: Replikace imagí kontejnerů do více datacenter Azure
+      isCorrect: false
+      incorrectExplanation: Azure Container Registry obsahuje funkci geologické replikace.
+    - content: Načítání imagí kontejnerů pomocí jakékoli technologie, která souvisí s kontejnery Dockeru
+      isCorrect: false
+      incorrectExplanation: Azure Container Registry se dá používat se všemi technologiemi souvisejícími s Dockerem.
+    - content: Povolení veřejného přístupu k imagím kontejneru při načítání
+      isCorrect: true
+      correctExplanation: Azure Container Registry je privátní registr. Přístup k imagím není bez ověření možný.
+    - content: Sestavení imagí kontejnerů bez nutnosti používat místně nainstalované nástroje Dockeru
+      isCorrect: false
+      incorrectExplanation: Image kontejnerů se dají sestavit v cloudu pomocí Azure Container Registry Buildu.
+  - content: Jaká metoda ověřování se doporučuje pro Azure Container Registry?
+    choices:
+    - content: Účet správce
+      isCorrect: false
+      incorrectExplanation: Pro Azure Container Registry můžete účet správce vytvořit, není to ale doporučovanou metodou ověřování.
+    - content: Uživatelské jméno a heslo
+      isCorrect: false
+      incorrectExplanation: Pro Azure Container Registry můžete povolit účet správce s uživatelským jménem a heslem, není to ale doporučovanou metodou ověřování.
+    - content: Instanční objekt Azure
+      isCorrect: true
+      correctExplanation: Instanční objekty Azure představují doporučovanou metodu ověřování. Umožňují podrobné řízení přístupu k imagím kontejnerů v Azure Container Registry, takže můžete například určit přístup jen ke čtení nebo plný přístup k registru kontejnerů.
+    - content: Žádné ověřování
+      isCorrect: false
+      incorrectExplanation: Azure Container Registry je privátní registr a nedá se k němu přistupovat bez ověření.
+  - content: Předpokládejme, že používáte image kontejnerů ke spouštění výpočetních úloh v řadě oblastí po celém světě. Ve službě Azure Container Registry chcete povolit funkci geologické replikace, abyste zkrátili dobu zřízení instance. Které oblasti při konfiguraci geologické replikace pro tyto repliky zvolíte?
+    choices:
+    - content: Umístění registru kontejnerů do oblasti co nejblíže vývojovému týmu.
+      isCorrect: false
+      incorrectExplanation: Vaším cílem je umístit registry co nejblíže místům provádění, nikoliv vývojovému týmu.
+    - content: Umístění registru kontejnerů do každé oblasti, kde se image budou spouštět
+      isCorrect: true
+      correctExplanation: Pokud umístíte registr do každé oblasti, v níž se image spouští, zajistíte přístup k registru v blízkosti sítě všude, kde je to potřeba.
+    - content: Umístění registru kontejnerů do všech oblastí Azure
+      isCorrect: false
+      incorrectExplanation: Tímto řešením se zvýší náklady, ale nikoliv výkon.

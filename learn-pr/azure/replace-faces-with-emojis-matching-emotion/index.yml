@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.the-mojifier
+metadata:
+  title: Mojifier – vytvoření robota ze sady Slack, který nahrazuje obličeje lidí obrázky emoji vyjadřujícími stejné emoce – výuka
+  description: Získejte informace o tom, jak získat obrázky, vypočítat emoce, najít pro emoce odpovídající emoji a nahradit obličeje lidí příslušnými emoji.
+  author: lnyswonger
+  ms.date: 10/18/2018
+  ms.author: luken
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: dfdfed0e41c223e286700fb186c19959a2456104
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52933876"
+title: Mojifier – vytvoření robota ze sady Slack, který nahrazuje obličeje lidí obrázky emoji vyjadřujícími stejné emoce
+summary: Získejte informace o tom, jak získat obrázky, vypočítat emoce, najít pro emoce odpovídající emoji a nahradit obličeje lidí příslušnými emoji.
+abstract: >
+  V tomto modulu se naučíte:
+   - Klasifikovat emoce všech osob na obrázku
+   - Přiřadit emoce k emoji
+   - Nahradit tváře na obrázku obrázky emoji
+   - Odeslat aktualizovaný obrázek do Slacku jako odpověď
+prerequisites: Žádné
+iconUrl: /learn/achievements/replace-faces-with-emojis-matching-emotion.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-functions
+- vs-code
+units:
+- learn.the-mojifier.1-introduction
+- learn.the-mojifier.2-conceptual-overview
+- learn.the-mojifier.3-setup
+- learn.the-mojifier.4-create-an-azure-function-project
+- learn.the-mojifier.5-create-the-mojifyimage-azure-function
+- learn.the-mojifier.6-create-the-respondtoslackcommand-function
+- learn.the-mojifier.7-deploy-to-azure
+- learn.the-mojifier.8-integrate-with-slack
+- learn.the-mojifier.9-optionally-calibrate-emojis
+- learn.the-mojifier.10-summary
+achievement: learn.the-mojifier.badge

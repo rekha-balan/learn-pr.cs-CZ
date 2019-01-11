@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.create-a-windows-vm-in-azure
+metadata:
+  title: Vytvoření virtuálního počítače s Windows v Azure – výuka
+  description: Virtuální počítače Azure umožňují téměř okamžitě vytvořit vyhrazené výpočetní prostředky. Tyto počítače pak můžete používat stejně jako fyzické stolní počítače nebo servery. Ať už je váš virtuální počítač serverem, ke kterému se připojujete pro účely správy, nebo virtuální pracovní stanicí pro koncového uživatele, protokol RDP (Remote Desktop Protocol) zajišťuje stejné prostředí, jako byste seděli u terminálu místního fyzického počítače.
+  ms.date: 09/24/2018
+  author: JesseDietrichson
+  ms.author: jediet
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 370534694702a9f32e9f64fb64903a7dcb4397da
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005902"
+title: Vytvoření virtuálního počítače s Windows v Azure
+summary: Virtuální počítače Azure umožňují téměř okamžitě vytvořit vyhrazené výpočetní prostředky. Tyto počítače pak můžete používat stejně jako fyzické stolní počítače nebo servery.
+abstract: >
+  V tomto modulu:
+
+  - Vytvořit virtuální počítače s Windows pomocí portálu Azure Portal
+
+  - Připojit se k běžícímu virtuálnímu počítači s Windows pomocí Vzdálené plochy
+
+  - Nainstalovat software a změnit konfiguraci sítě na virtuálním počítači pomocí portálu Azure Portal
+prerequisites: >
+  - Základní znalosti o Azure Virtual Machines
+
+  - Klient Vzdálené plochy
+iconUrl: /learn/achievements/create-windows-virtual-machine-in-azure.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+products:
+- azure
+- azure-portal
+- azure-virtual-machines
+units:
+- learn.create-a-windows-vm-in-azure.1-introduction
+- learn.create-a-windows-vm-in-azure.2-create-a-windows-virtual-machine
+- learn.create-a-windows-vm-in-azure.3-exercise-create-a-vm
+- learn.create-a-windows-vm-in-azure.4-connect-to-a-windows-virtual-machine
+- learn.create-a-windows-vm-in-azure.5-exercise-connect-to-a-windows-vm-using-rdp
+- learn.create-a-windows-vm-in-azure.6-manage-vm
+- learn.create-a-windows-vm-in-azure.7-exercise-manage-vm
+- learn.create-a-windows-vm-in-azure.8-summary
+achievement: learn.create-a-windows-vm-in-azure.badge

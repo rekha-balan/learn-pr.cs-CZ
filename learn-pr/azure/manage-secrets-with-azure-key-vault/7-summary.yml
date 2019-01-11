@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-secrets-with-azure-key-vault.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 439c38a864dc4fa56371d4783d053d25bd2edad1
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z následujících možností **nepředstavují** výhodu služby Azure Key Vault?
+    choices:
+    - content: Zabezpečené úložiště soukromých informací uživatele.
+      isCorrect: true
+      correctExplanation: Služba Key Vault je určena pro ukládání tajných kódů aplikací, ne tajných kódů uživatelů.
+    - content: Synchronizace tajných kódů aplikací mezi několika instancemi aplikace.
+      isCorrect: false
+    - content: Omezení potřeby zpracovávat tajné kódy aplikací přímo ze strany vývojářů aplikací.
+      isCorrect: false
+    - content: Řízení přístupu k tajným kódům aplikace s přiřaditelnými oprávněními.
+      isCorrect: false
+  - content: Který z těchto výroků nejlépe popisuje proces ověřování a autorizace služby Azure Key Vault?
+    choices:
+    - content: Aplikace se ověřují v trezoru pomocí uživatelského jména a hesla vedoucího vývojáře a mají úplný přístup ke všem tajným kódům v trezoru.
+      isCorrect: false
+    - content: Aplikace a uživatelé se ověřují v trezoru pomocí účtu Microsoft a mají povolen přístup ke konkrétním tajným kódům.
+      isCorrect: false
+    - content: Aplikace a uživatelé se ověřují v trezoru pomocí jejich identit Azure Active Directory a mají povoleno provádět akce se ve všemi tajnými kódy v trezoru.
+      isCorrect: true
+      correctExplanation: Ověřování ve službě Key Vault používá identity Azure Active Directory. K autorizaci akcí se používají zásady přístupu, které platí pro všechny tajné kódy v trezoru.
+    - content: Aplikace se v trezoru ověřují pomocí uživatelských jmen a hesel uživatelů, kteří se přihlašují k webové aplikaci a mají udělen přístup k tajným kódům vlastněným těmito uživateli.
+      isCorrect: false
+  - content: Jak služba Azure Key Vault pomáhá chránit vaše tajné kódy po tom, co byly načteny vaší aplikací?
+    choices:
+    - content: Azure Key Vault automaticky po každém použití vygeneruje nový tajný kód.
+      isCorrect: false
+    - content: Klientská knihovna služby Azure Key Vault chrání oblasti paměti používané vaší aplikací, aby se zabránilo nechtěnému ohrožení tajných kódů.
+      isCorrect: false
+    - content: Azure Key Vault tajné kódy dvojitě šifruje, takže je nutné, aby je vaše aplikace při každém použití místně dešifrovala.
+      isCorrect: false
+    - content: Vaše tajné kódy nijak nechrání. Tajné kódy jsou po načtení vaší aplikací nechráněné.
+      isCorrect: true
+      correctExplanation: Po načtení tajných kódů aplikací jsou tajné kódy nechráněné. Ujistěte se, že je neprotokolujete, neukládáte ani nevracíte v odpovědích klienta.

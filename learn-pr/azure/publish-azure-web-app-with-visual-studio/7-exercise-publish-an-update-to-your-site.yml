@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.publish-azure-web-app-with-visual-studio.7-exercise-publish-an-update-to-your-site
+title: Publikování aktualizace na vašem webu
+metadata:
+  title: Publikování aktualizace na vašem webu
+  description: Publikování aktualizace na vašem webu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4d9432dc9c43d7e1e06bbd8fc793120d36f8ea81
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733881"
+durationInMinutes: 5
+content: '[!include[](includes/7-exercise-publish-an-update-to-your-site.md)]'

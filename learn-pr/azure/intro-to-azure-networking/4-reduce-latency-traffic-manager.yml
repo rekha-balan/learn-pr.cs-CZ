@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-networking.4-reduce-latency-traffic-manager
+title: Snížení latence pomocí Traffic Manageru
+metadata:
+  title: Snížení latence pomocí Traffic Manageru
+  description: Zjistěte, jak může služba Traffic Manager snížit latenci a zajistit odolnost proti chybám napříč geografickými oblastmi.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 460661a3b323a2447b54120f07ef2f691d11f1aa
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52921109"
+durationInMinutes: 7
+content: >
+  [!include[](includes/4-reduce-latency-traffic-manager.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co je latence sítě?
+    choices:
+    - content: Množství dat, která se vejdou do připojení
+      isCorrect: false
+      incorrectExplanation: _Šířka pásma_ se vztahuje k množství dat, která se vejdou do připojení.
+    - content: Vzdálenost, kterou data musí urazit do svého cíle
+      isCorrect: false
+      incorrectExplanation: Přestože na latenci může mít vliv i vzdálenost, latence neměří vzdálenost.
+    - content: Doba, kterou trvá cesta dat po síti
+      isCorrect: true
+      correctExplanation: Latence se měří dobu, která je potřebná k tomu, aby data dosáhla svého cíle. Obvykle se měří v milisekundách.
+  - content: Jakým způsobem snižuje služba Azure Traffic Manager latenci?
+    choices:
+    - content: Vybírá mezi koncovými body pouze nejrychlejší sítě.
+      isCorrect: false
+      incorrectExplanation: Výběr serveru, který je uživateli nejblíže, je dobrým způsobem, jak snížit latenci.
+    - content: Zvolí koncový bod, který je nejblíže k serveru DNS uživatele.
+      isCorrect: true
+      correctExplanation: Výběr serveru, který je uživateli nejblíže, je dobrým způsobem, jak snížit latenci.
+    - content: Ukládá obsah do mezipaměti, podobně jako síť pro doručování obsahu.
+      isCorrect: false
+      incorrectExplanation: Výběr serveru, který je uživateli nejblíže, je dobrým způsobem, jak snížit latenci.

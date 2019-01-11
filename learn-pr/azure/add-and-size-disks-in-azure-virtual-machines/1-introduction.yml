@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 26b6155f0c05a523cfce1bcf7954985442d3c345
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733846"
+durationInMinutes: 1
+content: '[!include[](includes/1-introduction.md)]'

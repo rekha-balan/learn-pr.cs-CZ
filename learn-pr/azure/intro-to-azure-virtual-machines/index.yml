@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.introduction-to-azure-virtual-machines
+metadata:
+  title: Úvod do virtuálních počítačů Azure – výuka
+  description: Seznamte se s rozhodnutími, která je třeba udělat před vytvořením virtuálního počítače, s možnostmi vytváření a správy virtuálních počítačů a s rozšířeními a službami, které se ke správě virtuálních počítačů používají.
+  ms.date: 09/24/2018
+  author: cryophobia
+  ms.author: chrvaw
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: fb6f52638926294063b0e0478444b849e01dde52
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733030"
+title: Úvod do virtuálních počítačů Azure
+summary: Seznamte se s rozhodnutími, která je třeba udělat před vytvořením virtuálního počítače, s možnostmi vytváření a správy virtuálních počítačů a s rozšířeními a službami, které se ke správě virtuálních počítačů používají.
+abstract: >
+  V tomto modulu:
+
+  - Sestavit kontrolní seznam pro vytvoření virtuálního počítače
+
+  - Popsat možnosti pro vytvoření a správu virtuálních počítačů
+
+  - Popsat další služby dostupné ke správě virtuálních počítačů
+prerequisites: Žádné
+iconUrl: /learn/achievements/intro-to-azure-virtual-machines.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+- solution-architect
+products:
+- azure
+- azure-virtual-machines
+units:
+- learn.introduction-to-azure-virtual-machines.1-introduction
+- learn.introduction-to-azure-virtual-machines.2-compile-a-checklist-for-creating-a-vm
+- learn.introduction-to-azure-virtual-machines.3-create-a-vm
+- learn.introduction-to-azure-virtual-machines.4-describe-other-create-vm-options
+- learn.introduction-to-azure-virtual-machines.5-high-availability
+- learn.introduction-to-azure-virtual-machines.6-backup-services
+- learn.introduction-to-azure-virtual-machines.7-knowledge-check
+- learn.introduction-to-azure-virtual-machines.8-summary
+achievement: learn.introduction-to-azure-virtual-machines.badge

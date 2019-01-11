@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.6-troubleshoot-aci
+metadata:
+  title: Řešit potíže se službou Azure Container Instances
+  description: Řešení potíží se službou Azure Container Instances
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 0f021269a3962eb5a76d1e581640150caa2e799d
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52937334"
+title: Řešit potíže se službou Azure Container Instances
+interactive: bash
+azureSandbox: true
+durationInMinutes: 10
+content: >
+  [!include[](includes/6-troubleshoot-aci.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: mycontainer
+  hint: ''

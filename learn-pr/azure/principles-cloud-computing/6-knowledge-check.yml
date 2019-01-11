@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit
+uid: learn.principles-cloud-computing.6-knowledge-check
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 12/20/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5d1e59c4bdab4325affa6d185990edfad378e053
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799075"
+title: Prověrka znalostí
+durationInMinutes: 3
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které položky z následujícího seznamu se dají považovat za výhody používání cloudových služeb?
+    choices:
+    - content: Nepředvídatelné náklady
+      isCorrect: false
+      incorrectExplanation: Cloud computing se obecně vyznačuje nákladovými modely s dobře předvídatelnými „průběžnými platbami“.
+    - content: Elasticita
+      isCorrect: true
+      correctExplanation: Správné odpovědi jsou elasticita, agilita a úspory z rozsahu – dají se považovat za výhody, které můžete získat používáním cloudových služeb.
+    - content: Pouze místní dosah
+      isCorrect: false
+      incorrectExplanation: Cloudové prostředky se sice dají izolovat, aby byly soukromé, ale služby jsou většinou veřejné a dostupné přes internet.
+  - content: 'Předpokládejme, že máte dva typy aplikací: starší aplikace, které vyžadují specializovaný hardware, a novější aplikace, které můžou běžet na běžném hardwaru. Který cloudový model nasazení je pro vás nejvhodnější?'
+    choices:
+    - content: Veřejný cloud
+      isCorrect: false
+      incorrectExplanation: Hybridní cloud je kombinace veřejného a privátního cloudu. Nové aplikace můžete provozovat na hardwaru, který si pronajímáte z veřejného cloudu, a svůj specializovaný hardware můžete udržovat v prostorách firmy.
+    - content: Privátní cloud
+      isCorrect: false
+      incorrectExplanation: Hybridní cloud je kombinace veřejného a privátního cloudu. Nové aplikace můžete provozovat na hardwaru, který si pronajímáte z veřejného cloudu, a svůj specializovaný hardware můžete udržovat v prostorách firmy.
+    - content: Hybridní cloud
+      isCorrect: true
+      correctExplanation: Hybridní cloud je kombinace veřejného a privátního cloudu. Nové aplikace můžete provozovat na hardwaru, který si pronajímáte z veřejného cloudu, a svůj specializovaný hardware můžete udržovat v prostorách firmy.
+  - content: Vyvíjíte aplikaci a chcete se soustředit na vytváření, testování a nasazení. Nechcete se starat o správu základního hardwaru nebo softwaru. Která cloudová služba je pro vás nejvhodnější?
+    choices:
+    - content: Infrastruktura jako služba (IaaS)
+      isCorrect: false
+      incorrectExplanation: Platforma jako služba je nejlepší volba, protože služby PaaS se za vás postarají o úlohy správy IT, takže se můžete soustředit na psaní kódu.
+    - content: Platforma jako služba (PaaS)
+      isCorrect: true
+      correctExplanation: Platforma jako služba je nejlepší volba, protože služby PaaS se za vás postarají o úlohy správy IT, takže se můžete soustředit na psaní kódu.
+    - content: Software jako služba (SaaS)
+      isCorrect: false
+      incorrectExplanation: Platforma jako služba je nejlepší volba, protože služby PaaS se za vás postarají o úlohy správy IT, takže se můžete soustředit na psaní kódu.

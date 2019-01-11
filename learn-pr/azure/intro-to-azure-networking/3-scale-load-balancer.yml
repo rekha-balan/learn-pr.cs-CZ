@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-networking.3-scale-load-balancer
+title: Škálování pomocí služby Azure Load Balancer
+metadata:
+  title: Škálování pomocí služby Azure Load Balancer
+  description: Zjistěte, jak vám služba Azure Load Balancer pomůže dosáhnout škálování a odolnosti proti chybám v rámci geografické oblasti.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 889d056fe38986749d3fd43eea1f4364b649a12b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52921109"
+durationInMinutes: 7
+content: >
+  [!include[](includes/3-scale-load-balancer.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které tvrzení týkající se služby Azure Load Balancer je pravdivé?
+    choices:
+    - content: Azure Load Balancer musíte použít, pokud chcete distribuovat provoz mezi virtuální počítače běžící v Azure.
+      isCorrect: false
+      incorrectExplanation: Pokud je jeden systém nedostupný, Azure Load Balancer mu přestane odesílat provoz. Potom přesměruje provoz do jednoho z reagujících serverů.
+    - content: Azure Load Balancer spolupracuje pouze s internetovým provozem.
+      isCorrect: false
+      incorrectExplanation: Pokud je jeden systém nedostupný, Azure Load Balancer mu přestane odesílat provoz. Potom přesměruje provoz do jednoho z reagujících serverů.
+    - content: Azure Load Balancer distribuuje provoz mezi podobné systémy a zajišťuje tak vyšší dostupnost vašich služeb.
+      isCorrect: true
+      correctExplanation: Pokud je jeden systém nedostupný, Azure Load Balancer mu přestane posílat provoz. Potom přesměruje provoz do jednoho z reagujících serverů.

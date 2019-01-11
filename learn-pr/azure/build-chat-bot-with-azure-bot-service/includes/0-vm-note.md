@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Tato lekce vyžaduje přístup k virtuálnímu počítači. Pokud jste již připojeni k virtuálnímu počítači z předchozí lekce v tomto modulu, můžete rovnou začít. Pokud zatím nejste připojeni, vyberte výše **Přihlásit se a spustit režim virtuálního počítače**.

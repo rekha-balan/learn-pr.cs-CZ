@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.create-cosmos-db-for-scale.3-what-is-a-request-unit
+metadata:
+  title: Co je jednotka žádosti služby Azure Cosmos DB?
+  description: Co je jednotka žádosti služby Azure Cosmos DB?
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8e19602cd9947754785188b19d0bb4d88caa88b0
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006404"
+title: Co je jednotka žádosti?
+durationInMinutes: 8
+content: "[!include[](includes/3-what-is-a-request-unit.md)] \n"
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Když vytvoříte účet služby Azure Cosmos DB a chcete mít jistotu, že bude růst s potřebami vaší aplikace, jakou minimální hodnotu propustnosti byste měli nastavit?
+    choices:
+    - content: 400 RU/s
+      isCorrect: false
+      incorrectExplanation: Propustnost ve výši 1 000 RU/s je minimální hodnotou, která vaší databázi umožní automatické škálování.
+    - content: 1 000 RU/s
+      isCorrect: true
+      correctExplanation: Propustnost ve výši 1 000 RU/s je minimální hodnotou, která vaší databázi umožní automatické škálování.
+    - content: 1 400 RU/s
+      isCorrect: false
+      incorrectExplanation: Propustnost ve výši 1 000 RU/s je minimální hodnotou, která vaší databázi umožní automatické škálování.
+    - content: 250 000 RU/s
+      isCorrect: false
+      incorrectExplanation: Propustnost ve výši 1 000 RU/s je minimální hodnotou, která vaší databázi umožní automatické škálování.
+  - content: Pokud máte v úmyslu zapisovat do databáze Azure Cosmos DB dokument o velikosti 4kB 100krát za sekundu a číst tento dokument 500krát za sekundu, kolik jednotek žádosti byste měli zřídit, aby váš učet nebyl limitovaný rychlostí?
+    choices:
+    - content: 400 RU/s
+      isCorrect: false
+      incorrectExplanation: Pro tento scénář potřebujete minimálně 1 350 RU/s. Abyste měli jistotu, že nebudete limitovaní rychlostí, měli byste zřídit 1 400 RU/s, protože potřebujete víc než 1 350 RU/s a jednotky žádostí se zřizují po 100 jednotkách (1 300, 1 400, 1 500 atd.).
+    - content: 1 000 RU/s
+      isCorrect: false
+      incorrectExplanation: Pro tento scénář potřebujete minimálně 1 350 RU/s. Abyste měli jistotu, že nebudete limitovaní rychlostí, měli byste zřídit 1 400 RU/s, protože potřebujete víc než 1 350 RU/s a jednotky žádostí se zřizují po 100 jednotkách (1 300, 1 400, 1 500 atd.).
+    - content: 1 300 RU/s
+      isCorrect: false
+      incorrectExplanation: Pro tento scénář potřebujete minimálně 1 350 RU/s. Abyste měli jistotu, že nebudete limitovaní rychlostí, měli byste zřídit 1 400 RU/s, protože potřebujete víc než 1 350 RU/s a jednotky žádostí se zřizují po 100 jednotkách (1 300, 1 400, 1 500 atd.).
+    - content: 1 400 RU/s
+      isCorrect: true
+      correctExplanation: Pro tento scénář potřebujete minimálně 1 350 RU/s. Abyste měli jistotu, že nebudete limitovaní rychlostí, měli byste zřídit 1 400 RU/s, protože potřebujete víc než 1 350 RU/s a jednotky žádostí se zřizují po 100 jednotkách (1 300, 1 400, 1 500 atd.).

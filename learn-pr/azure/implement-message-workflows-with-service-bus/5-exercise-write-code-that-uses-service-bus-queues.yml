@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.5-exercise-write-code-that-uses-service-bus-queues
+title: Cvičení – psaní kódu využívajícího front služby Service Bus
+metadata:
+  title: Cvičení – psaní kódu využívajícího front služby Service Bus
+  description: Cvičení – psaní kódu využívajícího front služby Service Bus
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 694e714a89b705e0c8ad108a69d7252ba46953f8
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006299"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/5-exercise-write-code-that-uses-service-bus-queues.md)]'

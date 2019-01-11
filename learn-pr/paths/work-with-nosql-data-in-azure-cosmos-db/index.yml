@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.work-with-nosql-data-in-azure-cosmos-db
+metadata:
+  title: Práce s daty typu NoSQL v Azure Cosmos DB – studijní program
+  description: Data NoSQL představují účinný způsob, jak ukládat informace, které nejsou namapované na požadavky relační databáze SQL.<br><br>Databáze pro data NoSQL povolují větší flexibilitu díky zjednodušeným postupům pro horizontální navýšení kapacity a možnost vyladění dostupnosti a požadavků na konzistenci dat. Azure Cosmos DB poskytuje všechny tyto a další výhody tím, že pro práci s daty NoSQL poskytuje nástroje a sady SDK.<br><br>Přečtěte si, jak můžete pomocí webu Azure Portal, rozšíření Azure Cosmos DB pro Visual Studio Code a sady Azure Cosmos DB .NET Core SDK pracovat s daty NoSQL na požadovaném místě a poskytovat uživatelům vysokou dostupnost bez ohledu na to, kde se zrovna nacházejí.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 9ef346eec429429d886eaf139d39d6826c2c981e
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52925395"
+title: Práce s daty typu NoSQL v Azure Cosmos DB
+summary: Data NoSQL představují účinný způsob, jak ukládat informace, které nejsou namapované na požadavky relační databáze SQL. Přečtěte si, jak můžete pomocí webu Azure Portal, rozšíření Azure Cosmos DB pro Visual Studio Code a sady Azure Cosmos DB .NET Core SDK pracovat s daty NoSQL na požadovaném místě a poskytovat uživatelům vysokou dostupnost bez ohledu na to, kde se zrovna nacházejí.
+prerequisites: >
+  - Znalost možností úložišť v Azure.
+iconUrl: /learn/achievements/work-with-nosql-data-in-azure-cosmos-db.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-cosmos-db
+- vs-code
+- azure-portal
+- azure-clis
+modules:
+- learn.create-cosmos-db-for-scale
+- learn.access-data-with-cosmos-db-and-sql-api
+- learn.cosmos-db-app-with-vscode
+- learn.distribute-data-globally-with-cosmos-db
+achievement: learn.work-with-nosql-data-in-azure-cosmos-db.trophy

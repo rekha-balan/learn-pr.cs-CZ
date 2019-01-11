@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.design-for-security
+metadata:
+  title: Navrhování s ohledem na zajištění zabezpečení v Azure – výuka
+  description: Zjistěte, jak do návrhu architektury začlenit zabezpečení, a objevte nástroje, které Azure poskytuje pro vytvoření zabezpečeného prostředí ve všech vrstvách architektury.
+  ms.date: 09/24/2018
+  author: cbellee
+  ms.author: cbellee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 168e8df39e60d7b22e375dc2b1dfbcaa2848a90a
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734486"
+title: Navrhování s ohledem na zajištění zabezpečení v Azure
+summary: Zjistěte, jak do návrhu architektury začlenit zabezpečení, a objevte nástroje, které Azure poskytuje pro vytvoření zabezpečeného prostředí ve všech vrstvách architektury.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Zjistit, jak zajistit ochranu pomocí hloubkového přístupu k zabezpečení architektury
+
+  - Zjistit, jak chránit identity
+
+  - Zjistit, které technologie jsou k dispozici na ochranu vaší infrastruktury Azure
+
+  - Zjistit, jak a kde používat šifrování k zabezpečení dat
+
+  - Zjistit, jak chránit vaši architekturu na úrovni sítě
+
+  - Zjistit, jak využít osvědčených postupů zabezpečení aplikací k integraci zabezpečení do vaší aplikace
+prerequisites: Žádné
+iconUrl: /learn/achievements/design-for-security-in-azure.svg
+levels:
+- intermediate
+roles:
+- solution-architect
+products:
+- azure
+- azure-active-directory
+units:
+- learn.design-for-security.1-introduction
+- learn.design-for-security.2-defense-in-depth
+- learn.design-for-security.3-identity-management
+- learn.design-for-security.4-infrastructure-protection
+- learn.design-for-security.5-encryption
+- learn.design-for-security.6-network-security
+- learn.design-for-security.8-summary
+achievement: learn.design-for-security.badge

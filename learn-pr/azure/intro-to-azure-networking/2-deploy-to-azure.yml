@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-networking.2-deploy-to-azure
+title: Nasazení webu do Azure
+metadata:
+  title: Nasazení webu do Azure
+  description: Podívejte se na to, jak může základní třívrstvá aplikace vypadat v Azure.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 151d85afa39a127736d2020c757e5206373d9402
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52921109"
+durationInMinutes: 12
+content: >
+  [!include[](includes/2-deploy-to-azure.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co je _oblast_ Azure?
+    choices:
+    - content: Datacentrum Azure v konkrétním zeměpisném umístění.
+      isCorrect: true
+      correctExplanation: Oblasti Azure vám umožňují dodávat aplikace služby co nejblíže vašim uživatelům. Příkladem jsou Západní USA a Severní Evropa.
+    - content: Způsob rozdělení sítí na menší sítě.
+      isCorrect: false
+      incorrectExplanation: Oblasti Azure vám umožňují dodávat aplikace služby co nejblíže vašim uživatelům. Příkladem jsou Západní USA a Severní Evropa.
+    - content: Pravidla brány firewall, která definují tok provozu proudícího do a z Azure.
+      isCorrect: false
+      incorrectExplanation: Oblasti Azure vám umožňují dodávat aplikace služby co nejblíže vašim uživatelům. Příkladem jsou Západní USA a Severní Evropa.
+  - content: Které z následujících tvrzení o virtuálních sítích je pravdivé?
+    choices:
+    - content: Virtuální sítě konfigurujete prostřednictvím softwaru.
+      isCorrect: true
+      correctExplanation: Software vám umožňuje přistupovat k virtuální síti jako k vlastní síti. Azure udržuje fyzický hardware za vás.
+    - content: Virtuální síť přijímá síťový provoz na všech portech. Bránu firewall konfigurujete prostřednictvím virtuálních počítačů.
+      isCorrect: false
+      incorrectExplanation: Software vám umožňuje přistupovat k virtuální síti jako k vlastní síti. Azure udržuje fyzický hardware za vás.
+    - content: Virtuální sítě jsou vždy přístupné z internetu.
+      isCorrect: false
+      incorrectExplanation: Software vám umožňuje přistupovat k virtuální síti jako k vlastní síti. Azure udržuje fyzický hardware za vás.

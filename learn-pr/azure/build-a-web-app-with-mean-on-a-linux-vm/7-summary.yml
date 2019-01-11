@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: fce1b5eeccf46cc50a9bb5de185732ad6725604b
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52940388"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Co je dobrým důvodem k výběru zásobníku MEAN pro váš vývojový zásobník?
+    choices:
+    - content: Pracujete s vysoce strukturovanými, relačními daty.
+      isCorrect: false
+      incorrectExplanation: MongoDB, „M“ v názvu MEAN, je databáze NoSQL. Databáze NoSQL je nerelační, což znamená, že nevyžaduje, aby data byla strukturovaná jako v případě SQL Serveru nebo jiných relačních databází.
+    - content: Aplikace MEAN běží rychleji než aplikace, které jsou vytvořené pomocí jiných vývojových zásobníků.
+      isCorrect: false
+      incorrectExplanation: K dispozici je mnoho vývojových zásobníků. Žádný není nezbytně rychlejší a lepší než ostatní. Každý byl vytvořen pro určitý druh aplikace a dovednosti vývojářů.
+    - content: Všichni členové vašeho vývojového týmu jsou odborníci na práci s JavaScriptem.
+      isCorrect: true
+      correctExplanation: Zásobník MEAN do značné míry spoléhá na JavaScript. JavaScript se objevuje na klientské i serverové straně vaší webové aplikace.
+  - content: Co je databáze NoSQL?
+    choices:
+    - content: Jedná se o pojem používaný pro jakýkoli bezplatný, opensourcový software pro databáze.
+      isCorrect: false
+      incorrectExplanation: Ačkoli je řada databází bezplatná a opensourcová, NoSQL popisuje, jak jsou data strukturovaná.
+    - content: Jde o databázi, která nevyžaduje strukturování dat předem definovaným způsobem.
+      isCorrect: true
+      correctExplanation: Například MongoDB ukládá data do dokumentů podobných formátu JSON, které nevyžadují pevnou strukturu, jako je tomu u databází MySQL a dalších relačních databází.
+    - content: Je to druh relační databáze, ale nepoužívá jazyk SQL pro přístup k datům a manipulaci s nimi.
+      isCorrect: false
+      incorrectExplanation: Databáze NoSQL jsou nerelační, což znamená, že nevyžadují, aby data byla strukturovaná předem definovaným způsobem.
+  - content: Jaká je role AngularJS v zásobníku MEAN?
+    choices:
+    - content: AngularJS implementuje datovou vazbu pro HTML a JavaScript. AngularJS můžete použít například k načtení položek z databáze a k jejich zobrazení v uživatelském rozhraní.
+      isCorrect: true
+      correctExplanation: Datová vazba pomáhá s udržováním čistého a minimálního kódu HTML. AngularJS uživateli zobrazí aktualizace hned poté, co se změní podkladová data.
+    - content: Jedná se plugin prohlížeče, který se nainstaluje do počítače uživatele.
+      isCorrect: false
+      incorrectExplanation: AngularJS &mdash; ve skutečnosti neinstalujete. Jedná se o javaskriptový kód, na který odkazujete ze značky script na stránce HTML.
+    - content: Pomáhá spouštět webovou aplikaci na straně serveru.
+      isCorrect: false
+      incorrectExplanation: Hostitelem webové aplikace MEAN na straně serveru je Node.js, nikoli AngularJS.

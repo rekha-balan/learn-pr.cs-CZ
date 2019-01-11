@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.2-define-templates
+title: Definování šablon Azure Resource Manageru
+metadata:
+  title: Definování šablon Azure Resource Manageru
+  description: Zjistěte, co šablona Resource Manageru obsahuje a jak vám šablony pomohou s rychlejším a spolehlivějším nasazováním.
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 2692c7d6c3ba6347113b1b203ae20ddb75b24c69
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799481"
+durationInMinutes: 7
+content: >
+  [!include[](includes/2-define-templates.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: '_Deklarativní automatizace_ znamená, že:'
+    choices:
+    - content: Definujete, jaké prostředky potřebujete, a rovněž kroky potřebné k jejich vytvoření.
+      isCorrect: false
+      incorrectExplanation: Popřemýšlejte, co například obsahuje šablona Resource Manageru. Šablona Resource Manageru definuje jen konečný stav, ale ne to, jak se k tomuto konečnému stavu dostat.
+    - content: Definujete, _jaké_ prostředky potřebujete, ale nikoli to, _jak_ je vytvořit.
+      isCorrect: true
+      correctExplanation: V případě šablon Resource Manageru se Resource Manager postará o tyto podrobnosti za vás.
+    - content: Definujete, jaké prostředky potřebujete, a systém zajistí, aby tyto prostředky byly vždy dostupné.
+      isCorrect: false
+      incorrectExplanation: V případě šablon Resource Manageru se po vytvoření šablony staráte o nasazení a správu prostředků pořád vy.

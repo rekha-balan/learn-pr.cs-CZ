@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.create-azure-storage-account
+metadata:
+  title: Vytvoření účtu Azure Storage – výuka
+  description: Účty Azure Storage poskytují efektivní způsob, jak data v cloudu uspořádat. Vytvoříte logické skupiny souvisejících dat a u všech položek ve skupině použijete jednotné zásady pro fakturaci, přístup, umístění úložiště atd. Zde budete účty Azure Storage používat k seskupení a správě objektů blob, souborů, front a tabulek Azure.
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4bf0257d3d8f0d7b8f94af3896f717125e7ecd09
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347678"
+title: Vytvoření účtu služby Azure Storage
+summary: Vytvořte účet Azure Storage se správnými možnostmi pro vaše obchodní potřeby.
+abstract: >
+  V tomto modulu:
+
+  - Rozhodnout se, kolik účtů úložiště pro svůj projekt potřebujete.
+
+  - Určit odpovídající nastavení pro každý účet úložiště.
+
+  - Vytvořit účet úložiště pomocí webu Azure Portal
+prerequisites: >
+  - Získat zkušenosti s webem Azure Portal
+
+  - Získat zkušenosti s datovými službami Objekty blob, Soubory, Fronty a Tabulky Azure
+iconUrl: /learn/achievements/create-azure-storage-account.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-storage
+- azure-portal
+units:
+- learn.create-azure-storage-account.1-introduction
+- learn.create-azure-storage-account.2-decide-how-many-storage-accounts-you-need
+- learn.create-azure-storage-account.3-choose-your-account-settings
+- learn.create-azure-storage-account.4-choose-an-account-creation-tool
+- learn.create-azure-storage-account.5-exercise-create-a-storage-account
+- learn.create-azure-storage-account.6-knowledge-check
+- learn.create-azure-storage-account.7-summary
+achievement: learn.create-azure-storage-account.badge

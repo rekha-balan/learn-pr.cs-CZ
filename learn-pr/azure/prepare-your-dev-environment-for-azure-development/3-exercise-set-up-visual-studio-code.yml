@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.prepare-azure-dev-environment.3-exercise-set-up-visual-studio-code
+title: Instalace editoru Visual Studio Code a rozšíření Azure App Service
+metadata:
+  title: Instalace editoru Visual Studio Code a rozšíření Azure App Service
+  description: Instalace editoru Visual Studio Code a rozšíření Azure App Service
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform
+  ms.openlocfilehash: be2d08117974190608ce3a2fccfe5141155e52ab
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733965"
+durationInMinutes: 15
+content: '[!include[](includes/3-exercise-set-up-visual-studio-code.md)]'

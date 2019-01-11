@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-storage-account.5-exercise-create-a-storage-account
+title: Vytvořit účet úložiště pomocí webu Azure Portal
+metadata:
+  title: Vytvoření účtu úložiště pomocí webu Azure Portal
+  description: Vytvoření účtu úložiště pomocí webu Azure Portal
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e2b395c420362d38d6e53c87c53474c340b484a4
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347678"
+azureSandbox: true
+durationInMinutes: 7
+content: >
+  [!include[](includes/5-exercise-create-a-storage-account.md)]
+tasks:
+- action: exists
+  environment: azure
+  hint: Postupujte podle pokynů a vytvořte účet úložiště pro obecné účely verze 2.
+  azure:
+    resource:
+      type: Microsoft.Storage/storageAccounts
+      kind: StorageV2

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-performance-and-scalability.3-optimize-network-performance
+title: Optimalizace výkonu sítě
+metadata:
+  title: Optimalizace výkonu sítě
+  description: V této lekci se budeme věnovat optimalizaci výkonu sítě pro vaši architekturu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 76ef0e32ff1ba1d4a30cda8cfe4472894beaf7a0
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732725"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-optimize-network-performance.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Která z následujících možností odpovídá definici pojmu latence sítě?
+    choices:
+    - content: Objem propustnosti, která je dostupná v síti
+      isCorrect: false
+      incorrectExplanation: Propustnost sítě je měřítko kapacity sítě.
+    - content: Doba, jak dlouho trvá, než se informace odešle ze zdroje do cíle
+      isCorrect: true
+      correctExplanation: Latence je míra času přenosu v síti.
+    - content: Hodnota TTL (Time to Live) prostředku v síti pro doručování obsahu
+      isCorrect: false
+      incorrectExplanation: TTL prostředku v síti pro doručování obsahu se vztahuje k tomu, jak často se aktualizuje z původního zdroje.
+    - content: Privátní okruh mezi místní sítí a Azure
+      isCorrect: false
+      incorrectExplanation: ExpressRoute je privátní okruh mezi místní sítí a Azure a přestože může vylepšit latenci, nejedná se o definici tohoto pojmu.
+  - content: Předpokládejme, že vaše webová aplikace se hostuje v oblasti Východní USA. Která z následujících možností by optimalizovala latenci sítě pro uživatele po celém světě cenově nejvýhodnějším způsobem?
+    choices:
+    - content: Nasazení ExpressRoute pro každého uživatele
+      isCorrect: false
+      incorrectExplanation: ExpressRoute se zřizuje pro síťové umístění, nikoli pro jednotlivé uživatele.
+    - content: Umístění prostředků a obsahu blíže uživatelům pomocí sítě pro doručování obsahu
+      isCorrect: true
+      correctExplanation: Při použití sítě pro doručování obsahu se prostředky ukládají do mezipaměti v umístěních, která jsou fyzicky blíže ke koncovým uživatelům, čímž se zkracuje doba potřebná k jejich načtení. Tím se cenově výhodně vylepší latence sítě pro uživatele po celém světě.
+    - content: Využití Traffic Manageru v režimu směrování výkonu
+      isCorrect: false
+      incorrectExplanation: Traffic Manager je nástroj pro vyrovnávání zatížení založený na DNS, který vám může pomoci zkrátit dobu potřebnou pro připojení k prostředkům, ale současně také vyžaduje umístění webových služeb ve více umístěních a nepředstavuje cenově nejvýhodnější způsob řešení tohoto problému.
+    - content: Nasazení dalších instancí v oblasti Východní USA, které budou řešit další uživatelské zatížení
+      isCorrect: false
+      incorrectExplanation: Přidávání dalších instancí zvýší zátěž, kterou v oblasti East US služba dokáže zvládnout, ale neřeší latenci sítě pro uživatele rozmístěným po celém světě.

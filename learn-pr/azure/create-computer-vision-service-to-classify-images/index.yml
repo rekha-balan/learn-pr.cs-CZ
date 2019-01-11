@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.create-computer-vision-service
+metadata:
+  title: Zpracování obrázků pomocí počítačového zpracování obrazu – výuka
+  description: Pomocí rozhraní API pro počítačové zpracování obrazu můžete analyzovat obrázky pro získání přehledů, extrahovat text z obrázků a generovat miniatury ve vysoké kvalitě.
+  ms.date: 09/24/2018
+  author: MaximRouiller
+  ms.author: marouill
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 518e0a7733f90a0b39ec0aece44d93e81638191f
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006244"
+title: Zpracování obrázků pomocí počítačového zpracování obrazu
+summary: Pomocí rozhraní API pro počítačové zpracování obrazu můžete analyzovat obrázky pro získání přehledů, extrahovat text z obrázků a generovat miniatury ve vysoké kvalitě.
+abstract: >
+  V tomto modulu:
+
+  - Vytvoříte účet Cognitive Services.
+
+  - Získáte informace o vizuálním obsahu nalezeném v obrázku.
+
+  - Vytvoříte miniaturu obrázku.
+
+  - Rozpoznáte a extrahujete z obrázku tištěný text.
+
+  - Rozpoznáte a extrahujete z obrázku ručně psaný text.
+prerequisites: Žádné
+iconUrl: /learn/achievements/create-computer-vision-service-to-classify-images.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-clis
+units:
+- learn.create-computer-vision-service.1-intro
+- learn.create-computer-vision-service.2-create-service
+- learn.create-computer-vision-service.3-analyze-images
+- learn.create-computer-vision-service.4-generate-thumbnail
+- learn.create-computer-vision-service.5-extract-printed-text
+- learn.create-computer-vision-service.6-extract-handwritten-text
+- learn.create-computer-vision-service.7-summary
+achievement: learn.create-computer-vision-service.badge

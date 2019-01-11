@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.9-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b61792a929c2a5f93068867ee640a7163688bb9e
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006132"
+durationInMinutes: 2
+content: >
+  [!include[](includes/9-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Výraz CRON je řetězec, který se skládá ze šesti polí, která představují sadu časů. Pořadí těchto šesti polí v Azure je: {sekundy} {minuty} {hodiny} {den} {měsíc} {den v týdnu}. Předpokládejme, že potřebujete výraz CRON, který znamená „každý den“. Jaký zvláštní znak umístíte na pozici {den v týdnu}?'
+    choices:
+    - content: "'/'"
+      isCorrect: false
+      incorrectExplanation: Lomítko určuje přírůstek. Například */5 v poli {sekundy} znamená každých pět sekund.
+    - content: "'*'"
+      isCorrect: true
+      correctExplanation: Hvězdička určuje, že musí být vybrána každá možná hodnota. Hvězdička v poli {den v týdnu} znamená, že musí být vybrán každý den.
+    - content: "','"
+      isCorrect: false
+      incorrectExplanation: Čárka odděluje položky seznamu. Například 1,2,3 v poli {měsíc} znamená, že vyberete leden, únor a březen.
+    - content: "'-'"
+      isCorrect: false
+      incorrectExplanation: Spojovník určuje rozsah. Například 1-3 v poli {měsíc} znamená, že vyberete leden, únor a březen.
+  - content: Předpokládejme, že funkce Azure má přidružený aktivační objekt blob a vy chcete, aby se spustil jenom v případě nahrání imagí. Kterou z následujících hodnot *cesty* aktivačního objektu blob byste měli použít?
+    choices:
+    - content: samples-workitems/{název}
+      isCorrect: false
+      incorrectExplanation: Cesta říká aktivačnímu objektu blob, kde je potřeba sledovat změny a jestli se používají nějaké filtry. Přidáním přípony souboru do cesty určíte, že nahrávané soubory musejí mít tuto příponu, aby aktivační událost funkci vyvolala.
+    - content: samples-workitems/{název}/png
+      isCorrect: false
+      incorrectExplanation: Cesta říká aktivačnímu objektu blob, kde je potřeba sledovat změny a jestli se používají nějaké filtry. Přidáním přípony souboru do cesty určíte, že nahrávané soubory musejí mít tuto příponu, aby aktivační událost funkci vyvolala.
+    - content: samples-workitems/{název}?png
+      isCorrect: false
+      incorrectExplanation: Cesta říká aktivačnímu objektu blob, kde je potřeba sledovat změny a jestli se používají nějaké filtry. Přidáním přípony souboru do cesty určíte, že nahrávané soubory musejí mít tuto příponu, aby aktivační událost funkci vyvolala.
+    - content: samples-workitems/{název}.png
+      isCorrect: true
+      correctExplanation: Cesta říká aktivačnímu objektu blob, kde je potřeba sledovat změny a jestli se používají nějaké filtry. Přidáním přípony souboru do cesty určíte, že nahrávané soubory musejí mít tuto příponu, aby aktivační událost funkci vyvolala.
+  - content: 'Pravda nebo nepravda: funkce Azure může mít přidruženo několik aktivačních událostí.'
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Každá funkce Azure musí mít přiřazenou přesně jednu aktivační událost. Pokud chcete použít několik aktivačních událostí, vytvořte více funkcí.
+    - content: Nepravda
+      isCorrect: true
+      correctExplanation: Každá funkce Azure musí mít přiřazenou přesně jednu aktivační událost. Pokud chcete použít několik aktivačních událostí, vytvořte více funkcí.

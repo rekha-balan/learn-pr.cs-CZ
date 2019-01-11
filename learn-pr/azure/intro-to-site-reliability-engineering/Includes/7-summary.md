@@ -1,0 +1,1 @@
+Vítejte ve světě Site Reliability Engineering (SRE). Snad vám tento modul pomohl s tím, jak začít rozumět SRE. Společně jsme probrali některé jeho základní zásady a postupy a zasadili jsme je do náležitého kontextu. Mluvili jsme o tom, jak se na téma SRE můžete podívat hlouběji sami a objevovat je na pracovišti. Doufáme, že se k nám připojíte i v dalších modulech na toto téma.

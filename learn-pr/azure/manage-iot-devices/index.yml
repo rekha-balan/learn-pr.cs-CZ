@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.manage-iot-devices
+metadata:
+  title: Naučte se spravovat zařízení IoT jako správce IT – výuka
+  description: Jak se IoT neustále rozšiřuje, mohly by vás zajímat informace o tom, jaké nástroje Microsoft nabízí IT oddělením jako pomoc při nasazování, spravování a zabezpečování velkých množství nejrůznějších zařízení.
+  author: WirelessLife
+  ms.date: 09/24/2018
+  ms.author: abartolo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1f0f4b4e7832da0405b285cb4c1d6ba90fa07e1a
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005829"
+title: Naučte se spravovat zařízení IoT jako správce IT
+summary: Jak se IoT neustále rozšiřuje, mohly by vás zajímat informace o tom, jaké nástroje Microsoft nabízí IT oddělením jako pomoc při nasazování, spravování a zabezpečování velkých množství nejrůznějších zařízení.
+abstract: >
+  V tomto modulu:
+   - Úvod do problematiky IoT
+   - Interakce se simulátorem Raspberry Pi
+   - Konfigurace Azure IoT Hub k zaznamenání dat
+prerequisites: Žádné
+iconUrl: /learn/achievements/manage-your-iot-devices.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+units:
+- learn.manage-iot-devices.1-intro-to-ops-in-iot
+- learn.manage-iot-devices.2-raspberry-pi-emulator
+- learn.manage-iot-devices.3-connect-device
+- learn.manage-iot-devices.4-summary
+achievement: learn.manage-iot-devices.badge

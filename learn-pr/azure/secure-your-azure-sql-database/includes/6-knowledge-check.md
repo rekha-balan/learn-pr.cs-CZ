@@ -1,0 +1,1 @@
+Tady je pár otázek ke kontrole, co jsme probrali a co jste se naučili.

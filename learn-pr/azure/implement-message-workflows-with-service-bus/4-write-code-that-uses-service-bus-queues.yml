@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.implement-message-workflows-with-service-bus.4-write-code-that-uses-service-bus-queues
+title: Psaní kódu využívajícího front služby Service Bus
+metadata:
+  title: Psaní kódu využívajícího front služby Service Bus
+  description: Psaní kódu využívajícího front služby Service Bus
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 3bc4d417ed877eed418070ba567c0a8e8933207e
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006299"
+durationInMinutes: 5
+content: '[!include[](includes/4-write-code-that-uses-service-bus-queues.md)]'

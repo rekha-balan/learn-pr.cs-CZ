@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-vm-templates.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 09/24/2018
+  author: tpetchel
+  ms.author: thpetche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: d9cacdb0d5caaca0f9a84c1f535a495a771c8004
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799481"
+durationInMinutes: 1
+content: '[!include[](includes/1-introduction.md)]'

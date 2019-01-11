@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn.secure-your-cloud-data
+metadata:
+  title: Zabezpečení cloudových dat v Azure – studijní program
+  description: Platforma Azure byla navržena kvůli bezpečnosti a dodržování předpisů. Zjistěte, jak využít integrované služby k bezpečnému ukládání dat aplikací a k zajištění toho, aby k těmto datům měli přístup jenom oprávnění klienti a služby.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1910b727efd8fc16bf4e697fc4ef37619d96d8b0
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52925378"
+title: Zabezpečení cloudových dat
+summary: Platforma Azure byla navržena kvůli bezpečnosti a dodržování předpisů. Zjistěte, jak využít integrované služby k bezpečnému ukládání dat aplikací a k zajištění toho, aby k těmto datům měli přístup jenom oprávnění klienti a služby.
+prerequisites: Žádné
+iconUrl: /learn/achievements/secure-your-cloud-data.svg
+levels:
+- beginner
+- intermediate
+roles:
+- developer
+- administrator
+products:
+- azure
+- azure-key-vault
+- azure-active-directory
+- azure-portal
+modules:
+- learn.design-for-security
+- learn.top-5-security-items-to-consider
+- learn.manage-secrets-with-azure-key-vault
+- learn.secure-access-azure-ad-multi-factor-authentication
+achievement: learn.secure-your-cloud-data.trophy

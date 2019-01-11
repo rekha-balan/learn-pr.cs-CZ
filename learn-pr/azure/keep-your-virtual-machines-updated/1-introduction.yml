@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.keep-your-virtual-machines-updated.1-introduction
+title: Úvod
+metadata:
+  title: Úvod
+  description: Úvod
+  ms.date: 12/21/2018
+  author: adrianstevens
+  ms.author: adsteven
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 71b28e089470c64eb0a4da6139309199c95a4494
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799477"
+durationInMinutes: 3
+content: '[!include[](includes/1-introduction.md)]'

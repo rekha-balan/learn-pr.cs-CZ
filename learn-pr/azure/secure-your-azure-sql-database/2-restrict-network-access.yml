@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.secure-your-azure-sql-database.2-restrict-network-access
+metadata:
+  title: Omezení síťového přístupu
+  description: Zjistěte, jak můžete omezit síťový přístup k vaší databázi Azure SQL Serveru.
+  ms.date: 11/09/2018
+  author: jboeshart
+  ms.author: jaboes
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: de719cbc75b79aa924e07b4cf10c6bf0cdd8d750
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52932079"
+interactive: bash
+azureSandbox: true
+title: Omezení síťového přístupu
+durationInMinutes: 25
+content: '[!include[](includes/2-restrict-network-access.md)]'

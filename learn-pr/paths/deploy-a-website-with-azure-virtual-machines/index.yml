@@ -1,0 +1,36 @@
+### YamlMime:LearningPath
+uid: learn.deploy-a-website-with-azure-virtual-machines
+metadata:
+  title: Nasazení webu pomocí virtuálních počítačů Azure – studijní program
+  description: Webové aplikace v Azure umožňují jednoduše publikovat a spravovat web, aniž byste museli pracovat s potřebnými servery, úložištěm a síťovými prostředky. Místo toho se můžete soustředit na funkce webu a spolehnout se, že robustní platforma Azure vám zajistí bezpečný přístup k webu.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 4d1ff033dc359214bedf7ed2f5f56c4ddec30614
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52923814"
+title: Nasazení webu pomocí virtuálních počítačů Azure
+summary: Pokud platforma Azure Web Apps přímo nepodporuje vaše požadavky na hostování webu, můžete k přizpůsobení webového serveru a řízení všech jeho částí využít virtuální počítače. Naučte se vytvářet, konfigurovat a spravovat virtuální počítače s Linuxem nebo Windows, které hostují webové aplikace.
+prerequisites: Žádné
+iconUrl: /learn/achievements/deploy-a-website-with-azure-virtual-machines.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-virtual-machines
+- azure-portal
+- azure-cloud-shell
+modules:
+- learn.introduction-to-azure-virtual-machines
+- learn.create-linux-vm-in-azure
+- learn.create-a-windows-vm-in-azure
+- learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm
+achievement: learn.deploy-a-website-with-azure-virtual-machines.trophy

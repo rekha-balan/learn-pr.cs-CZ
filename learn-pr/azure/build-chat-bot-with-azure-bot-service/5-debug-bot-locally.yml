@@ -1,0 +1,21 @@
+### YamlMime:ModuleUnit
+uid: learn.build-azure-bot-services-bot.5-debug-bot-locally
+title: Místní ladění robota
+metadata:
+  title: Místní ladění robota
+  description: Místní ladění robota
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 805778b4d675c2bde6f9fb2a119f6f404720a1ee
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52948455"
+labId: 46466
+durationInMinutes: 20
+content: '[!include[](includes/5-debug-bot-locally.md)]'

@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.communicate-between-applications-with-azure-queue-storage
+metadata:
+  title: Komunikace mezi aplikacemi pomocí Azure Queue Storage – výuka
+  description: Model publikování-odebírání v cloudu implementujeme pomocí Azure Queue Storage.
+  ms.date: 09/24/2018
+  author: marktap
+  ms.author: matapar
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 6e3835940f4d08ec3047ff44c6b144b5af22b81e
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732837"
+title: Komunikace mezi aplikacemi pomocí Azure Queue Storage
+summary: Model publikování-odebírání v cloudu implementujeme pomocí Azure Queue Storage.
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Vytvořit účet Azure Storage, který podporuje fronty
+
+  - Vytvořit frontu pomocí jazyka C# a klientské knihovny Azure Storage pro .NET
+
+  - Přidávat, načítat a odebírat zprávy z fronty pomocí jazyka C# a klientské knihovny Azure Storage pro .NET
+prerequisites: Žádné
+iconUrl: /learn/achievements/communicate-between-apps-with-azure-queue-storage.svg
+levels:
+- intermediate
+roles:
+- developer
+products:
+- azure
+- azure-storage
+units:
+- learn.communicate-between-applications-with-azure-queue-storage.1-introduction
+- learn.communicate-between-applications-with-azure-queue-storage.2-create-the-azure-storage-infrastructure
+- learn.communicate-between-applications-with-azure-queue-storage.3-exercise-create-the-azure-storage-infrastructure
+- learn.communicate-between-applications-with-azure-queue-storage.4-identify-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.5-exercise-identify-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.6-how-to-programmatically-access-a-queue
+- learn.communicate-between-applications-with-azure-queue-storage.7-exercise-implement-enqueue
+- learn.communicate-between-applications-with-azure-queue-storage.8-exercise-implement-dequeue
+- learn.communicate-between-applications-with-azure-queue-storage.9-summary
+achievement: learn.communicate-between-applications-with-azure-queue-storage.badge

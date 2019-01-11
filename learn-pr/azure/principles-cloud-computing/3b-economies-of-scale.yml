@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.principles-cloud-computing.3b-economies-of-scale
+title: Úspory z rozsahu
+metadata:
+  title: Úspory z rozsahu
+  description: Úspory z rozsahu
+  ms.date: 12/20/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1d0062f83527cddcfe6659f6aa53e7c89d652ab1
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799075"
+durationInMinutes: 5
+content: '[!include[](includes/3b-economies-of-scale.md)]'

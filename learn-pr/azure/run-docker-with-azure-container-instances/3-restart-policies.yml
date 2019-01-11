@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.run-docker-containers-aci.3-restart-policy
+metadata:
+  title: Řízení chování při restartování služby Azure Container Instances
+  description: Řízení chování při restartování služby Container Instances.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e0407e1e39a0a8ffe11a449b17e3740e294d869c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52937334"
+title: Řízení chování při restartování
+interactive: bash
+azureSandbox: true
+durationInMinutes: 6
+content: >
+  [!include[](includes/3-restart-policy.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.ContainerInstance/containerGroups
+      name: mycontainer-restart-demo
+  hint: ''

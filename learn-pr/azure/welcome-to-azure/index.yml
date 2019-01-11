@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.welcome-to-azure
+metadata:
+  title: Úvod do Azure – výuka
+  description: Začněte práci s Azure tak, že vytvoříte svůj první virtuální počítač v cloudu.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 94a2ffd0fb432003c2540227bfa1a8cc17ddac33
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798829"
+title: Úvod do Azure
+summary: Začněte práci s Azure tak, že vytvoříte a nakonfigurujete svůj první virtuální počítač v cloudu.
+abstract: "V tomto modulu se naučíte:\n- Zjistíte, co je Microsoft Azure a jak souvisí s cloud computingem.\n- Dozvíte se, jak je snadné spustit svůj první virtuální počítač, přidat webový server a vertikálně navýšit kapacitu serveru, když potřebujete větší výkon.\n- Začnete získávat základní dovednosti, které úplně změní váš způsob práce nebo vám můžou usnadnit získání vysněného zaměstnání. \n"
+prerequisites: Žádné
+iconUrl: /learn/achievements/welcome-to-azure.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+- solution-architect
+products:
+- azure
+- azure-clis
+- azure-virtual-machines
+units:
+- learn.welcome-to-azure.1-introduction
+- learn.welcome-to-azure.2-what-is-azure
+- learn.welcome-to-azure.3-create-a-vm
+- learn.welcome-to-azure.4-add-web-server
+- learn.welcome-to-azure.5-scale-up
+- learn.welcome-to-azure.6-summary
+achievement: learn.welcome-to-azure.badge

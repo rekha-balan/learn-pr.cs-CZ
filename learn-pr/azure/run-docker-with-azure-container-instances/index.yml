@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.run-docker-containers-aci
+metadata:
+  title: Spouštění kontejnerů Dockeru pomocí služby Azure Container Instances – výuka
+  description: Informace o spouštění kontejnerizovaných aplikací používajících kontejnery Dockeru pomocí služby Azure Container Instances (ACI)
+  ms.date: 09/24/2018
+  author: neilpeterson
+  ms.author: nepeters
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 80c347a72263f7eea087f4ed83854f3d4792f8e0
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52937334"
+title: Spouštění kontejnerů Dockeru pomocí služby Azure Container Instances
+summary: Informace o spouštění kontejnerizovaných aplikací používajících kontejnery Dockeru pomocí služby Azure Container Instances (ACI)
+abstract: >
+  V tomto modulu se naučíte:
+
+  - Spouštět kontejnery ve službě Azure Container Instances
+
+  - Řídit, co se stane při ukončení kontejneru
+
+  - Používat proměnné prostředí ke konfiguraci kontejneru při spuštění
+
+  - Připojit objem dat k uchování dat při ukončení kontejneru
+
+  - Informace o některých základních způsobech řešení problémů s kontejnery Azure
+prerequisites: Žádné
+iconUrl: /learn/achievements/run-docker-with-azure-container-instances.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure
+- azure-container-instances
+- azure-cosmos-db
+units:
+- learn.run-docker-containers-aci.1-introduction
+- learn.run-docker-containers-aci.2-run-aci
+- learn.run-docker-containers-aci.3-restart-policy
+- learn.run-docker-containers-aci.4-use-environment-variables
+- learn.run-docker-containers-aci.5-use-data-volumes
+- learn.run-docker-containers-aci.6-troubleshoot-aci
+- learn.run-docker-containers-aci.7-knowledge-check
+achievement: learn.run-docker-containers-aci.badge

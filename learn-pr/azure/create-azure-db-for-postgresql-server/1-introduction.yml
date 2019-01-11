@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-azure-db-for-postgresql.introduction
+title: Úvod k Azure Database for PostgreSQL
+metadata:
+  title: Úvod k Azure Database for PostgreSQL
+  description: Úvod k Azure Database for PostgreSQL
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1579e3910de2aa14cad153fb4a77de560bee6af9
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006358"
+durationInMinutes: 2
+content: '[!include[](includes/1-introduction.md)]'

@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.interactive-deep-learning.7-summary-and-knowledge-check
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: e6410d807781bb3a0c9752c2ead82abfa1c061bc
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52930038"
+durationInMinutes: 1
+content: >
+  [!include[](includes/7-summary-and-knowledge-check.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z následujících tvrzení vystihuje výhodu použití Data Science Virtual Machine (DSVM) oproti sestavení vlastního virtuálního počítače?
+    choices:
+    - content: DSVM zahrnuje mnoho běžných nástrojů nutných pro úlohy strojového učení.
+      isCorrect: true
+      correctExplanation: Použití instance DSVM znamená, že nemusíte trávit čas instalací softwaru. Jsou k dispozici prostředí pro vývoj a spouštění kódu v jazycích R, Python, .NET a dalších.
+    - content: DSVM je jediný způsob, jak vytvořit instanci virtuálního počítače s několika procesory GPU.
+      isCorrect: false
+      incorrectExplanation: Můžete sice vytvořit DSVM s několika procesory GPU, ale to je možné i u vlastního virtuálního počítače.
+    - content: Nemusíte čekat na přidělení nové instance virtuálního počítače.
+      isCorrect: false
+      incorrectExplanation: Jako u všech virtuálních počítačů platí, že když vytvoříte novou instanci DSVM, je třeba chvíli počkat na její přidělení.
+  - content: Které z následujících tvrzení vystihuje CUDA?
+    choices:
+    - content: Je to aplikační programovací rozhraní (API) a platforma paralelních výpočtů.
+      isCorrect: true
+      correctExplanation: CUDA je aplikační programovací rozhraní (API) a platforma paralelních výpočtů. Za modelem stojí společnost NVIDIA. Platforma CUDA je softwarová vrstva, která poskytuje přímý přístup k virtuální sada instrukcí GPU a paralelní výpočetní prvky ke spuštění výpočetních jader.
+    - content: Je velmi výkonný procesor.
+      isCorrect: false
+      incorrectExplanation: CUDA je vrstva softwaru a je určená pro GPU.
+    - content: Je to model hloubkového učení používaný ke klasifikaci obrázků.
+      isCorrect: false
+      incorrectExplanation: GPU s podporou CUDA může výrazně zlepšit výpočetní výkon při školení neuronové sítě, ale to je jenom jedno z jeho použití.
+  - content: Které z následujících tvrzení popisuje PyTorch?
+    choices:
+    - content: Matematický programovací jazyk inspirovaný Pythonem
+      isCorrect: false
+      incorrectExplanation: PyTorch není programovací jazyk.
+    - content: Image kontejneru Dockeru pro hostování aplikací v Pythonu
+      isCorrect: false
+      incorrectExplanation: PyTorch není image kontejneru Dockeru.
+    - content: Softwarová knihovna pro strojové učení pro použití s Pythonem
+      isCorrect: true
+      correctExplanation: PyTorch je knihovna pro usnadnění a urychlení úloh strojového učení v Pythonu. Zahrnuje integrovanou podporu CUDA pro provádění kódu na procesorech GPU.

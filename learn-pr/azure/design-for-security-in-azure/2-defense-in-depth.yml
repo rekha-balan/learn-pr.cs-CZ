@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-security.2-defense-in-depth
+title: Hloubková ochrana
+metadata:
+  title: Hloubková ochrana
+  description: V této lekci probereme, jak docílit hloubkové ochrany.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: c082ceada8010b49cc3c0f6428126178bf06aed5
+  ms.sourcegitcommit: 077f8eb202a6505eeecfd1a2d6314656ed4d7d70
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/13/2018
+  ms.locfileid: "53347752"
+durationInMinutes: 10
+content: >
+  [!include[](includes/2-defense-in-depth.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Ano nebo ne: Představuje *hloubková ochrana* strategii zaměřenou na ochranu před útoky, jejichž cílem je získání přístupu k vašim informacím?'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: '*Hloubková ochrana* je vrstvený systém, který poskytuje ochranu před neoprávněným přístupem. Pokud dojde k prolomení jedné vrstvy, je k dispozici další vrstva, která zabrání dalšímu pronikání.'
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: '*Hloubková ochrana* je vrstvený systém, který poskytuje ochranu před neoprávněným přístupem. Pokud dojde k prolomení jedné vrstvy, je k dispozici další vrstva, která zabrání dalšímu pronikání.'
+  - content: 'Pravda, nebo nepravda: Přesunutím do cloudu je moje architektura zcela zabezpečená a veškerou odpovědnost za zabezpečení můžu předat poskytovateli cloudových služeb.'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: Přechodem do cloudu skutečně přesunete část zodpovědnosti na poskytovatele cloudových služeb, stále ale funguje model sdílené odpovědnosti.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Přechodem do cloudu skutečně přesunete část zodpovědnosti na poskytovatele cloudových služeb, stále ale funguje model sdílené odpovědnosti.

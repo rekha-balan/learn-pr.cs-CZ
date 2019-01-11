@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.host-a-web-application-with-azure-web-apps
+metadata:
+  title: Hostování webové aplikace v Azure App Service – výuka
+  description: K vytvoření webu můžete použít platformu pro hostování webových aplikací v Azure App Service.
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 18b8fb76101440ac15954623732b9cf7c6032210
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53733139"
+title: Hostování webové aplikace v Azure App Service
+summary: Azure App Service umožňuje vytvářet a hostovat webové aplikace v programovacím jazyce podle vašeho výběru, aniž by bylo potřeba zabývat se správou infrastruktury. Naučte se vytvořit web prostřednictvím hostované platformy webových aplikací v Azure App Service.
+abstract: >
+  V tomto modulu:
+
+  - Použijete Azure Portal k vytvoření webové aplikace v Azure App Service.
+
+  - Použijete nástroje pro vývojáře k vytvoření kódu počáteční webové aplikace.
+
+  - Nasadíte kód do Azure App Service.
+prerequisites: Žádné
+iconUrl: /learn/achievements/host-a-web-app-with-azure-app-service.svg
+levels:
+- beginner
+roles:
+- developer
+products:
+- azure
+- azure-portal
+units:
+- learn.host-a-web-application-with-azure-web-apps.1-introduction
+- learn.host-a-web-application-with-azure-web-apps.2-create-a-web-app-in-the-azure-portal
+- learn.host-a-web-application-with-azure-web-apps.3-exercise-create-a-web-app-in-the-azure-portal
+- learn.host-a-web-application-with-azure-web-apps.4-exercise-implement-a-web-application
+- learn.host-a-web-application-with-azure-web-apps.5-deploying-code-to-app-service
+- learn.host-a-web-application-with-azure-web-apps.6-exercise-deploy-your-code-to-app-service
+- learn.host-a-web-application-with-azure-web-apps.7-summary
+achievement: learn.host-a-web-application-with-azure-web-apps.badge

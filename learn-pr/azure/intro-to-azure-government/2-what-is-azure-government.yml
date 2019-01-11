@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.2-what-is-azure-government
+title: Co je Azure Government?
+metadata:
+  title: Co je Azure Government?
+  description: Přehled klíčových výhod Azure Government pro provozování cloudových služeb splňujících požadavky na zabezpečení a dodržování předpisů u státních institucí
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 827c965694130c40406cfa542111f9a384480b4a
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+durationInMinutes: 10
+content: '[!include[](includes/2-what-is-azure-government.md)]'

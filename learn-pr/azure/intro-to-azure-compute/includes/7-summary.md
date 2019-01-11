@@ -1,0 +1,3 @@
+![Koncept výpočtu jako centrum naší sluneční soustavy](../media/7-heading.png)
+
+Azure nabízí pro cloudový computing různé služby, ale výběr správné služby závisí na vašich obchodních potřebách. Mějte na paměti, že některé možnosti se překrývají. V rámci architektury bez serverů tak například můžete používat buď kontejnery Azure, nebo Azure Functions. Správné rozhodnutí ale nakonec bude záviset na možnostech příslušných služeb i na dovednostech vašeho vývojového týmu.

@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.distribute-data-globally-with-cosmos-db.5-data-consistency-levels
+metadata:
+  title: Volba úrovně konzistence
+  description: Naučte se v Azure Cosmos DB používat úrovně konzistence k maximalizaci vysoké dostupnosti, minimalizaci latence a určení správné úrovně konzistence pro aplikaci.
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 4b89a3ca7a80994b49969086ce05853a5cc68183
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005812"
+title: Volba úrovně konzistence
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-data-consistency-levels.md)]
+quiz:
+  title: Prověrka znalostí
+  questions:
+  - content: Jaká úroveň konzistence je nejvhodnější pro uživatelská data v databázi pro elektronické obchodování? Uživatelé musejí mít jistotu, že jejich objednávky obsahují všechny položky vložené do košíku.
+    choices:
+    - content: Silná
+      isCorrect: false
+      incorrectExplanation: U databází replikovaných ve více oblastech není úroveň Silná konzistence dostupná.
+    - content: Omezená neaktuálnost
+      isCorrect: false
+      incorrectExplanation: Omezená neaktuálnost může způsobit, že se uživatelům v košíku zobrazí jen některé položky.
+    - content: Relace
+      isCorrect: true
+      correctExplanation: Správná odpověď je konzistence typu Relace. Relace je nejlepší nastavení konzistence uživatelských dat s informacemi o nákupním košíku. Konzistence typu Relace zajistí, že při kontrole košíku v něm budou všechny položky, které do něj uživatel dal.
+    - content: Konzistentní předpona
+      isCorrect: false
+      incorrectExplanation: Konzistentní předpona může způsobit, že se uživatelům v košíku zobrazí jen některé jejich položky.
+    - content: Konečná
+      isCorrect: false
+      incorrectExplanation: Konečná konzistence může vést k situaci, kdy se v nákupním košíku nezobrazí všechny položky, které do něj uživatel dal.
+  - content: Jaká úroveň konzistence spotřebovává nejmenší počet požadovaných jednotek na operaci?
+    choices:
+    - content: Silná
+      isCorrect: false
+    - content: Omezená neaktuálnost
+      isCorrect: false
+    - content: Relace
+      isCorrect: false
+    - content: Konzistentní předpona
+      isCorrect: false
+    - content: Konečná
+      isCorrect: true
+      correctExplanation: Nejmenší počet požadovaných jednotek za sekundu spotřebovává operace čtení s konečnou konzistencí.

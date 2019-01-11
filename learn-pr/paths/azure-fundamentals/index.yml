@@ -1,0 +1,44 @@
+### YamlMime:LearningPath
+uid: learn.cloud-foundations
+metadata:
+  title: Základy práce s Azure – studijní program
+  description: Zajímá vás cloud, ale nevíte, k čemu vám může být užitečný? Tento postup výuky je správným místem, kde začít. Seznamte se s výhodami cloud computingu, funkcemi Azure, které šetří čas a peníze, se základními strategiemi pro přechod do cloudu a dalšími možnostmi.
+  brand: azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 45da4f48a7e612bda25c931969dab5874ca25ad0
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52923746"
+title: Základy Azure
+summary: Zajímá vás cloud, ale nevíte, k čemu vám může být užitečný? Tento postup výuky je správným místem, kde začít. Seznamte se s výhodami cloud computingu, funkcemi Azure, které šetří čas a peníze, se základními strategiemi pro přechod do cloudu a dalšími možnostmi.
+prerequisites: Žádné
+iconUrl: /learn/achievements/azure-fundamentals.svg
+levels:
+- beginner
+roles:
+- developer
+- solution-architect
+- administrator
+- business-analyst
+- business-user
+products:
+- azure
+- azure-portal
+- azure-resource-manager
+- azure-storage
+- azure-virtual-machines
+modules:
+- learn.welcome-to-azure
+- learn.principles-cloud-computing
+- learn.azure-services-features
+- learn.intro-to-compute
+- learn.intro-to-data-in-azure
+- learn.intro-to-azure-networking
+- learn.introduction-to-security
+achievement: learn.cloud-foundations.trophy

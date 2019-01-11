@@ -1,0 +1,32 @@
+### YamlMime:ModuleUnit
+uid: learn.welcome-to-azure.3-create-a-vm
+title: Vytvoření virtuálního počítače
+metadata:
+  title: Vytvoření virtuálního počítače
+  description: Bez ohledu na vaši oblast zájmu začněte využívat cloud tak, že vytvoříte svůj první virtuální počítač.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+  ms.openlocfilehash: fbf841b7b1d022c1d629b20858d6059cf98d703b
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798829"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 7
+content: >
+  [!include[](includes/3-create-a-vm.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Compute/virtualMachines
+      name: myVM
+  hint: Podle pokynů spusťte příkaz `az vm create`, kterým vytvoříte virtuální počítač.

@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.automate-azure-tasks-with-powershell.8-exercise-create-resource-using-script
+title: Cvičení – vytvoření a uložení skriptů v Azure PowerShellu
+metadata:
+  title: Cvičení – vytvoření a uložení skriptů v Azure PowerShellu
+  description: Cvičení – vytvoření a uložení skriptů v Azure PowerShellu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: fb8d844e6aaa620c17c85dde3835f57a2fc6ce93
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732903"
+interactive: powershell
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/8-exercise-create-resource-using-script.md)]'

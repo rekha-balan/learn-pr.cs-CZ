@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.6-manage-vm
+title: Nastavení sítě virtuálního počítače Azure
+metadata:
+  title: Nastavení sítě virtuálního počítače Azure
+  description: Nastavení sítě virtuálního počítače Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 4d62fd8d99944d2ecd51265c18a186f6cb29e2dd
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005902"
+durationInMinutes: 5
+content: '[!include[](includes/6-manage-vm.md)]'

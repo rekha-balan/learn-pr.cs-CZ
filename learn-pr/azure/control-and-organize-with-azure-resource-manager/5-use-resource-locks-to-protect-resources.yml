@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.5-use-resource-locks-to-protect-resources
+title: Ochrana prostředků pomocí zámků prostředků
+metadata:
+  title: Ochrana prostředků pomocí zámků prostředků
+  description: V této lekci probereme, jak používat k ochraně prostředků pomocí zámků prostředků.
+  ms.openlocfilehash: c1935979902c5de436e7fc8af649eb00ec401770
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+durationInMinutes: 7
+content: '[!include[](includes/5-use-resource-locks-to-protect-resources.md)]'

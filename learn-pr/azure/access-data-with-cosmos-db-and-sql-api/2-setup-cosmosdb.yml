@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.access-data-with-cosmos-db-and-sql-api.2-setup-cosmosdb
+metadata:
+  title: Nastavení databáze a kolekce Azure Cosmos DB
+  description: Nastavení databáze a kolekce Azure Cosmos DB
+  ms.date: 09/24/2018
+  author: mimig1
+  ms.author: mimig
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8e7fc538d6ecc905d28366bd8dccec2a819e6b06
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005838"
+title: Nastavení databáze a kolekce Azure Cosmos DB
+durationInMinutes: 5
+interactive: bash
+azureSandbox: true
+content: >
+  [!include[](includes/2-setup-cosmosdb.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.DocumentDB/databaseAccounts
+  hint: Spuštěním výše uvedených příkazů vytvořte účet Azure Cosmos DB, databázi a kolekci.

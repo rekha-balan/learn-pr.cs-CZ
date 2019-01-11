@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.5-sizing-disks
+title: Změna velikosti disků virtuálního počítače
+metadata:
+  title: Změna velikosti disků virtuálního počítače
+  description: Změna velikosti disků virtuálního počítače
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cb4089c39fa005ee35d6be2494f3b0b5dbcaf64a
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733846"
+durationInMinutes: 5
+content: '[!include[](includes/5-sizing-disks.md)]'

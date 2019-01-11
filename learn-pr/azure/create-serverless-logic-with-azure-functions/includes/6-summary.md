@@ -1,0 +1,3 @@
+Naučili jste se, jak používat službu Azure Functions k hostování služeb obchodní logiky v cloudu. Je to skvělý způsob, jak hostované služby přidat do vašeho řešení, které lze škálovat a které může růst podle potřeb společnosti. Vy se soustředíte na kód v jazyce, kterému dáváte přednost, a Azure spravuje infrastrukturu. Funkce se dají integrovat s dalšími službami, jako jsou Event Grid, GitHub, Twilio, Microsoft Graph nebo Logic Apps. Snadno a rychle tak můžete vytvářet složité a robustní pracovní postupy bez serveru.
+
+[!include[](../../../includes/azure-sandbox-cleanup.md)]

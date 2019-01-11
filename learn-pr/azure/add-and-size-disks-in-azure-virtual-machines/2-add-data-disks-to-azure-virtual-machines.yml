@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.add-and-size-disks-in-azure-virtual-machines.2-add-data-disks-to-azure-virtual-machines
+title: Znalosti o možnostech úložišť pro virtuální počítače (VM)
+metadata:
+  title: Znalosti o možnostech úložišť pro virtuální počítače (VM)
+  description: Znalosti o možnostech úložišť pro virtuální počítače (VM)
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: cdbb9a85906b6507514951f7b1d27c777de42495
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733846"
+durationInMinutes: 3
+content: '[!include[](includes/2-add-data-disks-to-azure-virtual-machines.md)]'

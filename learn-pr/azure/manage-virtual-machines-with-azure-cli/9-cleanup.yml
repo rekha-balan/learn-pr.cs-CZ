@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.9-cleanup
+title: Souhrn a vyčištění
+metadata:
+  title: Souhrn a vyčištění
+  description: Vyčištění prostředků, které jsme použili v tomto modulu
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: f205d33abda4a936d6c9bae67255accd39aa17be
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006119"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 2
+content: >
+  [!include[](includes/9-cleanup.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Předpokládejme, že jste správcem několika virtuálních počítačů Azure. Dostali jste textovou zprávu s informací, že se s počítači vyskytly potíže. Jste u přátel a máte s sebou jen tablet. Ano nebo ne: Máte přístup k Azure CLI na tabletu i přes to, že ho na něj nemůžete nainstalovat?'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Azure Cloud Shell je k dispozici v prohlížeči a plně podporuje Azure CLI. V Cloud Shellu ale můžete využít i PowerShell, pokud mu dáváte přednost.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Azure Cloud Shell je k dispozici v prohlížeči a plně podporuje Azure CLI, takže není potřeba instalovat žádný software.
+  - content: Předpokládejme, že máte skript, který vytváří několik virtuálních počítačů s různými imagemi. Když tento skript vydá příkaz k vytvoření prvního virtuálního počítače, nemá se během vytváření virtuálního počítače zablokovat, ale místo toho se ihned pustit do dalšího příkazu. Jaké řešení je zde nejlepší?
+    choices:
+    - content: Přidání argumentu „--async“ do vytvořeného příkazu
+      isCorrect: false
+      incorrectExplanation: V rámci příkazu „azure VM create“ není argument „--async“ k dispozici.
+    - content: Spuštění procesu na pozadí pomocí ampersandu (&)
+      isCorrect: false
+      incorrectExplanation: Toto řešení může na některých platformách fungovat, ale využije více systémových prostředků než u doporučovaného způsobu.
+    - content: Přidání argumentu „--no-wait“ do vytvořeného příkazu
+      isCorrect: true
+      correctExplanation: Argument „--no-wait“ zajistí, že se příkaz „azure VM create“ okamžitě vrátí a nebude na dokončení virtuálního počítače čekat.
+  - content: Většina příkazů Azure vrací ve výchozím nastavení JSON. Někdy může být tato sada dat velmi rozsáhlá, takže se obtížně čte a je složité používat výsledek jednoho příkazu jako vstup jiného. Co v nástroji Azure CLI použijete, abyste filtrováním výsledků získali jen data, která potřebujete?
+    choices:
+    - content: Použití argumentu „--query“
+      isCorrect: true
+      correctExplanation: Všechny příkazy Azure podporují argument „--query“, který vám umožňuje vybrat užitečná data v jakékoli odezvě na příkaz Azure.
+    - content: Použití argumentu „--filter“
+      isCorrect: false
+      incorrectExplanation: V nástroji Azure CLI není argument „--filter“ k dispozici.
+    - content: Výsledky můžete směrovat do nástroje pro parsování JSON a zde použít funkci filtrování.
+      isCorrect: false
+      incorrectExplanation: Toto řešení může fungovat, ale je složitější než použití integrované podpory pro dotazování v Azure CLI.

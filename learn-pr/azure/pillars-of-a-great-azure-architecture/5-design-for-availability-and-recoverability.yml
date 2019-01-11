@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn.pillars-of-a-great-azure-architecture.5-design-for-availability-and-recoverability
+title: Navrhování s ohledem na zajištění dostupnosti a obnovitelnosti
+metadata:
+  title: Navrhování s ohledem na zajištění dostupnosti a obnovitelnosti
+  description: Navrhování s ohledem na zajištění dostupnosti a obnovitelnosti
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: b0aa86527720344935b2edc66824c1bb3e13ec52
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52935869"
+durationInMinutes: 10
+content: >
+  [!include[](includes/5-design-for-availability-and-recoverability.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Předpokládejme, že chcete zvýšit dostupnost systému a vašim zákazníkům poskytovat lepší smlouvu o úrovni služeb (SLA). Které z následujících možností jsou hlavní zásadou, kterou můžete použít?
+    choices:
+    - content: Omezení cíle maximální doby trvání přijatelné míry ztrát dat.
+      isCorrect: false
+      incorrectExplanation: To může zvýšit možnosti obnovení, ale ne dostupnost.
+    - content: Šifrování všech neaktivních uložených dat
+      isCorrect: false
+      incorrectExplanation: To může zvýšit zabezpečení, ale ne dostupnost.
+    - content: Eliminace jednoho bodu selhání
+      isCorrect: true
+      correctExplanation: Navrhování pro dostupnost se zaměřuje na zajištění poskytování služby bez ohledu na dočasné situace a místní selhání. Přidání redundance, k odstranění jednoho bodu selhání, je základní strategie pro zlepšení dostupnosti.
+  - content: Na které z následujících možností by měl vliv vámi definovaný cíl bodu obnovení (RPO)?
+    choices:
+    - content: Četnost záloh databáze
+      isCorrect: true
+      correctExplanation: Cíl bodu obnovení (RPO) se týká přípustného objemu ztracených dat. Proto musí být četnost záloh v tomto časovém intervalu a vámi definovaný cíl bodu obnovení má na četnost záloh přímý vliv.
+    - content: Počet oblastí, do kterých se data replikují
+      isCorrect: false
+      incorrectExplanation: Počet oblastí, do kterých se data replikují, je sice důležitým aspektem, ale vámi definovaný cíl bodu obnovení na něj nemá vliv.
+    - content: Počet instancí v databázovém clusteru
+      isCorrect: false
+      incorrectExplanation: Počet instancí v databázovém clusteru může být důležitým rozhodnutím, ale vámi definovaný cíl bodu obnovení na něj nemá vliv.
+    - content: Typ technologie vyrovnávání zatížení používané vaší aplikací
+      isCorrect: false
+      incorrectExplanation: Typ technologie vyrovnávání zatížení používané vaší aplikací může být důležitým rozhodnutím, ale vámi definovaný cíl bodu obnovení na něj nemá vliv.

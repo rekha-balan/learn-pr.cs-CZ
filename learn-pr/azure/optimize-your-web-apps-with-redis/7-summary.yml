@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.optimize-web-app-with-redis.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 1670ba56b676e7689580b9e47739424f0953f8da
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732427"
+durationInMinutes: 2
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Předpokládejme, že ukládáte 400 MB vysoce dostupných dat v mezipaměti Redis Cache. Jak by měla být tato data v mezipaměti uspořádaná, abyste zajistili vysoký výkon?
+    choices:
+    - content: Uložení dat s jedním klíčem
+      incorrectExplanation: Pro data o velikosti maximálně 100 kB je nejvhodnější Redis. Rozdělení a uložení větších objemů dat s větším počtem klíčů sníží latenci sítě a problémy s nedostatkem paměti.
+      isCorrect: false
+    - content: Rozdělení a uložení dat s více klíči
+      isCorrect: true
+      correctExplanation: Pro data o velikosti maximálně 100 kB je nejvhodnější Redis. Rozdělení a uložení větších objemů dat s větším počtem klíčů sníží latenci sítě a problémy s nedostatkem paměti.
+    - content: Data neukládejte do mezipaměti, protože 400 MB je příliš velký objem.
+      isCorrect: false
+      incorrectExplanation: Pro data o velikosti maximálně 100 kB je nejvhodnější Redis. Rozdělení a uložení větších objemů dat s větším počtem klíčů sníží latenci sítě a problémy s nedostatkem paměti.
+  - content: 'Ano nebo ne: Délka klíče Redis má vliv na délku vyhledávání?'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: Delší klíče zabírají více paměti a způsobují delší doby vyhledávání, protože se musí porovnávat bajt po bajtu.
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: Delší klíče zabírají více paměti a způsobují delší doby vyhledávání, protože se musí porovnávat bajt po bajtu.
+  - content: Která z následujících položek není platným kontejnerem úložiště mezipaměti Redis?
+    choices:
+    - content: Uzly
+      incorrectExplanation: Data se v mezipaměti Redis ukládají v uzlech a clusterech. Uzel je jedno umístění úložiště a cluster je sada tří nebo více uzlů.
+      isCorrect: false
+    - content: Sady
+      isCorrect: true
+      correctExplanation: Data se v mezipaměti Redis ukládají v uzlech a clusterech. Uzel je jedno umístění úložiště a cluster je sada tří nebo více uzlů.
+    - content: Clustery
+      isCorrect: false
+      incorrectExplanation: Data se v mezipaměti Redis ukládají v uzlech a clusterech. Uzel je jedno umístění úložiště a cluster je sada tří nebo více uzlů.

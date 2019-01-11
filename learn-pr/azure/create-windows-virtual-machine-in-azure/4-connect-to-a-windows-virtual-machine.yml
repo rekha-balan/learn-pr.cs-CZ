@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.create-a-windows-vm-in-azure.4-connect-to-a-windows-virtual-machine
+title: Použití protokolu RDP pro připojení k virtuálním počítačům Windows Azure
+metadata:
+  title: Použití protokolu RDP pro připojení k virtuálním počítačům Windows Azure
+  description: Použití protokolu RDP pro připojení k virtuálním počítačům Windows Azure
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 9e410287861bd77444527e7b2fc6837b7524b755
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53005902"
+durationInMinutes: 10
+content: '[!include[](includes/4-connect-to-a-windows-virtual-machine.md)]'

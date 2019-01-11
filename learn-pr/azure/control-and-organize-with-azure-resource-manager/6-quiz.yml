@@ -1,0 +1,68 @@
+### YamlMime:ModuleUnit
+uid: learn.control-and-organize-with-resource-manager.6-quiz
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.openlocfilehash: f60492bb94f48f4cd97f47bae38a9b290dac707d
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734493"
+durationInMinutes: 5
+content: >
+  [!include[](includes/6-quiz.md)]
+quiz:
+  title: Prověrka znalostí
+  questions:
+  - content: Značky se dají použít u libovolného typu prostředku v Azure.
+    choices:
+    - content: Ano
+      incorrectExplanation: Ne všechny prostředky značky podporují, je proto dobré ověřit si, že u vašeho typu to tak je.
+      isCorrect: false
+    - content: Ne
+      isCorrect: true
+  - content: Značky použité na úrovni skupiny prostředků se rozšíří ke všem prostředkům ve skupině.
+    choices:
+    - content: Ano
+      incorrectExplanation: Značky se nedědí. Budete je muset uplatnit zvlášť u každého podporovaného prostředku, který chcete značkami opatřit.
+      isCorrect: false
+    - content: Ne
+      isCorrect: true
+  - content: Které z následujících tvrzení nevystihuje vlastnost skupiny prostředků?
+    choices:
+    - content: Prostředek může patřit jen do jedné skupiny prostředků.
+      isCorrect: false
+    - content: Prostředky můžete přesunout z jedné skupiny prostředků do jiné.
+      isCorrect: false
+    - content: Skupiny prostředků se dají vnořit do sebe.
+      isCorrect: true
+    - content: Ve skupině prostředků se dá použít řízení přístupu na základě role.
+      isCorrect: false
+  - content: Který z následujících způsobů představuje vhodné využití značek?
+    choices:
+    - content: Použití značek k přidružení nákladového střediska k prostředkům pro účely interního vrácení peněz
+      isCorrect: false
+    - content: Použití značek spolu s Azure Automation k naplánování termínů údržby
+      isCorrect: false
+    - content: Použití značek k uložení přidružení prostředí a oddělení
+      isCorrect: false
+    - content: Všechny výše uvedené způsoby jsou vhodným využitím značek
+      isCorrect: true
+  - content: Které z následujících způsobů nejúčinněji zajistí, aby se v celém předplatném dodržely zásady pro vytváření názvů?
+    choices:
+    - content: Rozešlete e-mail s podrobnými informacemi o zásadách pro vytváření názvů a doufáte, že je všichni budou dodržovat.
+      isCorrect: false
+    - content: Vytvoříte zásady obsahující požadavky na vytváření názvů a přiřadíte je k oboru předplatného.
+      isCorrect: true
+    - content: Všem uživatelům kromě sebe poskytnete k předplatnému přístup jen pro čtení. Necháte si posílat všechny požadavky na vytvoření prostředků, takže budete moct všechny názvy přiřazované prostředkům zkontrolovat a potom je vytvořit.
+      isCorrect: false
+  - content: Na který z následujících prvků by bylo vhodné umístit zámek prostředku?
+    choices:
+    - content: Okruh ExpressRoute s připojením k místní síti
+      isCorrect: true
+    - content: Neprodukční virtuální počítač používaný k občasnému testování buildů aplikací
+      isCorrect: false
+    - content: Účet úložiště používaný k dočasnému uložení imagí zpracovávaných ve vývojovém prostředí
+      isCorrect: false

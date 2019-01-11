@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.create-linux-vm-in-azure
+metadata:
+  title: Vytvoření virtuálního počítače s Linuxem v Azure – výuka
+  description: V tomto modulu si vysvětlíme postup vytvoření virtuálního počítače s Linuxem na webu Azure Portal.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: a797b7e64d52de3e772912fce38c9e7b82a97ef0
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53734067"
+title: Vytvoření virtuálního počítače s Linuxem v Azure
+summary: V tomto modulu si popíšeme postup vytvoření virtuálního počítače s Linuxem na webu Azure Portal.
+abstract: >
+  V tomto modulu:
+    - Pochopit možnosti dostupné pro virtuální počítače v Azure
+    - Vytvořit virtuální počítač s Linuxem pomocí webu Azure Portal
+    - Připojit se ke spuštěnému virtuálnímu počítači s Linuxem pomocí SSH
+    - Nainstalovat software a změnit na virtuálním počítači konfiguraci sítě prostřednictvím webu Azure Portal
+prerequisites: Žádné
+iconUrl: /learn/achievements/create-linux-virtual-machine-in-azure.svg
+levels:
+- beginner
+roles:
+- administrator
+- developer
+products:
+- azure
+- azure-portal
+- azure-virtual-machines
+units:
+- learn.create-linux-vm-in-azure.1-introduction
+- learn.create-linux-vm-in-azure.2-create-a-linux-virtual-machine
+- learn.create-linux-vm-in-azure.3-exercise-generate-ssh-key
+- learn.create-linux-vm-in-azure.4-exercise-create-a-vm
+- learn.create-linux-vm-in-azure.5-connect-to-a-linux-virtual-machine
+- learn.create-linux-vm-in-azure.6-exercise-connect-to-a-linux-vm-using-ssh
+- learn.create-linux-vm-in-azure.7-manage-vm
+- learn.create-linux-vm-in-azure.8-exercise-manage-vm
+- learn.create-linux-vm-in-azure.9-summary
+achievement: learn.create-linux-vm-in-azure.badge

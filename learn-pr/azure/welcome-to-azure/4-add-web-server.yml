@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.welcome-to-azure.4-add-web-server
+title: Přidání webového serveru
+metadata:
+  title: Přidání webového serveru
+  description: Oživte svůj virtuální počítač tím, že nakonfigurujete webový server a poskytnete na něm nějaký vlastní obsah.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: platform-cloud
+  ms.openlocfilehash: 46ebda5fa6a64e0c21993732f8b8c3c6bb591865
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798829"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 5
+content: '[!include[](includes/4-add-web-server.md)]'

@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.secure-azure-resources-with-rbac
+metadata:
+  title: Zabezpečení prostředků Azure pomocí řízení přístupu na základě rolí (RBAC) – výuka
+  description: Řízení přístupu na základě role (RBAC) je systém, který poskytuje detailní správu přístupu prostředků v Azure. Pomocí řízení přístupu na základě role můžete povinnosti v rámci týmu oddělit a udělit uživatelům jenom takový přístup, který potřebují k výkonu své práce. V tomto modulu se dozvíte, jak používat RBAC pro správu přístupu k prostředkům v Azure.
+  ms.date: 09/26/2018
+  author: rolyon
+  ms.author: rolyon
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: d346719786b51302724c12c14790084a96fcd85c
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733361"
+title: Zabezpečení prostředků Azure pomocí řízení přístupu na základě rolí (RBAC)
+summary: Zjistěte, jak používat RBAC pro správu přístupu k prostředkům v Azure.
+abstract: >
+  V tomto modulu:
+
+  - Ověření přístupu k prostředkům pro sebe a ostatní uživatele
+
+  - Udělení přístupu k prostředkům
+
+  - Zobrazení protokolů aktivit změn RBAC
+prerequisites: >
+  - Získání znalosti základních konceptů Azure, například webu Azure Portal a skupin prostředků
+iconUrl: /learn/achievements/secure-azure-resources-with-rbac.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- azure
+- azure-portal
+- azure-active-directory
+units:
+- learn.secure-azure-resources-with-rbac.1-introduction
+- learn.secure-azure-resources-with-rbac.2-rbac-overview
+- learn.secure-azure-resources-with-rbac.3-knowledge-check-rbac-overview
+- learn.secure-azure-resources-with-rbac.4-list-access
+- learn.secure-azure-resources-with-rbac.5-grant-access
+- learn.secure-azure-resources-with-rbac.6-view-activity-logs
+- learn.secure-azure-resources-with-rbac.7-knowledge-check-rbac
+- learn.secure-azure-resources-with-rbac.8-summary
+achievement: learn.secure-azure-resources-with-rbac.badge

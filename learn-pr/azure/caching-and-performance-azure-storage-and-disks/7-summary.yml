@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn.caching-and-performance-azure-storage-and-disks.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Shrnutí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 5e1d519825bf1e3fb1a5c593db83afbc47598d82
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732783"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Která možnost ukládání do mezipaměti je dobrou volbou pro operace s velkými nároky na zápis, jako je například ukládání souborů protokolu?
+    choices:
+    - content: Jen pro čtení
+      isCorrect: false
+      incorrectExplanation: Ukládání do mezipaměti jen pro čtení funguje dobře pro datové disky, včetně dat TempDB. Nezvyšuje však výkon operací s velkými nároky na zápis a může dokonce způsobit mírné snížení výkonu.
+    - content: Čtení/zápis
+      isCorrect: false
+      incorrectExplanation: Tato možnost je dobrou volbou, pokud vaše aplikace v případě potřeby správně zpracovává zápis dat v mezipaměti na trvalé disky.
+    - content: Žádné
+      isCorrect: true
+      correctExplanation: Pro operace s velkými nároky na zápis ukládání do mezipaměti obecně není přínosné. „Žádné“ je pravděpodobně nejlepší volbou pro disk vyhrazený pro soubory protokolu.
+  - content: Pro jaký typ disku Azure restartuje virtuální počítač, aby se změnil typ ukládání do mezipaměti?
+    choices:
+    - content: Datový
+      isCorrect: false
+      incorrectExplanation: Při změně nastavení mezipaměti datového disku se cílový disk odpojí a znovu připojí, ale nerestartuje virtuální počítač.
+    - content: Operační systém (OS)
+      isCorrect: true
+      correctExplanation: Změna nastavení mezipaměti disku operačního systému vyžaduje restartování virtuálního počítače.
+    - content: Dočasný
+      isCorrect: false
+      incorrectExplanation: Na dočasném disku nemůžete změnit možnosti ukládání do paměti.
+    - content: Zónově redundantní úložiště (ZRS)
+      isCorrect: false
+      incorrectExplanation: Účet úložiště úrovně Premium nepodporuje ZRS.
+  - content: Předpokládejme, že používáte Azure PowerShell ke správě virtuálního počítače. Máte místní objekt, který reprezentuje virtuální počítač, a provedli jste několik aktualizací tohoto místního objektu. Kterou rutinu PowerShellu byste použili k použití těchto místních změn na skutečný virtuální počítač?
+    choices:
+    - content: Update-AzVM
+      isCorrect: true
+      correctExplanation: Tato rutina aktualizuje stav virtuálního počítače Azure na stav objektu virtuálního počítače.
+    - content: Set-AzVM
+      isCorrect: false
+    - content: New-AzVM
+      isCorrect: false

@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.publish-azure-web-app-with-visual-studio.5-exercise-publish-an-asp.net-app-from-visual-studio
+title: Publikování aplikace ASP.NET ze sady Visual Studio
+metadata:
+  title: Publikování aplikace ASP.NET Core ze sady Visual Studio
+  description: Publikování aplikace ASP.NET Core ze sady Visual Studio
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 5e769c820f802e86a9c85a7ea9d66e5448b75709
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53733881"
+durationInMinutes: 10
+content: '[!include[](includes/5-exercise-publish-an-asp.net-app-from-visual-studio.md)]'

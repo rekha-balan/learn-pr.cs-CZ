@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compute.7-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Souhrn modulu „Úvod do Azure Compute“
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7f20d4f076de0810c9b7026be639e5f8e3b80174
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53798531"
+durationInMinutes: 3
+content: >
+  [!include[](includes/7-summary.md)]
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Předpokládejme, že máte existující aplikaci spuštěnou místně na vlastním serveru. Potřebujete další kapacitu, ale raději se chcete přesunout na Azure, než kupovat upgradovaný místní hardware. Která výpočetní technologie vám nejspíše nabídne nejrychlejší cestu ke spuštění vaší aplikace v Azure?
+    choices:
+    - content: Bezserverová architektura
+      isCorrect: false
+      incorrectExplanation: Převod na model bezserverové architektury bude pravděpodobně vyžadovat reorganizaci aplikace na architekturu založenou na událostech.
+    - content: Kontejnery
+      isCorrect: false
+      incorrectExplanation: Převod na kontejnery bude vyžadovat nové zabalení aplikace. V závislosti na vaší existující architektuře to nemusí být příliš složité, ale bude to chvíli trvat a bude to vyžadovat určité zkušenosti s kontejnery.
+    - content: Virtuální počítače
+      isCorrect: true
+      correctExplanation: Nad nastavením virtuálního počítače máte plnou kontrolu, takže ho můžete nakonfigurovat tak, aby odpovídal vašemu místnímu serveru. To umožní spuštění vašich existujících aplikací na virtuálním počítači Azure s malými či žádnými změnami.
+  - content: Představte si, že pracujete na aplikaci pro sdílení fotek, která běží na milionech mobilních zařízení. Požadavky jsou nepředvídatelné, protože nárůst využití se projevuje při každém výskytu místně nebo celonárodně významné události. Jaký výpočetní prostředek Azure bude pro tuto úlohu nejvhodnější?
+    choices:
+    - content: Bezserverová architektura
+      isCorrect: true
+      correctExplanation: Aplikace pro sdílení fotek se řídí událostmi a musí zvládat nepředvídatelné požadavky. Bezserverová architektura se k tomuto účelu dobře hodí, protože funguje na základě událostí a může se okamžitě škálovat, aby zvládla špičky v provozu. Měla by také být nákladově efektivní, protože budete za výpočetní čas platit jen při zpracování uživatelských dat.
+    - content: Kontejnery
+      isCorrect: false
+      incorrectExplanation: Čas spuštění instance kontejneru je obvykle několik sekund. Škálování tak nemusí být dostatečně rychlé, aby zareagovalo na náhlý nárůst poptávky.
+    - content: Virtuální počítače
+      isCorrect: false
+      incorrectExplanation: Spuštění virtuálního počítače může trvat několik minut. Škálování tak nemusí být dostatečně rychlé, aby zareagovalo na náhlý nárůst poptávky.
+  - content: Výpočetní technologie nabízejí různé úrovně kontroly nad konfigurací prostředí, ve kterém aplikace běží. Která z následujících položek uvádí výpočetní technologie seřazené od „největší kontroly“ po „nejmenší kontrolu“?
+    choices:
+    - content: Bezserverová architektura, kontejnery, virtuální počítače
+      isCorrect: false
+      incorrectExplanation: Bezserverová architektura vám dává nejmenší kontrolu, zcela abstrahuje základní hostitelské prostředí.
+    - content: Kontejnery, bezserverová architektura, virtuální počítače
+      isCorrect: false
+      incorrectExplanation: Kontejnery poskytují omezenou kontrolu nad prostředím, například si můžete zvolit základní operační systém.
+    - content: Virtuální počítače, kontejnery, bezserverová architektura
+      isCorrect: true
+      correctExplanation: Virtuální počítače vám dávají plnou kontrolu nad prostředím. Kontejnery nabízejí omezenou kontrolu. Bezserverová architektura neumožňuje provádět žádnou konfiguraci infrastruktury.

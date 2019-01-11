@@ -1,0 +1,78 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.8-knowledge-check
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Azure Government – prověrka znalostí
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 1d72e1e93dea018d0c2a2ca155c9013823438ba9
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+durationInMinutes: 10
+content: ''
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z následujících tvrzení vystihuje klíčový rozdíl mezi globální službou Azure a službou Azure Government?
+    choices:
+    - content: Azure Government nabízí marketplace, ze kterého můžete nasazovat předem sestavené image od Microsoftu a partnerů.
+      isCorrect: false
+      incorrectExplanation: Chyba. Marketplace nabízí globální Azure i Azure Government.
+    - content: Azure Government nabízí portál, ze kterého můžete spravovat své prostředky.
+      isCorrect: false
+      incorrectExplanation: Chyba. Portálové prostředí nabízí globální Azure i Azure Government.
+    - content: Azure Government je fyzicky oddělená instance Azure.
+      isCorrect: true
+      correctExplanation: Správně! Azure Government je suverénní cloud, který je fyzicky oddělený prostřednictvím vlastní sady datových center.
+    - content: Azure Government používá jiné technologie než globální Azure.
+      isCorrect: false
+      incorrectExplanation: 'Chyba. Azure Government používá stejné základní technologie jako globální služba Azure, která se skládá z těchto základních komponent: infrastruktura jako služba (IaaS), platforma jako služba (PaaS) a software jako služba (SaaS).'
+  - content: Kolik oblastí Azure Government je k dispozici?
+    choices:
+    - content: "4"
+      isCorrect: false
+      incorrectExplanation: Chyba
+    - content: "12"
+      isCorrect: false
+      incorrectExplanation: Chyba
+    - content: "7"
+      isCorrect: false
+      incorrectExplanation: Chyba
+    - content: "8"
+      isCorrect: true
+      correctExplanation: Správně. Cloud Azure Government má pokročilou infrastrukturu s robustními sítěmi v 8 ohlášených oblastech v USA.
+  - content: 'Služba Azure Government je dostupná jenom pro tři různé typy zákazníků. Pro které z následujících typů zákazníků **NENÍ** k dispozici? '
+    choices:
+    - content: Vládní instituce v USA ve své zákonem dané působnosti, například federální agentura.
+      isCorrect: false
+      incorrectExplanation: Chyba. Vládní instituce, jako je například federální agentura, bude mít ke cloudu Azure Government přístup.
+    - content: Soukromá entita sestavující cloudová řešení pro soukromý sektor.
+      isCorrect: true
+      correctExplanation: Správně. Tento typ zákazníka nebude mít ke cloudu Azure Government přístup.
+    - content: Partner využívající Azure Government k zajištění řešení poskytujícího služby nebo řešení zákazníkům, kterými jsou vládní instituce USA na základě přímých nebo nepřímých kontraktů.
+      isCorrect: false
+      incorrectExplanation: Chyba. Azure Government je v tomto scénáři pro partnery k dispozici.
+    - content: Komerční entita s daty podléhajícími vládou stanoveným předpisům.
+      isCorrect: false
+      incorrectExplanation: Chyba. Komerční entity s daty podléhajícími vládou stanoveným předpisům nejsou povoleny.
+  - content: Která z následujících adres URL umožňuje přístup k portálu Azure Government?
+    choices:
+    - content: portal.azure.com
+      isCorrect: false
+      incorrectExplanation: Toto je adresa URL pro přístup ke globálnímu webu Azure Portal.
+    - content: portal.azure.gov
+      isCorrect: false
+      incorrectExplanation: Toto není platná adresa URL.
+    - content: portal.azure.us
+      isCorrect: true
+      correctExplanation: K portálu Azure Government můžete získat přístup na adrese https://portal.azure.us.
+    - content: portal.azure.fed
+      isCorrect: false
+      incorrectExplanation: Toto není platná adresa URL.

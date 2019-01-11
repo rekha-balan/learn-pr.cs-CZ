@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.store-app-data-with-azure-blob-storage.2-what-are-blobs
+title: Co jsou objekty blob?
+metadata:
+  title: Co jsou objekty blob?
+  description: Co jsou objekty blob?
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: aa9b439e9291effe161e0485ae6575092a0be8a1
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006151"
+durationInMinutes: 3
+content: '[!include[](includes/2-what-are-blobs.md)]'

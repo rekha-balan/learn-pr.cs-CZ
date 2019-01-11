@@ -1,0 +1,22 @@
+### YamlMime:ModuleUnit
+uid: learn.communicate-between-applications-with-azure-queue-storage.8-exercise-implement-dequeue
+title: Načtení zprávy z fronty
+metadata:
+  title: Načtení zprávy z fronty
+  description: Načtení zprávy z fronty
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 8f62ec62e92c31df7e8d7eae61d9fee8dcb54eb1
+  ms.sourcegitcommit: d60baa2d00011ced74fd5734a9e5efdff04aca5e
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/21/2018
+  ms.locfileid: "53732837"
+interactive: bash-editor
+azureSandbox: true
+durationInMinutes: 10
+content: '[!include[](includes/8-exercise-implement-dequeue.md)]'

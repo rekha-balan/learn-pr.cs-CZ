@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-availability-and-recoverability.4-backup-and-restore
+title: Ochrana dat pomocí zálohování a obnovení
+metadata:
+  title: Ochrana dat pomocí zálohování a obnovení
+  description: Ochrana dat pomocí zálohování a obnovení
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: a5c50bddaa420b4838fada2a0cd2a0b865e34c72
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52927301"
+durationInMinutes: 15
+content: >
+  [!include[](includes/4-backup-and-restore.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: 'Pravda, nebo nepravda: Všechny varianty úložiště dat Azure zahrnují automatické zálohování dat?'
+    choices:
+    - content: Ano
+      isCorrect: false
+      incorrectExplanation: Automatické zálohování nezahrnují všechny produkty úložiště dat Azure, například ho nezahrnuje služba Azure Blobs.
+    - content: Ne
+      isCorrect: true
+      correctExplanation: Většina služeb Azure nabízí integrované funkce zálohování, ale nejsou vždy povolené ve výchozím nastavení. Podle potřeby můžete také přidat služby, jako je agent Azure Backup, aby byla zajištěna ochrana všech vašich dat.
+  - content: Proč je důležité obnovení pravidelně testovat?
+    choices:
+    - content: K ověření integrity vašich záloh.
+      isCorrect: false
+      incorrectExplanation: Pravidelným testováním obnovení si sice opravdu můžete ověřit integritu svých záloh, ale není to jediná správná volba.
+    - content: K lepšímu seznámení s procesem obnovování.
+      isCorrect: false
+      incorrectExplanation: Pravidelným testováním obnovení si opravdu osvojíte proces obnovování, ale není to jediná správná volba.
+    - content: K identifikaci mezer v procesech zálohování a obnovení.
+      isCorrect: false
+      incorrectExplanation: Pravidelné testování obnovení vám si pomůže identifikovat mezery ve vašich procesech zálohování a obnovování, ale není to jediná správná volba.
+    - content: Všechny výše uvedené možnosti.
+      isCorrect: true
+      correctExplanation: Pravidelné testování procesu obnovení přináší všechny tyto výhody.

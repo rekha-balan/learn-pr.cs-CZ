@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.configure-the-network-for-your-virtual-machines.7-knowledge-check-azure-expressroute
+title: Prověrka znalostí
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: 307db7f04aa9bcd52b4f7a389e29fd1d48f4d71d
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/27/2018
+  ms.locfileid: "53799478"
+durationInMinutes: 3
+quiz:
+  title: Kontrola znalostí
+  questions:
+  - content: Který z následujících protokolů zajišťuje dynamické směrování pro Azure ExpressRoute?
+    choices:
+    - content: IPVPN
+      isCorrect: false
+      incorrectExplanation: Border Gateway Protocol je protokol dynamického směrování, který umožňuje měnit trasy mezi vaší místní sítí, vašimi instancemi v Azure a veřejnými adresami Microsoftu (považuje se za oborový standard).
+    - content: PPTP
+      isCorrect: false
+      incorrectExplanation: Border Gateway Protocol je protokol dynamického směrování, který umožňuje měnit trasy mezi vaší místní sítí, vašimi instancemi v Azure a veřejnými adresami Microsoftu (považuje se za oborový standard).
+    - content: IPsec
+      isCorrect: false
+      incorrectExplanation: Border Gateway Protocol je protokol dynamického směrování, který umožňuje měnit trasy mezi vaší místní sítí, vašimi instancemi v Azure a veřejnými adresami Microsoftu (považuje se za oborový standard).
+    - content: Border Gateway Protocol (BGP)
+      isCorrect: true
+      correctExplanation: Border Gateway Protocol je protokol dynamického směrování, který umožňuje měnit trasy mezi vaší místní sítí, vašimi instancemi v Azure a veřejnými adresami Microsoftu (považuje se za oborový standard).
+    - content: S-key
+      isCorrect: false
+      incorrectExplanation: Border Gateway Protocol je protokol dynamického směrování, který umožňuje měnit trasy mezi vaší místní sítí, vašimi instancemi v Azure a veřejnými adresami Microsoftu (považuje se za oborový standard).
+  - content: 'Ano nebo ne: Veřejný partnerský vztah Azure umožňuje připojení ke službám s veřejnými IP adresami bez směrování provozu po internetu.'
+    choices:
+    - content: Ano
+      isCorrect: true
+      correctExplanation: 'Veřejný partnerský vztah Azure umožňuje privátní připojení ke službám dostupným na veřejných IP adresách. Příklady služeb, které takový vztah podporují: Azure Storage a Azure SQL Database.'
+    - content: Ne
+      isCorrect: false
+      incorrectExplanation: 'Veřejný partnerský vztah Azure umožňuje privátní připojení ke službám dostupným na veřejných IP adresách. Příklady služeb, které takový vztah podporují: Azure Storage a Azure SQL Database.'

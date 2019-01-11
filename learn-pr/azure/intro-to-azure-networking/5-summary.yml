@@ -1,0 +1,20 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-networking.5-summary
+title: Shrnutí
+metadata:
+  title: Shrnutí
+  description: Zopakujte si, co jste se naučili, a zjistěte, jak se dozvědět více.
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 7b46109cf07d6f04b56b3cc58df5ba10f8c28a91
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52921109"
+durationInMinutes: 1
+content: '[!include[](includes/5-summary.md)]'

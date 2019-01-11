@@ -1,0 +1,19 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-azure-government.3-security-on-azure-government
+title: Zabezpečení ve službě Azure Government
+metadata:
+  title: Zabezpečení ve službě Azure Government
+  description: Informace o fyzickém a digitálním zabezpečení nabízeném v Azure Government
+  ms.date: 10/11/2018
+  author: AndrewJByrne
+  ms.author: anbyrne
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ms.openlocfilehash: e5f8b6ef3b40ba6257e125884d36daeb88249055
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006010"
+durationInMinutes: 10
+content: '[!include[](includes/3-security-on-azure-government.md)]'

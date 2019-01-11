@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.execute-azure-function-with-triggers.4-create-timer-trigger
+title: Vytvoření triggeru časovače
+metadata:
+  title: Vytvoření triggeru časovače
+  description: Vytvoření triggeru časovače
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 23cc968d124c05fba962bcba0213bb37fe392025
+  ms.sourcegitcommit: ad6eb8a6c90f3633f4302f972532441a6fccc989
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/06/2018
+  ms.locfileid: "53006132"
+azureSandbox: true
+durationInMinutes: 15
+content: >
+  [!include[](includes/4-create-timer-trigger.md)]
+tasks:
+- action: exists
+  environment: azure
+  azure:
+    resource:
+      type: Microsoft.Web/sites
+      kind: functionapp
+  hint: Pomocí portálu a výše uvedených pokynů vytvořte aplikaci funkcí a časovačem aktivovanou funkci.

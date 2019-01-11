@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.design-for-efficiency-and-operations.3-use-monitoring-and-analytics-to-gain-operational-insights
+title: Jak získat informace o provozu pomocí sledování a analýz
+metadata:
+  title: Jak získat informace o provozu pomocí sledování a analýz
+  description: V této lekci se podíváme na to, jak získat informace o provozu pomocí sledování a analýz
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 193beafd64ea2d24c81268c08ba7c20678187a5f
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52940731"
+durationInMinutes: 8
+content: >
+  [!include[](includes/3-use-monitoring-and-analytics-to-gain-operational-insights.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které z následujících služeb byste použili k řešení potíží s výkonem volání rozhraní API ve vaší aplikaci?
+    choices:
+    - content: Service Health
+      isCorrect: false
+      incorrectExplanation: Azure Service Health vám poskytne přehled o stavu služeb Azure, ale neposkytne vám přehled o vaší aplikaci.
+    - content: Network Watcher
+      isCorrect: false
+      incorrectExplanation: Azure Network Watcher vám pomůže vyřešit potíže s výkonem sítě, ale neposkytne vám přehled o vaší aplikaci.
+    - content: Protokol aktivit
+      isCorrect: false
+      incorrectExplanation: Protokol aktivit Azure bude protokolovat události související s vašimi prostředky na platformě Azure, ale neposkytne vám přehled o vaší aplikaci.
+    - content: Application Insights
+      isCorrect: true
+      correctExplanation: Application Insights vám pomůže detekovat a diagnostikovat problémy s vašimi webovými aplikacemi a službami a porozumět jejich využití, a to včetně volání rozhraní API v aplikaci.
+  - content: Pokud byste potřebovali zjistit, kdo odstranil virtuální počítač, kterou z následujících služeb byste použili?
+    choices:
+    - content: Service Health
+      isCorrect: false
+      incorrectExplanation: Azure Service Health vám poskytne přehled o stavu služeb Azure, ale neposkytne vám přehled o akcích prováděných s vašimi prostředky.
+    - content: Network Watcher
+      isCorrect: false
+      incorrectExplanation: Azure Network Watcher vám pomůže vyřešit potíže s výkonem sítě, ale neposkytne vám přehled o akcích prováděných s vašimi prostředky.
+    - content: Protokol aktivit
+      isCorrect: true
+      correctExplanation: Azure Activity Log zaznamenává všechny události související s vašimi prostředky na platformě Azure, včetně odstranění prostředků.
+    - content: Application Insights
+      isCorrect: false
+      incorrectExplanation: Application Insights vám pomůže detekovat a diagnostikovat problémy s vašimi webovými aplikacemi a službami a porozumět jejich využití, ale neposkytne vám přehled o akcích prováděných s vašimi prostředky.

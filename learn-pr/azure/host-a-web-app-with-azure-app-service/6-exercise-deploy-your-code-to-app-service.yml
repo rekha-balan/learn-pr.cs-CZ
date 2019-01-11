@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.host-a-web-application-with-azure-web-apps.6-exercise-deploy-your-code-to-app-service
+title: Cvičení – nasazení kódu do App Service
+metadata:
+  title: Cvičení – nasazení kódu do App Service
+  description: Cvičení – nasazení kódu do App Service
+  ms.date: 12/12/2018
+  author: nickwalkmsft
+  ms.author: nickwalk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  zone_pivot_groups: dev-lang-csharp-java-node
+  ms.openlocfilehash: db607b6e0d5d899240aa3e6caef5d09cafa358b5
+  ms.sourcegitcommit: 4021a373775ca574c27cab3e2202a4d8efe7e41c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 01/03/2019
+  ms.locfileid: "53733158"
+interactive: bash
+azureSandbox: true
+durationInMinutes: 20
+content: '[!include[](includes/6-exercise-deploy-your-code-to-app-service.md)]'

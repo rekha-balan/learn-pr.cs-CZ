@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.monitor-manage-device-with-iotcentral.6-knowledge-check
+metadata:
+  title: Prověrka znalostí
+  description: Prověrka znalostí
+  ms.date: 09/24/2018
+  author: markjulmar
+  ms.author: smmark
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  ROBOTS: NOINDEX
+  ms.openlocfilehash: 56d92c24f779d523dfa0e00cb9e0fef9e892524c
+  ms.sourcegitcommit: 1994bbbea31b0ad05ebb6c1b26c63b4f2d2ecf7c
+  ms.translationtype: HT
+  ms.contentlocale: cs-CZ
+  ms.lasthandoff: 12/05/2018
+  ms.locfileid: "52926179"
+title: Zkontrolujte své znalosti
+durationInMinutes: 11
+content: >
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: Zkontrolujte své znalosti
+  questions:
+  - content: Které tvrzení nejlépe vystihuje informace v šabloně zařízení?
+    choices:
+    - content: Specifikace hardwaru zařízení připojeného k vaší aplikace.
+      isCorrect: false
+      incorrectExplanation: Podrobnosti o hardwaru nejsou v šabloně zařízení zachyceny.
+    - content: Data a příkazy, které si může zařízení vyměňovat s vaší aplikací.
+      isCorrect: true
+      correctExplanation: Šablona je specifikace, která zachycuje všechny potenciální informace a příkazy, které lze vyměňovat mezi kódem a fyzickým zařízením.
+    - content: Drátový protokol používaný ke komunikaci se zařízením.
+      isCorrect: false
+      incorrectExplanation: Komunikační protokol není součástí šablony zařízení.
+  - content: 'Pravda nebo lež: Musíte mít fyzické zařízení k testování aplikace IoT Central.'
+    choices:
+    - content: Pravda
+      isCorrect: false
+      incorrectExplanation: Simulovaná zařízení můžete použít pro testování.
+    - content: Lež
+      isCorrect: true
+      correctExplanation: Při vytvoření šablony zařízení aplikace IoT Central automaticky vytvoří simulované zařízení za vás. Můžete také kódovat vlastní simulace softwaru. Tyto možnosti umožňují důkladně otestovat aplikaci před připojením fyzického zařízení.
+  - content: Předpokládejme, že máte pět fyzických zařízení, která komunikují s IoT Central. Kolik připojovacích řetězců máte?
+    choices:
+    - content: 'Jeden: Připojovací řetězec je sdílen všemi připojenými zařízeními.'
+      isCorrect: false
+      incorrectExplanation: Sdílené připojovací řetězce nedovolí aplikaci IoT Central jednoznačně identifikovat jednotlivá zařízení.
+    - content: 'Dva: Jeden v aktivním používání a jeden pro zálohování v případě narušení primárního.'
+      isCorrect: false
+      incorrectExplanation: Sdílené připojovací řetězce nedovolí aplikaci IoT Central jednoznačně identifikovat jednotlivá zařízení.
+    - content: 'Pět: Každé zařízení potřebuje jedinečný připojovací řetězec.'
+      isCorrect: true
+      correctExplanation: Připojovací řetězec identifikuje zařízení pro IoT Central, takže každé zařízení vyžaduje vlastní.
